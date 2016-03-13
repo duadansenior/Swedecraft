@@ -93,14 +93,14 @@ PooledRequestsTaskInterval: 60
 # When a player connects during the day.
 Connections:
   '1':
-    Message: 'You connected to our server for the first time!'
-    Name: 'Good Choice'
+    Message: 'Du har anslutit till servern för första gången!'
+    Name: 'Bra val'
 # When a specific block is placed (specify block name, lower case).
 Places:
   stone:
     '100':
-      Message: '&4One hundred placed stones!'
-      Name: 'Stone Addict'
+      Message: '&4Du har nu lagt ner 100 stenar!'
+      Name: 'Sten tämjare'
     '1000':
       Message: '&4One thousand placed stones!'
       Name: 'Stone God'
