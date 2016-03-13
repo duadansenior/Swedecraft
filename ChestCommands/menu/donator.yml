@@ -1,0 +1,112 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Donatormeny'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'donator'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: paper
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+rad1-1:
+  COMMAND: 'trailsid heart'
+  NAME: '&6Hjärtan ovanför huvudet'
+  LORE:
+    - '&bAktivera denna för att ha'
+    - '&bett spår av hjärtan ovanför'
+    - '&bhuvudet som följer dig.'
+  ID: paper
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  ENCHANTMENT: fortune
+  AMOUNT: 1
+  VIEW-PERMISSION: 'meny.donator.guld'
+  POSITION-X: 1
+  POSITION-Y: 1
+rad1-2:
+  COMMAND: 'trailsid music'
+  NAME: '&6Ett spår av noter'
+  LORE:
+    - '&bAktivera denna för att'
+    - '&bha ett spår av noter vid'
+    - '&bfötterna som följer dig.'
+  ID: paper
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  ENCHANTMENT: fortune
+  AMOUNT: 1
+  VIEW-PERMISSION: 'meny.donator.guld'
+  POSITION-X: 2
+  POSITION-Y: 1
+rad1-3:
+  COMMAND: 'trailsid block_carpet'
+  NAME: '&6Ett spår av regnbågsmatta'
+  LORE:
+    - '&bAktivera denna för att'
+    - '&bett spår av mattor i olika'
+    - '&bfärger ska följa dina steg.'
+  ID: carpet
+  DATA-VALUE: 6
+  KEEP-OPEN: true
+  ENCHANTMENT: fortune
+  AMOUNT: 1
+  VIEW-PERMISSION: 'meny.donator.guld'
+  POSITION-X: 3
+  POSITION-Y: 1
+rad1-8:
+  COMMAND: 'trailsid none'
+  NAME: '&6Stäng av effekter'
+  LORE:
+    - '&bStänger av noter och hjärtan'
+    - '&bfrån att följa dig när du'
+    - '&bspringer runt.'
+  ID: wool
+  DATA-VALUE: 15
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 8
+  POSITION-Y: 1
+rad1-9:
+  COMMAND: 'cc open menu.yml'
+  NAME: '&6Tillbaka'
+  LORE:
+    - '&bBacka tillbaka'
+    - '&btill huvudmenyn.'
+  ID: barrier
+  DATA-VALUE: 15
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 9
+  POSITION-Y: 1
