@@ -98,30 +98,30 @@ Connections:
 # When a specific block is placed (specify block name, lower case).
 Places:
   stone:
-    '100':
-      Message: '&4Du har nu lagt ner 100 stenar!'
-      Name: 'Sten tämjare'
     '1000':
-      Message: '&4One thousand placed stones!'
-      Name: 'Stone God'
+      Message: '&4Du har nu lagt ner 1000 stenar!'
+      Name: 'Sten tämjare'
+    '10000':
+      Message: '&4Du har nu lagt ner 10000 stenar!'
+      Name: 'Sten gud'
 # When a specific block is broken (specify block name, lower case).
 Breaks:
   stone:
     '1':
-      Message: '&1The first time you went mining!'
-      Name: 'Cobble!'
+      Message: '&1Första gången du går och arbetar i gruvan!'
+      Name: 'Gruvarbetare!'
       Reward:
         Command: give PLAYER 1 10
   log:
     '100':
-      Message: '&2You have cut 100 logs!'
-      Name: 'Wood Cutter'
+      Message: '&2Du har hugt ner 100 träd!'
+      Name: 'Trä huggaren'
 # When a specific mob is killed (specify mob name or 'player', lower case).
 Kills:
   zombie:
     '1':
-      Message: '&8The first time you killed a zombie!'
-      Name: 'The Walking Dead'
+      Message: '&8Du har nu dödat din första ZOMBIE!'
+      Name: 'De vandrande döda'
       Reward:
         Money: 1
         Item: diamond 1
@@ -129,141 +129,141 @@ Kills:
 Crafts:
   diamond_sword:
     '1':
-      Message: 'The first time you crafted a blade!'
-      Name: 'Blacksmith Apprentice'
+      Message: 'Ditt första Diamant Svärd!'
+      Name: 'Smeds lärling'
       Reward:
         Money: 2
 # When the player dies.
 Deaths:
   '1':
-    Message: 'The first time you died!'
-    Name: 'Rest in Peace'
+    Message: 'Första gången du har dött!'
+    Name: 'R.I.P'
 # When an arrow is shot.
 Arrows:
   '50':
-    Message: '50 arrows shot!'
-    Name: 'Arrows Around the Place'
+    Message: '50 pilar skjutna!'
+    Name: 'Pilar överallt'
 # When a snowball is thrown.  
 Snowballs:
   '1000':
-    Message: '1000 snowballs thrown. That''s the spirit!'
-    Name: 'Winter Addict'
+    Message: '1000 snöbollar kastade. Bra jobbat!'
+    Name: 'Vinter skoj'
 # When an egg is thrown.  
 Eggs:
   '1000':
-    Message: '1000 eggs thrown!'
-    Name: 'Omelet Addict'
+    Message: '1000 Ägg kastade!'
+    Name: 'Det blev omelett'
 # When a fish is caught. 
 Fish:
   '1':
-    Message: 'The first time you caught a fish!'
-    Name: 'Time for Fish and Chips'
+    Message: 'Första fisken du har fångat!'
+    Name: 'Jag går och fiskar'
 # When a tool/armor/weapon is broken.  
 ItemBreaks:
   '1':
-    Message: 'You broke your favorite tool!'
-    Name: '&4Clumsy Guy'
+    Message: 'Du hade sönder ditt verktyg!'
+    Name: '&4Klumpigt av dig'
 # When an item is eaten.  
 EatenItems:
   '1':
-    Message: 'Just had a snack!'
-    Name: 'First Snack'
+    Message: 'Du åt för första gången!'
+    Name: 'Första måltiden'
 # When a sheep is sheared.
 Shear:
   '100':
-    Message: '100 sheep sheared!'
-    Name: '&1Wool Addict'
+    Message: '100 Får klippta!'
+    Name: '&1Jag gillar ull'
 # When a cow is milked.
 Milk:
   '1':
-    Message: 'Just milked a cow!'
-    Name: 'First Milk'
+    Message: 'Mjölkade en ko!'
+    Name: 'Mjölkning'
 # When a trade with a villager is made.
 Trades:
   '1':
-    Message: 'Doing business with your first villager!'
-    Name: 'First Trade'
+    Message: 'Du har handlat av en byfåne!'
+    Name: 'Marknads dags'
 # When an anvil is used.
 AnvilsUsed:
   '1':
-    Message: 'You just repaired your first item!'
-    Name: 'First Repair'
+    Message: 'Du har nu lagat något på din smedja!'
+    Name: 'Första lagningen'
 Enchantments:
   '5':
-    Message: '5 objects enchanted!'
-    Name: '&5Wizard'
+    Message: '5 saker du har modiferat!'
+    Name: '&5Trollkarl'
 # When a bed is entered. 
 Beds:
   '5':
-    Message: 'You entered a bed 5 times!'
-    Name: 'Sleepy guy'
+    Message: 'Du har nu sovit i din säng 5 gånger!'
+    Name: 'Trötter'
 # Maximum level reached.    
 MaxLevel:
   '10':
-    Message: 'Level 10 reached!'
-    Name: '&4Rookie'
+    Message: 'Du har nu nått nivå 10!'
+    Name: '&4Nybörjare'
 # When a potion is consumed.
 ConsumedPotions:
   '100':
-    Message: 'Drinking weird beverages all the time...'
-    Name: 'Alcoholic'
+    Message: 'Druckit något skumt för många gånger'
+    Name: 'Missbrukare'
 # Amount of time played on the server (in hours, use integers).
 PlayedTime:
   '1':
-    Message: 'You played during one hour on the server!'
-    Name: 'First Hour'
+    Message: 'Du har nu spelat på servern i 1 timma!'
+    Name: 'Första timman'
 # When a distance is travelled by foot.
 DistanceFoot:
   '1000':
-    Message: 'You travelled 1000 blocks by foot!'
-    Name: 'Big Walker'
+    Message: 'Du har gått 1000 meter!'
+    Name: 'Vandraren'
 # When a distance is travelled on a pig.
 DistancePig:
   '100':
-    Message: 'You travelled 100 blocks on a pig!'
-    Name: 'Carrot on a Stick Master'
+    Message: 'Du har ridit på en gris 100 meter!'
+    Name: 'Följ morötterna'
 # When a distance is travelled on a horse.
 DistanceHorse:
   '500':
-    Message: 'You travelled 500 blocks on a horse!'
-    Name: 'The Avener'
+    Message: 'Du och din höst har nu ridit 500 meter!'
+    Name: 'Häst tämjare'
 # When a distance is travelled in a minecart.
 DistanceMinecart:
   '100':
-    Message: 'You travelled 100 blocks in a minecart!'
-    Name: 'Carting Fan'
+    Message: 'Du har åkt 100 meter med en gruvvagn!'
+    Name: 'Åka runt'
 # When a distance is travelled in a boat.
 DistanceBoat:
   '200':
-    Message: 'You travelled 200 blocks in a boat!'
-    Name: 'Great Sailor'
+    Message: '200 meter med båt!'
+    Name: 'Kaptenen'
 # When an item is dropped on the ground.
 ItemDrops:
-  '15':
-    Message: 'You''re killing the planet!'
-    Name: 'Polluter'
+  '100':
+    Message: 'Du dödar vår planet!'
+    Name: 'Nedskräpning'
 # When soil is plowed with a hoe.
 HoePlowings:
   '10':
-    Message: 'You plowed the ground 10 times!'
-    Name: 'Farmer'
+    Message: 'Du har plogat en liten åker!'
+    Name: 'Bönder'
     Reward:
       Item: cookie 15
 # When bone meal is used to fertilise plants.
 Fertilising:
   '15':
-    Message: 'You used bone meal on plants 15 times!'
-    Name: 'Gardener'
+    Message: 'Du har nu försökt hjälpa planeten bli grönare!'
+    Name: 'Trädgårdsarbete'
 # When an animal is tamed.
 Taming:
   '1':
-    Message: 'You tamed your first animal!'
-    Name: 'Tamer'
+    Message: 'Du har tämjt ditt första djur!'
+    Name: 'Tämjaren'
 # When a potion is brewed.
 Brewing:
   '1':
-    Message: 'You brewed your first potion!'
-    Name: 'Alchemist'
+    Message: 'Du har gjort din först dryck!'
+    Name: 'alkemisten'
 #===========================OOO=OOO===========================#
 # VI-------------------------------------------------------VI #
 # |                  Command achievements                   | #
