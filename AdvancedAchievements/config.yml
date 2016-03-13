@@ -93,35 +93,35 @@ PooledRequestsTaskInterval: 60
 # When a player connects during the day.
 Connections:
   '1':
-    Message: You connected to our server for the first time!
-    Name: Good Choice
+    Message: 'You connected to our server for the first time!'
+    Name: 'Good Choice'
 # When a specific block is placed (specify block name, lower case).
 Places:
   stone:
     '100':
       Message: '&4One hundred placed stones!'
-      Name: Stone Addict
+      Name: 'Stone Addict'
     '1000':
       Message: '&4One thousand placed stones!'
-      Name: Stone God
+      Name: 'Stone God'
 # When a specific block is broken (specify block name, lower case).
 Breaks:
   stone:
     '1':
       Message: '&1The first time you went mining!'
-      Name: Cobble!
+      Name: 'Cobble!'
       Reward:
         Command: give PLAYER 158 10
   log:
     '100':
       Message: '&2You have cut 100 logs!'
-      Name: Wood Cutter
+      Name: 'Wood Cutter'
 # When a specific mob is killed (specify mob name or 'player', lower case).
 Kills:
   zombie:
     '1':
       Message: '&8The first time you killed a zombie!'
-      Name: The Walking Dead
+      Name: 'The Walking Dead'
       Reward:
         Money: 1
         Item: diamond 1
@@ -129,141 +129,141 @@ Kills:
 Crafts:
   diamond_sword:
     '1':
-      Message: The first time you crafted a blade!
-      Name: Blacksmith Apprentice
+      Message: 'The first time you crafted a blade!'
+      Name: 'Blacksmith Apprentice'
       Reward:
         Money: 2
 # When the player dies.
 Deaths:
   '1':
-    Message: The first time you died!
-    Name: Rest in Peace
+    Message: 'The first time you died!'
+    Name: 'Rest in Peace'
 # When an arrow is shot.
 Arrows:
   '50':
-    Message: 50 arrows shot!
-    Name: Arrows Around the Place
+    Message: '50 arrows shot!'
+    Name: 'Arrows Around the Place'
 # When a snowball is thrown.  
 Snowballs:
   '1000':
-    Message: 1000 snowballs thrown. That's the spirit!
-    Name: Winter Addict
+    Message: '1000 snowballs thrown. That''s the spirit!'
+    Name: 'Winter Addict'
 # When an egg is thrown.  
 Eggs:
   '1000':
-    Message: 1000 eggs thrown!
-    Name: Omelet Addict
+    Message: '1000 eggs thrown!'
+    Name: 'Omelet Addict'
 # When a fish is caught. 
 Fish:
   '1':
-    Message: The first time you caught a fish!
-    Name: Time for Fish and Chips
+    Message: 'The first time you caught a fish!'
+    Name: 'Time for Fish and Chips'
 # When a tool/armor/weapon is broken.  
 ItemBreaks:
   '1':
-    Message: You broke your favorite tool!
+    Message: 'You broke your favorite tool!'
     Name: '&4Clumsy Guy'
 # When an item is eaten.  
 EatenItems:
   '1':
-    Message: Just had a snack!
-    Name: First Snack
+    Message: 'Just had a snack!'
+    Name: 'First Snack'
 # When a sheep is sheared.
 Shear:
   '100':
-    Message: 100 sheep sheared!
+    Message: '100 sheep sheared!'
     Name: '&1Wool Addict'
 # When a cow is milked.
 Milk:
   '1':
-    Message: Just milked a cow!
-    Name: First Milk
+    Message: 'Just milked a cow!'
+    Name: 'First Milk'
 # When a trade with a villager is made.
 Trades:
   '1':
-    Message: Doing business with your first villager!
-    Name: First Trade
+    Message: 'Doing business with your first villager!'
+    Name: 'First Trade'
 # When an anvil is used.
 AnvilsUsed:
   '1':
-    Message: You just repaired your first item!
-    Name: First Repair
+    Message: 'You just repaired your first item!'
+    Name: 'First Repair'
 Enchantments:
   '5':
-    Message: 5 objects enchanted!
+    Message: '5 objects enchanted!'
     Name: '&5Wizard'
 # When a bed is entered. 
 Beds:
   '5':
-    Message: You entered a bed 5 times!
-    Name: Sleepy guy
+    Message: 'You entered a bed 5 times!'
+    Name: 'Sleepy guy'
 # Maximum level reached.    
 MaxLevel:
   '10':
-    Message: Level 10 reached!
+    Message: 'Level 10 reached!'
     Name: '&4Rookie'
 # When a potion is consumed.
 ConsumedPotions:
   '100':
-    Message: Drinking weird beverages all the time...
-    Name: Alcoholic
+    Message: 'Drinking weird beverages all the time...'
+    Name: 'Alcoholic'
 # Amount of time played on the server (in hours, use integers).
 PlayedTime:
   '1':
-    Message: You played during one hour on the server!
-    Name: First Hour
+    Message: 'You played during one hour on the server!'
+    Name: 'First Hour'
 # When a distance is travelled by foot.
 DistanceFoot:
   '1000':
-    Message: You travelled 1000 blocks by foot!
-    Name: Big Walker
+    Message: 'You travelled 1000 blocks by foot!'
+    Name: 'Big Walker'
 # When a distance is travelled on a pig.
 DistancePig:
   '100':
-    Message: You travelled 100 blocks on a pig!
-    Name: Carrot on a Stick Master
+    Message: 'You travelled 100 blocks on a pig!'
+    Name: 'Carrot on a Stick Master'
 # When a distance is travelled on a horse.
 DistanceHorse:
   '500':
-    Message: You travelled 500 blocks on a horse!
-    Name: The Avener
+    Message: 'You travelled 500 blocks on a horse!'
+    Name: 'The Avener'
 # When a distance is travelled in a minecart.
 DistanceMinecart:
   '100':
-    Message: You travelled 100 blocks in a minecart!
-    Name: Carting Fan
+    Message: 'You travelled 100 blocks in a minecart!'
+    Name: 'Carting Fan'
 # When a distance is travelled in a boat.
 DistanceBoat:
   '200':
-    Message: You travelled 200 blocks in a boat!
-    Name: Great Sailor
+    Message: 'You travelled 200 blocks in a boat!'
+    Name: 'Great Sailor'
 # When an item is dropped on the ground.
 ItemDrops:
   '15':
-    Message: You're killing the planet!
-    Name: Polluter
+    Message: 'You''re killing the planet!'
+    Name: 'Polluter'
 # When soil is plowed with a hoe.
 HoePlowings:
   '10':
-    Message: You plowed the ground 10 times!
-    Name: Farmer
+    Message: 'You plowed the ground 10 times!'
+    Name: 'Farmer'
     Reward:
       Item: cookie 15
 # When bone meal is used to fertilise plants.
 Fertilising:
   '15':
-    Message: You used bone meal on plants 15 times!
-    Name: Gardener
+    Message: 'You used bone meal on plants 15 times!'
+    Name: 'Gardener'
 # When an animal is tamed.
 Taming:
   '1':
-    Message: You tamed your first animal!
-    Name: Tamer
+    Message: 'You tamed your first animal!'
+    Name: 'Tamer'
 # When a potion is brewed.
 Brewing:
   '1':
-    Message: You brewed your first potion!
-    Name: Alchemist
+    Message: 'You brewed your first potion!'
+    Name: 'Alchemist'
 #===========================OOO=OOO===========================#
 # VI-------------------------------------------------------VI #
 # |                  Command achievements                   | #
