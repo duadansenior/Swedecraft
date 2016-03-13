@@ -1,0 +1,50 @@
+quester:
+  en: Rolf
+first: start
+stop: 'false'
+NPC_options:
+  start:
+    text:
+      en: Hej där &2%player%&a&o! Är det något du undrar över?. Jag har en del kunskaper om flera saker på den här servern så var inte rädd att fråga.
+    pointer: fråga_skydd,fråga_hem
+  svar_fler_frågor:
+    text:
+      en: Ah, du vill verkligen lära dig. Vad är det mer du undrar över?
+    pointer: fråga_skydd,fråga_hem
+  svar_skydd:
+    text:
+      en: Självklart kan du skydda ditt område. Allt du behöver är en &eguldspade&a&o. Sen tar du bara &espaden&a&o och &ehögerklickar&a&o på ett block och sedan &ehögerklickar&a&o igen på ett annat block. De block du skyddar blir då hörnen diagonalt mot varandra i en fyrkant och allting innanför den fyrkanten är nu ägdt av dig och ingen annan kan bygga eller förstöra där.
+    pointer: fråga_skydd_vänner,fråga_skydd_storlek
+  svar_skydd_vänner:
+    text:
+      en: Självklart ska man kunna låta vänner och andra man litar på få bygga på sitt område. Det gör man lätt genom att bara skriva &e/trust spelarnamn&a&o i chatten. Vill jag t.ex. låta AnakinS77 få bygga i mitt område så skriver jag bara &e/trust AnakinS77&a&o. Ångrar jag mig någpn gång skriver jag bara &e/untrust AnakinS77&a&o för att ta bort hans rättigheter att bygga på mitt område.
+    pointer: fråga_skydd_storlek,fråga_fler_frågor
+  svar_skydd_storlek:
+    text:
+      en: Antalet block som en spelare kan skydda är &2250 st&a&o när man börjar sitt liv på servern, men det ökas ett par block för varje timme man spelar så den som spelat mycket kan skydda en större yta än den som spelat lite.
+    pointer: fråga_skydd_vänner,fråga_fler_frågor
+  svar_hem:
+    text:
+      en: När du har hittat en plats du vill bygga ditt &2hem&a&o på så kan du lätt ta dig dit igen genom att först skriva &e/sethome&a&o i chatten när du står där du vill ha ditt hem, sen skriver du bara &e/home&a&o för att ta dig dit från var du än befinner dig.
+    pointer: fråga_fler_frågor
+player_options:
+  fråga_skydd:
+    text:
+      en: Kan man skydda sitt område?.
+    pointer: svar_skydd
+  fråga_skydd_vänner:
+    text:
+      en: Kan jag låta en kompis bygga på mitt område?
+    pointer: svar_skydd_vänner
+  fråga_skydd_storlek:
+    text:
+      en: Hur stort område kan jag skydda?
+    pointer: svar_skydd_storlek
+  fråga_fler_frågor:
+    text:
+      en: Jag har fler frågor.
+    pointer: svar_fler_frågor
+  fråga_hem:
+    text:
+      en: Kan jag ta mig till mitt hem lättare.
+    pointer: svar_hem
