@@ -1,0 +1,16 @@
+enabled: true
+update-interval: 60
+sign-line-1: '&c{name}'
+sign-line-2: '&b{package}'
+sign-line-3: '&e{currency} {amount}'
+sign-line-4: '&a{time} {date}'
+gui-enabled: true
+gui-command: /recentdonators
+gui-title: '&bRecent Donators'
+gui-size: 9
+gui-lines:
+- '&f&m----&f< &b{rank} &f>&m----'
+- '&c{name}'
+- '&b{package}'
+- '&e{currency} {amount}'
+- '&a{time} {date}'
