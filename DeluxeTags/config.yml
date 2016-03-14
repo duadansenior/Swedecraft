@@ -1,0 +1,153 @@
+# DeluxeTags version: 1.7.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: true
+format_chat:
+  enabled: true
+  format: '{deluxetags_tag} <%1$s> %2$s'
+gui:
+  name: '&6Tillgängliga taggar&f: &6%deluxetags_amount%'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tagg&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - '%deluxetags_description%'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&eNuvarande tagg&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - Klicka för att dölja din tagg
+  no_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&cDu har inte valt någon tagg!'
+    lore:
+    - '&7Klicka på en av ikonerna ovanför för att välja en tagg!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Stäng ner menyn med taggar'
+deluxetags:
+  admin:
+    tag: ' den gudomlige'
+    description: '&cEn av serverns allsmäktiga gudar!'
+    order: 1
+  builder:
+    tag: ' von byggmeister'
+    description: '&cHar byggt otroliga byggen på servern!'
+    order: 2
+  moderator:
+    tag: ' den övervakande'
+    description: Håller koll på att alla sköter sig!
+    order: 3
+  quester:
+    tag: ' den klurige'
+    description: Har löst många uppdrag!
+    order: 4
+  spender:
+    tag: ' den slösaktiga'
+    description: '&6Den här spelaren är rik nog att slänga 10 000kr på en sån här
+      tagg!'
+    order: 5
+  friendly:
+    tag: ' den vänlige'
+    description: '&cDen här spelaren har hjälpt andra spelare en hel **** massa!'
+    order: 6
+  beta:
+    tag: ' &oaf Betas'
+    description: '&cDen här spelaren var med och testade servern redan från start!'
+    order: 7
+  newbie:
+    tag: ' &onybörjaren'
+    description: '&6Första taggen en spelare får!'
+    order: 8
+  cute:
+    tag: ' den &bs&eö&at&da'
+    description: '&cDen här spelaren är sötare än en kaninunge!'
+    order: 9
+  wordboss:
+    tag: ' ordmästaren'
+    description: '&6För att snabbast ha skrivit ett krångligt ord!'
+    order: 10
+  ruin1:
+    tag: ' utforskaren av ruiner'
+    description: '&6För att ha utforskat ruinen i skogen!'
+    order: 11
+  first:
+    tag: ' &6&lden Förste'
+    description: '&6För att varit den förste som loggade in när servern blev offentlig'
+    order: 12
+  donator:
+    tag: ' &lär en stolt donator!'
+    description: '&6För att ha donerat till servern!'
+    order: 13
+  brons:
+    tag: ' sponsrade en liten &6slant!'
+    description: '&7För att ha köpt en månad donator &6BRONS&6!'
+    order: 14
+  silver:
+    tag: ', &7&ls&8&li&7&ll&8&lv&7&le&8&lr&7&ls&8&lp&7&le&8&ll&7&la&8&lr&7&le&8&ln'
+    description: '&6För att ha köpt en månad donator &7SILVER&6!'
+    order: 15
+  guld:
+    tag: ', &6&lse&6&lrv&6&ler&6&lns &6&lg&e&lu&6&ll&e&ld&6&lk&e&ll&6&li&e&lm&6&lp'
+    description: '&6För att ha köpt en månad donator &eGULD&6!'
+    order: 16
+  guldforlife:
+    tag: ' &ohar en själ av&r &6&lG&e&lU&6&lL&e&lD&6&l!&e&l!&6&l!'
+    description: '&6För att alla vet att goda gärningar är för evigt!'
+    order: 17
+  parkour:
+    tag: ' &okan det här med parkour!'
+    description: '&6Från spawn and beyond!'
+    order: 18
+  parkourcheat:
+    tag: ' &ovet hur man fuskar!'
+    description: '&6För att utnyttjat en miss på servern till att klara parkour genom
+      fusk!'
+    order: 19
+  firstguld:
+    tag: ' &oservens &6&lG&e&lU&6&lL&e&lD&6&lG&e&lO&6&lS&e&lS&6&lE'
+    description: '&6för att vara serverns första Guld Donator!'
+    order: 20
+  dedikerad1:
+    tag: ' &oden dedikerade spelaren'
+    description: '&6När inte ens morgontid och 39.2 i feber stoppar en från att spela!'
+    order: 21
+  veteran:
+    tag: ' &oden återkommande'
+    description: '&6Har spelat tillräckligt för att köpa till sig ranken &2Veteran&6!'
+    order: 21
