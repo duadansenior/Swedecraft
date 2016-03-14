@@ -1,0 +1,398 @@
+# DeluxeChat version 1.9 config file
+# Created by extended:clip
+# list as many format sections you want under formats:
+# each format section requires a default template that should be modified and
+# also requires a unique number for the priority higher number = lower priority
+# ex: guest-100, owner-1
+#   YOU MUST KEEP A default TEMPLATE! It is used when players have no other template assigned!
+#   
+# example format template:
+# formats: 
+#   default:
+#     priority: 2147483647
+#     channel: ''
+#     prefix: '&8[&7Guest&8] '
+#     name_color: '&7'
+#     name: '%player%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player% &bis a Guest'
+#     prefix_tooltip:
+#     - '&7%player% &bis a Guest'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player% 
+#     suffix_click_command: '
+#   Member:
+#     priority: 100
+#     channel: ''
+#     prefix: '&8[&aMember&8] '
+#     name_color: '&7'
+#     name: '%player%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player% &bis a Member'
+#     prefix_tooltip:
+#     - '&7%player% &bis a Member'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player% 
+#     suffix_click_command: '
+check_updates: true
+bungeecord:
+  enabled: false
+  servername: '&8[&cServer&8]'
+  join_global: true
+relation_placeholders_enabled: true
+timestamp_format: MM/dd/yy HH:mm:ss
+boolean:
+  'true': '&atrue'
+  'false': '&cfalse'
+ops_use_group_format: true
+hooks:
+  javascript_placeholders: true
+  minecraft_statistics: true
+  acidisland: false
+  askyblock: false
+  autorank: false
+  autosell: false
+  banmanager: false
+  battlelevels: false
+  chatcolor: false
+  chatreaction: false
+  checknamehistory: true
+  deluxetags: true
+  essentials: false
+  ezblocks: false
+  ezprestige: false
+  ezrankslite: false
+  ezrankspro: false
+  factions_mcore: false
+  factions_uuid: false
+  galistener: false
+  gangsplus: false
+  heroes: false
+  islandworld: false
+  jobs: false
+  killrewards: false
+  killstats: false
+  marriagemaster: false
+  mcinfected: false
+  mcinfected-ranks: false
+  mcmmo: true
+  mvdw_placeholderapi: true
+  nicky: false
+  placeholderapi: true
+  playerpoints: false
+  plotme: false
+  plotsquared: false
+  prisongangs: false
+  pvpstats: false
+  quicksell: false
+  royalcommands: true
+  simpleclans: false
+  simplecoinsapi: false
+  simpleprefix: false
+  simple_suffix: false
+  skywarsreloaded: false
+  sqlperms: false
+  sqltokens: false
+  survivalgames: false
+  teams: false
+  tokenenchant: false
+  towny: false
+  uskyblock: false
+  ultimatevotes: false
+  vanishnopacket: false
+  vault_perms: true
+  vault_eco: true
+  voteparty: false
+  werewolf: false
+  wickedskywars: false
+  deluxejoin: true
+  priveleges: false
+chat_filter:
+  enabled: false
+  list:
+  - idiotdjävel;dumbom
+private_message:
+  enabled: true
+  bungeecord: false
+private_message_formats:
+  to_sender:
+    format: '&7Du &e-> &7%recipient% &7:'
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  to_recipient:
+    format: '&7%player% &e-> &7Du &7:'
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  social_spy: '&8[&cspy&8] &f%player% &e-> &f%recipient%&7:'
+formats:
+  default:
+    priority: 1000000
+    channel: ''
+    prefix: '[Gäst] '
+    name_color: '&b'
+    name: '%player%'
+    suffix: ' behöver godkänna reglerna: '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &7%vault_group%'
+    - '&6Info: &c&oDen här spelaren har inte godkännt reglerna'
+    - '&6      &c&ooch kan inte bygga eller förstöra något än.'
+    name_tooltip:
+    - '&6Spelare: &7%player%'
+    - '&6Pengar: {money}kr'
+    suffix_tooltip:
+    - ''
+    channel_click_command: /ranks
+    prefix_click_command: /tags
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  normal:
+    priority: 10000
+    channel: ''
+    prefix: '&f[&2Normal&f]&r '
+    name_color: '&b'
+    name: '&l%player%'
+    suffix: '&b%deluxetags_tag%: '
+    chat_color: '&a'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Den här spelaren har inga speciella
+    - rättigheter på servern.
+    name_tooltip:
+    - '&5&n%player%s Info'
+    - 'Äger: &2{money} &fkr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  veteran:
+    priority: 9500
+    channel: ''
+    prefix: '&f[&2Veteran&f]&r '
+    name_color: '&b'
+    name: '&l%player%'
+    suffix: '&b%deluxetags_tag%: '
+    chat_color: '&a'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Den här spelaren har spelat tillräckligt mycket på
+    - servern för att ha tjänat ihop nog till att köpa sig
+    - ranken &2Veteran&r och har en del extra rättigheter.
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  donator:
+    priority: 9000
+    channel: ''
+    prefix: '[%vault_group%] '
+    name_color: '&2'
+    name: '&l%player%'
+    suffix: '&2%deluxetags_tag%: '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Den här spelaren har donerat pengar till servern
+    - och på så sätt hjälpt till att säkra dess framtid!
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  brons:
+    priority: 8000
+    channel: ''
+    prefix: '[&6BRONS&f] '
+    name_color: '&2'
+    name: '&l%player%'
+    suffix: '&2%deluxetags_tag%: '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Den här spelaren har donerat pengar till servern
+    - och på så sätt hjälpt till att säkra dess framtid!
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  silver:
+    priority: 7500
+    channel: ''
+    prefix: '%vault_group% '
+    name_color: '&2'
+    name: '&l%player%'
+    suffix: '&2%deluxetags_tag%: '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - - Den här spelaren har donerat pengar till servern
+    - och på så sätt hjälpt till att säkra dess framtid!
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  guld:
+    priority: 7000
+    channel: ''
+    prefix: '&f[&6G&eU&6L&eD&f] '
+    name_color: '&e'
+    name: '&l%player%'
+    suffix: '&e%deluxetags_tag%: '
+    chat_color: '&2'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank:&r %vault_group%'
+    - - Den här spelaren har donerat pengar till servern
+    - och på så sätt hjälpt till att säkra dess framtid!
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  helper:
+    priority: 5000
+    channel: ''
+    prefix: '&f[&bMedhjälpare&f]&r '
+    name_color: '&d'
+    name: '&l%player%'
+    suffix: '&d%deluxetags_tag%: '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Den här spelaren finns tillänglig för att hjälpa andra
+    - spelare med lättare uppgifter och för att kunna svara på
+    - frågor som spelare på servern kan tänkas ha.
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  moderator:
+    priority: 2000
+    channel: ''
+    prefix: '&kO&r&f[&4%vault_group%&f] '
+    name_color: '&c'
+    name: '&l%player%'
+    suffix: '&c%deluxetags_tag%: '
+    chat_color: '&3'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&bRank: %vault_group%'
+    - Håller uppsikt över servern och ser till att regler följs
+    - och att allt fungerar som det ska.
+    name_tooltip:
+    - '&6Player: &7%player%'
+    - '%marriagemaster_married% med %marriagemaster_partner%'
+    - '&6Money: {money}kr'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+  admin:
+    priority: 1
+    channel: ''
+    prefix: '&e&k&lO&r&f&6[&4Administratör&6]&r '
+    name_color: '&c'
+    name: '&l%player%'
+    suffix: '&c%deluxetags_tag%: '
+    chat_color: '&b'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&4Administratören:'
+    - '&6Den ultimata ledaren på servern!'
+    name_tooltip:
+    - '&6Namn: &7%player%'
+    - '&6Speltid: &7{statistic_time_played}'
+    - '&6Första besöket: &7%player_first_join_date%'
+    - '&6Pengar på banken: &a{money}kr'
+    - ''
+    - '&7Dött {statistic_deaths} gånger, senast för {statistic_days_since_death} dagar
+      sen'
+    suffix_tooltip:
+    - 'Description:'
+    - '%deluxetags_description%'
+    channel_click_command: ''
+    prefix_click_command: /meny
+    name_click_command: '/w %player% '
+    suffix_click_command: ''
+chat_url: {}
