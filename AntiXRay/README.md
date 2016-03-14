@@ -1,3 +1,4 @@
+# Bekämpning av fusk
 Detta ligger bakom begränsningen för hur mycket mineraler man kan plocka till sig per timme på servern.
 Det är hyfsat ok antal man har från början och man får en högre gräns/timme ju längre man spelar. 
 
