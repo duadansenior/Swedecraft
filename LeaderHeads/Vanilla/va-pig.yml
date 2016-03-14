@@ -1,0 +1,16 @@
+enabled: true
+update-interval: 60
+sign-line-1: '&c&m------------'
+sign-line-2: '&a{name}'
+sign-line-3: '&e{amount} kills'
+sign-line-4: '&c&m------------'
+gui-enabled: true
+gui-command: /toppigkills
+gui-title: '&bTop Pig Kills'
+gui-size: 9
+gui-lines:
+- '&f&m----&f< &b{rank} &f>&m----'
+- '&c&m------------'
+- '&a{name}'
+- '&e{amount} kills'
+- '&c&m------------'
