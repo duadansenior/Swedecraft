@@ -1,0 +1,116 @@
+rightclick_bind_command: Högerklicka på skylten för att binda kommandot till den.
+set_command: Kommandot är tillagd.
+rightclick_list: Högerklicka en skylt för att sen en lista över skyltens alla kommandon.
+rightclick_set_price: Högerklicka en skylt för att sätta priset.
+set_price: Priset på skylten är satt.
+rightclick_bind_permission: Högerklicka en skylt för att sätta rättigheterna (perms).
+set_permission: Rättigheterna är satta.
+rightclick_set_cooldown: Högerklicka en skylt för att sätta väntetid mellan användningar (cooldown).
+set_cooldown: Väntetiden är satt.
+rightclick_copy: Välj en skylt att kopiera genom att högerklicka på den.
+rightclick_paste: Högerklicka på en annan skylt för att klistra in.
+rightclick_del_command: Högerklicka en skylt för att ta bort kommandot på den.
+del_command: Kommandot är borttaget.
+rightclick_del_permission: Högerklicka en skylt för att ta bort rättigheten.
+del_permission: Rättigheten var borttaget.
+commands_removed: Alla kommandon är borttagna från den här skylten.
+edit_command: Kommandot är redigerat.
+rightclick_reset_cooldown: Högerklicka en skylt för att nollställa väntetiden.
+reset_cooldown: Väntetiden är nollställd.
+no_number: Detta är inget nummer.
+not_ready: Skylten är redo om <cooldown>.
+line_not_found: Den givna raden hittades inte.
+not_enough_permissions: Du saknar rättigheterna.
+not_enough_money: Du har inte tillräckligt med pengar.
+cannot_destroy: Du har inte tillåtelse att förstöra den här skylten.
+need_confirmation_cost: Skyltens kostnad <price>. /svs yes eller klicka igen.
+need_confirmation: Godkänn skylten med /svs yes eller klicka igen.
+all_cooldowns_reset: Alla väntetider är nollställda.
+reload_success: ServerSigns har laddats om.
+invalid_itemid: Ogiltigt ID nummer.
+priceitem_success: Vilka saker som krävs för att använda skylten har lagts till.
+priceitem_bind: Högerklicka en skylt för att sätta saker som krävs för att använda skylten.
+not_enough_items: Du behöver följande saker för att använda skylten...
+priceitem_remove: Högerklicka en skylt för att ta bort saker som krävs för att använda skylten.
+priceitem_removed: Saker som krävdes för att använda skylten är borttaget.
+xp_must_be_greater_than_zero: XP-Nivån måste vara högre än 0.
+xpcost_bind: Högerklicka en skylt för att sätta hur mycket XP den kostar att använda.
+set_xp: Kostnad i XP för skylten är satt.
+priceitemcriteria_boolean: Du måste ha värdet/argumentet *true* eller *false*
+not_enough_xp: Du har inte tillräckligt med XP för att använda skylten.
+funds_withdrawn: <currency><number> har tagits bort från ditt konto.
+permissions_required: Kan inte fortsätta, Vault eller konfigurationsspecifika rättighetskommandon krävs för detta.
+priceitemcriteria_bind: Right-click any sign to set set price item criteria.
+priceitemcriteria_set: Successfully set price item criteria on this sign.
+persistance_on: You have enabled copy persistance, disable this with '/svs copy persist'
+persistance_off: You have disabled copy persistance.
+must_sneak: Du måste ducka/smyga för att förstöra den här skylten.
+set_event_cancellation: Cancelling event triggers has been set to <boolean> for this sign
+set_confirmation: Sign confirmation set to <boolean>
+invalid_hand_item: Du måste hålla i en sak.
+invalid_index: No commands exist at the given index for this sign. Please try another sign
+blocked_command: '{DEFAULT}'
+itemcriteria_boolean: '{DEFAULT}'
+set_cancel_mode: '{DEFAULT}'
+delay_greater_than_zero: '{DEFAULT}'
+set_loops: '{DEFAULT}'
+rightclick_bind_loops: '{DEFAULT}'
+loop_must_finish: '{DEFAULT}'
+need_confirmation_price_items: '{DEFAULT}'
+need_confirmation_xp: '{DEFAULT}'
+levels_needed: '{DEFAULT}'
+holding_bind: '{DEFAULT}'
+holding_success: '{DEFAULT}'
+holding_remove: '{DEFAULT}'
+holding_removed: '{DEFAULT}'
+helditemcriteria_bind: '{DEFAULT}'
+helditemcriteria_set: '{DEFAULT}'
+need_confirmation_held_items: '{DEFAULT}'
+must_be_holding: '{DEFAULT}'
+player_not_found: '{DEFAULT}'
+cooldowns_reset: '{DEFAULT}'
+long_command_again: '{DEFAULT}'
+long_type_to_chat: '{DEFAULT}'
+long_cancelled: '{DEFAULT}'
+uses_greater_zero: '{DEFAULT}'
+rightclick_remove_uses: '{DEFAULT}'
+rightclick_set_uses: '{DEFAULT}'
+uses_success: '{DEFAULT}'
+rightclick_bind_cancel_permission: '{DEFAULT}'
+set_cancel_permission: '{DEFAULT}'
+cancelled_due_to_permission: '{DEFAULT}'
+reload_config_success: '{DEFAULT}'
+reload_signs_success: '{DEFAULT}'
+features_not_available: '{DEFAULT}'
+invalid_command: '{DEFAULT}'
+reload_signs_fail: '{DEFAULT}'
+reload_config_fail: '{DEFAULT}'
+copy_success: '{DEFAULT}'
+right_click_create: '{DEFAULT}'
+create_success: '{DEFAULT}'
+block_protected: '{DEFAULT}'
+list_persist_on: '{DEFAULT}'
+list_persist_off: '{DEFAULT}'
+xp_removed: '{DEFAULT}'
+silent_success: '{DEFAULT}'
+right_click_select: '{DEFAULT}'
+sign_selected: '{DEFAULT}'
+sign_deselected: '{DEFAULT}'
+timelimit_invalid: '{DEFAULT}'
+timelimit_success: '{DEFAULT}'
+rightclick_apply: '{DEFAULT}'
+rightclick_view_list: '{DEFAULT}'
+timelimit_expired: '{DEFAULT}'
+timelimit_waiting: '{DEFAULT}'
+option_create_w_question: '{DEFAULT}'
+option_invalid_answer: '{DEFAULT}'
+option_set: '{DEFAULT}'
+option_label_unique: '{DEFAULT}'
+unable_to_execute_cmd: '{DEFAULT}'
+import_file_not_found: '{DEFAULT}'
+import_success: '{DEFAULT}'
+import_select_sign: '{DEFAULT}'
+option_label_desc_separator: '{DEFAULT}'
+xp_cost_removed: '{DEFAULT}'
+xp_cost_invalid: '{DEFAULT}'
+permissions_removed: '{DEFAULT}'

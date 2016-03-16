@@ -1,0 +1,14 @@
+###
+&2Sida 1:
+  1. Håll ett vårdat språk. Tänk på att spelare av alla åldrar spelar här!
+  2. Inga rasistiska, sexuella eller andra påhopp accepteras! Var trevlig.
+  3. Tänk på att hålla ett avstång till andra spelare när du bygger (minst 150 block).
+  4. Inget fusk. Märker vi att du använder X-ray, flyger eller likn. så portas du direkt
+  5. Ingen griefing. Det betyder att det inte är ok att förstöra andras byggnader eller stjäla.
+###
+&2Page 2:
+  6. Utnyttja inte fel eller buggar. Rapportera dem!
+     Till dessa hör allting som du borde kunna lista ut inte var tänkt att vara på det sättet
+     som att t.ex. klara av banor genom att teleportera varandra mellan platser.
+  7. Ha kul! Om du inte har kul, vad är då vitsen? :)
+  8. För klagåmål, kontakta thobias22 (klaga så mycket ni vill) 

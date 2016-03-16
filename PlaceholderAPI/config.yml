@@ -1,0 +1,181 @@
+# PlaceholderAPI version 2.1.0
+# Created by extended_clip
+# 
+# Placeholder hooks:
+# 
+# There are currently 83 internal placeholder hooks
+# provided by PlaceholderAPI that can be enabled.
+# 62 of these hooks require you have the associated
+# dependency installed and enabled on your server if you choose to use them.
+# 
+# To enable placeholders of a specific type/plugin, you MUST have the hook set to true
+# in the placeholder_hooks section of this config.
+# 
+# Internal hooks are refreshed with /placeholderapi reload
+# 
+# In order to use a placeholder from a specific hook, you must use the hook identifier
+# specified in this config followed by the placeholder value identifier:
+# %<hook identifier>_<value identifier>%
+# All hook identifiers are listed in the placeholder_hooks section of this file.
+# 
+# 
+# Injector information:
+# 
+# REQUIREMENT: (ProtocolLib)
+# 
+# The injector function allows you to use placeholders in many plugins / functions
+# without the need for the plugin you want to use placeholders in to support / hook into
+# PlaceholderAPI.
+# All injectors are optional and can be enabled / disabled as you wish.
+# NOTE: injector only loads on startup and a full restart is required to enable / disable specific
+# injector functions.
+# 
+# Allow placeholders in any chat window message from any plugin
+# If you want to use placeholders in your essentials chat formatting
+# you must use {<placeholder>} instead of %<placeholder>%
+# injector:
+#   chat:
+#     enabled: true/false
+# 
+# Allow placeholders in any ItemStack name, lore, or inventory title
+# injector:
+#   inventory: 
+#     enabled: true/false
+# 
+# Allow placeholders in any title or subtitle from any plugin
+# injector:
+#   title:
+#     enabled: true/false
+# 
+# Allow placeholders in the tab list header and footer
+# injector:
+#   tab:
+#     enabled: true/false
+# 
+# Allow placeholders in signs:
+# injector:
+#   signs:
+#     enabled: true/false
+#     update_interval: <time in seconds to update sign placeholders, 0 to disable>
+# 
+# Allow placeholders in HolographicDisplays holograms
+# injector:
+#   holographicdisplays:
+#     enabled: true/false
+#     update_interval: <time in seconds to update holo placeholders>
+# 
+# 
+# To add placeholders in chat messages, you need the permission node:
+# placeholderapi.injector.chat.bypass
+# 
+# To add placeholders in sign lines, you need the permission node:
+# placeholderapi.injector.signs.bypass
+# 
+# To add placeholders to items in anvils, you need the permission node:
+# placeholderapi.injector.anvil.bypass
+
+check_updates: true
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+placeholder_hooks:
+  bungeecord: false
+  redisbungee: false
+  invcheck: false
+  javascript: false
+  player: false
+  nmsplayer: false
+  server: false
+  statistic: false
+  pinger: false
+  date: false
+  globalsound: false
+  playersound: false
+  memory: false
+  acidisland: false
+  askyblock: false
+  autorank: false
+  autosell: false
+  chatcolor: false
+  chatreaction: false
+  checknamehistory: false
+  deluxetags: false
+  enjin: false
+  essentials: false
+  ezblocks: false
+  ezprestige: false
+  ezrankspro: false
+  factions: false
+  factionsuuid: false
+  galistener: false
+  gangsplus: false
+  heroes: false
+  islandworld: false
+  jobs: false
+  killstats: false
+  leaderheads: false
+  lwc: false
+  marriage: false
+  marriagemaster: false
+  mcinfected: false
+  mcinfected-ranks: false
+  mcmmo: false
+  minecrates: false
+  mvdw: false
+  mysqltokens: false
+  nicknamer: false
+  nicky: false
+  ontime: false
+  playerpoints: false
+  plotsquared: false
+  pointsapi: false
+  prisonmines: false
+  pvpstats: false
+  quicksell: false
+  royalcommands: false
+  sellall: false
+  simpleclans: false
+  simplecoinsapi: false
+  simpleprefix: false
+  simplesuffix: false
+  skillapi: false
+  skywarsreloaded: false
+  sqlperms: false
+  sqltokens: false
+  sttitles: false
+  superbvote: false
+  tokenenchant: false
+  tokenmanager: false
+  towny: false
+  ultimatevotes: false
+  uskyblock: false
+  vaulteco: false
+  vault: false
+  voteparty: false
+  voteroulette: false
+  wickedskywars: false
+  ezrankslite: false
+  prisongangs: false
+injector:
+  enabled: false
+  chat:
+    enabled: true
+  inventory:
+    enabled: true
+  title:
+    enabled: true
+  tab:
+    enabled: true
+  signs:
+    enabled: true
+    update_interval: 30
+  holographicdisplays:
+    enabled: true
+    update_interval: 30
+bungeecord:
+  check_interval: 60
+pinger:
+  check_interval: 60
+  online: '&aOnline'
+  offline: '&cOffline'

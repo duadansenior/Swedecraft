@@ -1,0 +1,20 @@
+settings:
+  enabled_worlds:
+  - world_nether
+  - world
+  - world_the_end
+  save_data_on_modify: false
+  xp_bar_default_enabled: true
+  xp_bar_default_timeout: 10
+  xp_bar_default_count: 2
+  xp_bar_max_timeout: 30
+xp_bar:
+  enabled:
+    474de711-700f-4c1c-859c-00b8cec58e53: true
+    4f7ae9c2-0839-4f71-919f-63274d71087e: true
+  timeout:
+    474de711-700f-4c1c-859c-00b8cec58e53: 10
+    4f7ae9c2-0839-4f71-919f-63274d71087e: 10
+  count:
+    474de711-700f-4c1c-859c-00b8cec58e53: 2
+    4f7ae9c2-0839-4f71-919f-63274d71087e: 2

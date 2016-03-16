@@ -1,0 +1,51 @@
+Data:
+  Easy:
+    WordsMinLenght: 3
+    WordsMaxLenght: 5
+    RandomizeCapitalization: false
+    CharactersToUse: ABCDEFGHIJKLMNOPQRSTUVWXYZ!?
+  Medium:
+    WordsMinLenght: 5
+    WordsMaxLenght: 7
+    RandomizeCapitalization: true
+    CharactersToUse: ABCDEFGHIJKLMNOPQRSTUVWXYZ!?
+  Hard:
+    WordsMinLenght: 7
+    WordsMaxLenght: 9
+    RandomizeCapitalization: true
+    CharactersToUse: ABCDEFGHIJKLMNOPQRSTUVWXYZ!?
+  Custom:
+    Words:
+    - Miscellaneous
+    - Rollerblading
+    - Caucasian
+    - Deterioration
+    - Refrigerator
+    - Otolaryngology
+    - Tremendous
+    - Third aberration
+    - Remuneration
+    - Entrepreneurship
+    - Ambivalent
+    - Autonomous
+    - Inchoate
+    - Profligacy
+    - Sui Generis
+    - Austerity
+    - Profligate
+    - Baldenfreude
+    - Opprobrium
+    - Apostates
+    - Solipsistic
+    - Obduracy
+    - Internecine
+    - Soporific
+    - Kristallnacht
+    - Peripatetic
+    - Nascent
+    - Desultory
+    - Redoubtable
+    - Hubris
+    - Mirabile Dictu
+    - Apoplectic
+    - Overhaul

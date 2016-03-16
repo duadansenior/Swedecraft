@@ -1,0 +1,65 @@
+#Request-delay for the Mojang API (milliseconds)
+apiTimeout: 10000
+nick:
+  tab: true
+  chat: true
+  scoreboard: true
+  name: true
+  #Replace ALL messages sent to the player
+  vanilla: true
+  #Replace nicknames in commands (command executed with a nickname argument will be replaced with the real name)
+  commands: true
+maxLength:
+  value: 16
+  ignoreColors: true
+#Deny usage of already existing names
+disableExisting: true
+#Replace the skins with Steve/Alex while loading the real skins
+loadingSkin: true
+#Enable this, if the server is behind a bungeecord server which is in online mode
+bungeecord: false
+#Enable this, if you only need the API (not the commands)
+apiOnly: false
+localStorage:
+  #If enabled, skin data will be stored in a local database
+  enabled: false
+  #Time for skins to be cached (minutes, set to -1 for no maximum)
+  cacheTime: 1000
+#If enabled, skins will be updated to the affected players themselves immediately
+selfUpdate: true
+#Enable the single (/nickskin) command to change nick and skin
+singleCommand: false
+#Change the skin as well when executing the /nick command
+changeBoth: false
+tabOverwrite:
+  #Overwrite tab-completed names with the nick names
+  enabled: true
+  #Keep the original name of the players
+  keepOriginal: false
+#If names mentioned in chat messages should be replaced with the nickname
+chatReplacement: true
+#If players with the 'nick.autoNick' should get a random nickname when joining
+autoNick: false
+randomNames:
+- 'inventivetalent'
+randomSkins:
+- 'inventivetalent'
+message:
+  prefix: '&6[NickNamer]&r '
+  permission:
+    general: '&cNo permission.'
+    name: '&cYou don''t have permission to use that name!'
+    skin: '&cYou don''t have permission to use that skin!'
+    change_other: '&cYou don''t have permission to change other''s nicknames or skins.'
+    cleared: '&aCleared &b%player%''s &askin'
+  name:
+    invalid: '&cInvalid nick name!'
+    length: '&cThat name is too long!'
+    changed: '&aChanged &b%player%''s &aname to &b%name%&a.'
+    taken: '&cThis name is already taken!'
+    cleared: '&aCleared &b%player%''s &aname'
+  skin:
+    changed: '&aChanged &b%player%''s &askin to &b%skin%''s&a skin.'
+    update: '&aIt will be updated in &b%time%&a minute(s).'
+  player:
+    not_online: '&cThat player is not online!'
