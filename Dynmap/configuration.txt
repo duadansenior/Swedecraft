@@ -46,7 +46,7 @@ components:
     trustclientname: false
     includehiddenplayers: false
     # (optional) if true, color codes in player display names are used
-    use-name-colors: false
+    use-name-colors: true
     # (optional) if true, player login IDs will be used for web chat when their IPs match
     use-player-login-ip: true
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
@@ -54,7 +54,7 @@ components:
     # (optional) block player login IDs that are banned from chatting
     block-banned-player-chat: true
     # Require login for web-to-server chat (requires login-enabled: true)
-    webchat-requires-login: false
+    webchat-requires-login: true
     # If set to true, users must have dynmap.webchat permission in order to chat
     webchat-permissions: false
     # Limit length of single chat messages
@@ -104,7 +104,7 @@ components:
   - class: org.dynmap.MarkersComponent
     type: markers
     showlabel: false
-    enablesigns: false
+    enablesigns: true
     # Default marker set for sign markers
     default-sign-set: markers
     # (optional) add spawn point markers to standard marker layer
@@ -112,14 +112,14 @@ components:
     spawnicon: world
     spawnlabel: "Spawn"
     # (optional) layer for showing offline player's positions (for 'maxofflinetime' minutes after logoff)
-    showofflineplayers: false
+    showofflineplayers: true
     offlinelabel: "Offline"
     offlineicon: offlineuser
     offlinehidebydefault: true
     offlineminzoom: 0
-    maxofflinetime: 30
+    maxofflinetime: 3000
     # (optional) layer for showing player's spawn beds
-    showspawnbeds: false
+    showspawnbeds: true
     spawnbedlabel: "Spawn Beds"
     spawnbedicon: bed
     spawnbedhidebydefault: true
@@ -147,17 +147,17 @@ components:
   - class: org.dynmap.ClientComponent
     type: playermarkers
     showplayerfaces: true
-    showplayerhealth: true
+    showplayerhealth: false
     # If true, show player body too (only valid if showplayerfaces=true
     showplayerbody: false
     # Option to make player faces small - don't use with showplayerhealth
-    smallplayerfaces: false
+    smallplayerfaces: true
     # Optional - make player faces layer hidden by default
     hidebydefault: false
     # Optional - ordering priority in layer menu (low goes before high - default is 0)
     layerprio: 0
     # Optional - label for player marker layer (default is 'Players')
-    label: "Players"
+    label: "Spelare"
     
   #- class: org.dynmap.ClientComponent
   #  type: digitalclock
@@ -171,18 +171,18 @@ components:
   # Mouse pointer world coordinate display
   - class: org.dynmap.ClientComponent
     type: coord
-    label: "Location"
+    label: "Plats"
     hidey: false
-    show-mcr: false
+    show-mcr: true
     
   # Note: more than one logo component can be defined
-  #- class: org.dynmap.ClientComponent
-  #  type: logo
-  #  text: "Dynmap"
-  #  #logourl: "images/block_surface.png"
-  #  linkurl: "http://forums.bukkit.org/threads/dynmap.489/"
+  - class: org.dynmap.ClientComponent
+    type: logo
+    text: "Dynmap"
+    logourl: "images/block_surface.png"
+    linkurl: "http://forum.swedecraft.com"
   #  # Valid positions: top-left, top-right, bottom-left, bottom-right
-  #  position: bottom-right
+    position: bottom-right
 
   #- class: org.dynmap.ClientComponent
   #  type: inactive
@@ -255,25 +255,25 @@ block-id-alias:
   
 # Default image format for HDMaps (png, jpg, jpg-q75, jpg-q80, jpg-q85, jpg-q90, jpg-q95, jpg-q100)
 # Has no effect on maps with explicit format settings
-image-format: png
+image-format: jpg
 
 #  use-generated-textures: if true, use generated textures (same as client); false is static water/lava textures
 #  correct-water-lighting: if true, use corrected water lighting (same as client); false is legacy water (darker)
 #  transparent-leaves: if true, leaves are transparent (lighting-wise): false is needed for some Spout versions that break lighting on leaf blocks
 use-generated-textures: true
 correct-water-lighting: true
-transparent-leaves: true
+transparent-leaves: false
 
 # ctm-support: if true, Connected Texture Mod (CTM) in texture packs is enabled (default)
-ctm-support: true
+ctm-support: false
 # custom-colors-support: if true, Custom Colors in texture packs is enabled (default)
-custom-colors-support: true
+custom-colors-support: false
 
 # Control loading of player faces (if set to false, skins are never fetched)
 #fetchskins: false
 
 # Control updating of player faces, once loaded (if faces are being managed by other apps or manually)
-#refreshskins: false
+refreshskins: false
 
 # Customize URL used for fetching player skins (%player% is macro for name)
 skin-url: "http://skins.minecraft.net/MinecraftSkins/%player%.png"
@@ -288,22 +288,22 @@ render-triggers:
   #- playerjoin
   - blockplaced
   - blockbreak
-  - leavesdecay
-  - blockburn
+  #- leavesdecay
+  #- blockburn
   - chunkgenerated
   - blockformed
-  - blockfaded
-  - blockspread
-  - pistonmoved
-  - explosion
+  #- blockfaded
+  #- blockspread
+  #- pistonmoved
+  #- explosion
   #- blockfromto
   #- blockphysics
   - structuregrow
-  - blockgrow
+  #- blockgrow
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-#webpage-title: "My Awesome Server Map"
+#webpage-title: "Swedecraft Livekarta"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -331,7 +331,7 @@ disable-webserver: false
 allow-symlinks: true
 
 # Enable login support
-login-enabled: false
+login-enabled: true
 # Require login to access website (requires login-enabled: true)
 login-required: false
 
@@ -374,6 +374,11 @@ grayplayerswhenhidden: true
 # That is, anyone with first listed permission goes before anyone with second, etc, with users with none of the nodes going last
 player-sort-permission-nodes:
   - bukkit.command.op
+  - dynmapadmin
+  - dynmapmoderator
+  - dynmaphelp
+  - dynmapveteran
+  - dynmapnormal
   
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
 #sidebaropened: true
@@ -389,10 +394,10 @@ trusted-proxies:
   - "0:0:0:0:0:0:0:1"
   
 # Join/quit message format for web chat: set to "" to disable notice on web UI
-joinmessage: "%playername% joined"
-quitmessage: "%playername% quit"
+joinmessage: "%playername% loggade in på livekartan"
+quitmessage: "%playername% loggade ut från livekartan"
 
-spammessage: "You may only chat once every %interval% seconds."
+spammessage: "Du kan bara skicka mess en gg per %interval% sekunder."
 # format for messages from web: %playername% substitutes sender ID (typically IP), %message% includes text
 webmsgformat: "&color;2[WEB] %playername%: &color;f%message%"
 
@@ -421,12 +426,12 @@ round-coordinates: true
 
 # Messages to customize
 msg:
-    maptypes: "Map Types"
-    players: "Players"
-    chatrequireslogin: "Chat Requires Login"
-    chatnotallowed: "You are not permitted to send chat messages"
-    hiddennamejoin: "Player joined"
-    hiddennamequit: "Player quit"
+    maptypes: "Kartor"
+    players: "Spelare"
+    chatrequireslogin: "Chatten kräver inloggning"
+    chatnotallowed: "Du har inte rättigheter att använda chatten"
+    hiddennamejoin: "Spelare loggade in"
+    hiddennamequit: "Spelare loggade ut"
 
 # URL for client configuration (only need to be tailored for proxies or other non-standard configurations)
 url:
@@ -469,7 +474,7 @@ soft-ref-cache: true
         
 # Set to true to enable verbose startup messages - can help with debugging map configuration problems
 # Set to false for a much quieter startup log
-verbose: false
+verbose: true
 
 # Enables debugging.
 #debuggers:
