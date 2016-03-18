@@ -1,12 +1,18 @@
 # ActionAnnouncer v1.9 Main configuration
+deluxechat_placeholders: true
 announcer_enabled: true
 announcer_random: true
-announce_interval: 60
+announce_interval: 140
 announcement_length: 4
 announcements:
-- '&aHave you voted today? &b/vote&a!'
-- '&bThere are currently &e%online% &bplayers online!'
-announce_on_join: true
-join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
-  online!'
+- '&aBygg inte 150 block eller närmare andra spelare eller startstadens skydd!'
+- '&bDet är just nu &e%online% &bplayers online!'
+- '&cFör nyttiga länkar så skriv &6/länkar &ci chatten!'
+- '&3Dagliga kistor är TILLBAKA!!! Yeay!'
+- '&bFör att få info om staff, skriv &6/staff &bi chatten!'
+- '&4Tänk på att ha ett vårdat språk! Barn spelar också här!'
+- '&cSkriv /hjälp för vägledning till vart den bästa hjälpen kan fås. :P'
+announce_on_join: false
+join_announcement: '&eVälkommen till servern &b%player%! Det finns &f%online% &espelare
+  online just nu!'
 disable_sounds: false
