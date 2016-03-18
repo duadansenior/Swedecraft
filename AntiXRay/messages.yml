@@ -1,7 +1,6 @@
 Messages:
   CantBreakYet:
-    Text: '&eWow, you''re good at mining!  You have to wait about {0} minutes to break
-      this block.  Consider taking a break from mining to do something else, like
+    Text: '&eWow, du är grym på att hitta värdefulla mineraler!  Du måste vänta {0} minuter innan du får hacka sönder det här blocket.  Consider taking a break from mining to do something else, like
       building or exploring.  This mining speed limit keeps our ores safe from cheaters.  :)\n&eClick
       here for a brief explanation:\n&e http://bit.ly/1yG91ge'
     Notes: '0: minutes until the block can be broken  1: how often the player has
