@@ -1,5 +1,0 @@
-Trait:
-  Storage:
-    Costs:
-      Fixed: 5.0
-      Factor: 5.0
