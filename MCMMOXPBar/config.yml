@@ -1,0 +1,27 @@
+settings:
+  enabled_worlds:
+  - farmville
+  - world
+  - world_the_end
+  - world_nether
+  save_data_on_modify: false
+  xp_bar_default_enabled: true
+  xp_bar_default_timeout: 10
+  xp_bar_default_count: 2
+  xp_bar_max_timeout: 30
+xp_bar:
+  enabled:
+    42670208-dc35-4857-a867-641be2ce8c89: true
+    474de711-700f-4c1c-859c-00b8cec58e53: true
+    751c6114-5093-4867-80ee-a7358626c18e: true
+    4f7ae9c2-0839-4f71-919f-63274d71087e: true
+  timeout:
+    42670208-dc35-4857-a867-641be2ce8c89: 10
+    474de711-700f-4c1c-859c-00b8cec58e53: 10
+    751c6114-5093-4867-80ee-a7358626c18e: 10
+    4f7ae9c2-0839-4f71-919f-63274d71087e: 10
+  count:
+    42670208-dc35-4857-a867-641be2ce8c89: 2
+    474de711-700f-4c1c-859c-00b8cec58e53: 2
+    751c6114-5093-4867-80ee-a7358626c18e: 2
+    4f7ae9c2-0839-4f71-919f-63274d71087e: 2

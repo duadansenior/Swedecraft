@@ -1,0 +1,30 @@
+name: TitleAction
+main: com.onikur.titleaction.TitleAction
+version: 3.10.9-B
+author: OnikurYH
+description: Show a "RPG-like" title in any actions!
+softdepend: [Vault,WorldGuard,Factions,Towny,GriefPrevention,MineResetLite,Districts,Residence,PrisonReset,PrisonReloaded,PlotSquared,TerrainControl,Multiverse-Core,Landlord,PreciousStones,PrisonMines,Plotz,RegionForSale,PopulationDensity,AreaShop,ASkyblock,RedProtect,uSkyBlock]
+
+commands:
+  titleaction:
+    description: "TitleAction command."
+    usage: /<command>
+    permission: titleaction.plugininfo
+    permission-message: "You don't have <permission>"
+
+permissions:
+  titleaction.*:
+      description: Gives access to all TitleAction commands
+      children:
+          titleaction.plugininfo: true
+          titleaction.help: true
+          titleaction.reload: true
+  titleaction.plugininfo:
+      description: Allows you to see this plugin info
+      default: true
+  titleaction.help:
+      description: Show the help
+      default: true
+  titleaction.reload:
+      description: Reload this plugin
+      default: false

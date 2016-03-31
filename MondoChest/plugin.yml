@@ -1,0 +1,65 @@
+name: MondoChest
+main: us.crast.mondochest.MondoChest
+version: 0.7.2-pre1
+author: Crast
+description: "Sort your items into appropriate chests"
+website: "http://dev.bukkit.org/server-mods/mondochest/"
+softdepend: [Vault]
+
+permissions:
+    mondochest.*:
+        description: Perform all normal MondoChest actions
+        children:
+            mondochest.create_master: true
+            mondochest.add_slave: true
+            mondochest.use: true
+            mondochest.find: true
+    mondochest.admin.*:
+        description: Do all mondochest admin actions
+        children:
+            mondochest.admin.open_any: true
+            mondochest.admin.break_any: true
+            mondochest.admin.add_any_slave: true
+            mondochest.admin.reload: true
+            mondochest.admin.no_master_limit: true
+            mondochest.admin.check: true
+    mondochest.create_master:
+        description: Create a new MondoChest bank
+        default: op
+    mondochest.add_slave:
+        description: Add MondoSlaves to a MondoChest bank
+        default: op
+    mondochest.add_signless_slave:
+        description: Add slaves to a MondoChest bank without a sign
+        default: op
+    mondochest.use:
+        description: Use MondoChest sign
+        default: true
+    mondochest.find:
+        description: "Find items in a mondochest set"
+        default: op
+    mondochest.admin.break_any:
+        description: "Break anybody's MondoChest signs"
+        default: op
+    mondochest.admin.open_any:
+        description: "Open any MondoChest chests (when protection is on)"
+        default: op
+    mondochest.admin.add_any_slave:
+        description: "Add slaves to other's MondoChests"
+        default: op
+    mondochest.admin.reload:
+        description: "Reload the MondoChest config"
+        default: op
+    mondochest.admin.no_master_limit:
+        description: "Can make unlimited MondoChests"
+        default: op
+    mondochest.admin.check:
+        description: "Able to run the /mondo check command"
+        default: op
+
+commands:
+    mondochest:
+        description: "MondoChest commands"
+        aliases: [mondo]
+
+# vim: ts=4 sw=4 sts=4 expandtab

@@ -1,0 +1,21 @@
+name: ScratchCards
+main: de.Niklas.ScratchCards.ScratchPlugin
+version: 1.8.7
+author: Niklas
+softdepend: [Vault, PlaceHolderAPI]
+commands:
+  scratch:
+    description: Basic command
+    usage: /<command>
+    aliases: [s]
+  scratchconfig:
+    description: Commands for configuration
+    usage: /<command>
+    aliases: [sc]
+  buyscratch:
+    description: Buy a scratch card for a defined price
+    usage: /<command>
+  itemrename:
+    description: Rename the item in your hand (for different scratch card)
+    usage: /<command>
+    aliases: [ir]

@@ -1,0 +1,3122 @@
+# Alla inställningar för Normala spelare
+groups:
+  Normal:
+    permissions:
+    - modifyworld.*
+    - acknowledgerules.approve
+    - acknowledgerules.rules
+    - acknowledgerules.user
+    - antixray.check.self
+    - areashop.help
+    - areashop.info
+    - areashop.me
+    - areashop.limits.default
+    - areashop.rent
+    - betonquest.journal
+    - betonquest.conversation
+    - betonquest.language
+    - betteralias.greet
+    - betteralias.hjälp
+    - betteralias.färger
+    - betteralias.framsteg
+    - betteralias.hem
+    - betteralias.länkar
+    - betteralias.infobox
+    - bookswithoutborders.save
+    - bookswithoutborders.settitle
+    - bookswithoutborders.setlore
+    - camera-obscura.tripod-camera.use
+    - camera-obscura.files.autocreate
+    - chairs.sit
+    - chatreaction.wins
+    - chatformat.normal
+    - checknamehistory.admin
+    - cc.menu.rankup
+    - cc.menu.tag-cute
+    - chestcommands.command.open
+    - chestcommands.open.menu.yml
+    - chestcommands.open.main.yml
+    - chestcommands.open.pets.yml
+    - chestcommands.open.warping.yml
+    - chestcommands.open.mail.yml
+    - chestcommands.open.donator.yml
+    - chestcommands.open.books.yml
+    - chestcommands.open.rankup.yml
+    - chestcommands.open.servershop.yml
+    - ChestShop.shop.*
+    - csn.user
+    - craftconomy.money.balance
+    - craftconomy.money.pay
+    - craftconomy.money.top
+    - crystalquest.kit.default
+    - crystalquest.spectate
+    - crystalquest.randomitem
+    - crystalquest.arena.*
+    - crystalquest.join
+    - deathchest.place.*
+    - deathchest.chest
+    - deathchest.loot
+    - deathchest.drops
+    - deathcompass.use
+    - chatformat.normal
+    - deluxejoin.format.normal
+    - deluxejoin.motd.normal
+    - deluxechat.utf
+    - deluxechat.pm
+    - deluxetags.gui
+    - deluxetags.tag.newbie
+    - dt.travel.*
+    - feedbackbook.get
+    - griefprevention.createclaims
+    - griefprevention.claims
+    - griefprevention.visualizenearbyclaims
+    - griefprevention.buysellclaimblocks
+    - leaderheads.*
+    - lwc.protect
+    - magicspells.silent
+    - magicspells.cast.*
+    - mcmmo.defaults
+    - minecrates.get
+    - mondochest.use
+    - mondochest.create_master
+    - mondochest.add_slave
+    - mondochest.find
+    - mondochest.limit.default
+    - multiinv.exempt
+    - multiverse.core.list.worlds
+    - multiverse.core.list.who
+    - multiverse.core.coord
+    - multiverse.core.spawn.self
+    - multiverse.access.farmville
+    - multiverse.access.world
+    - multiverse.access.world_nether
+    - multiverse.access.world_the_end
+    - MyPet.npc.storage.interact
+    - MyPet.user.extended.CanFeed
+    - MyPet.user.extended.Beacon
+    - MyPet.user.extended.Behavior.friendly
+    - MyPet.user.extended.Behavior.farm
+    - MyPet.user.extended.Inventory
+    - MyPet.user.leash.Pig
+    - MyPet.user.command.name
+    - MyPet.user.command.respawn
+    - MyPet.user.command.release
+    - MyPet.user.command.capturehelper
+    - offlinechat.showLog
+    - offlinechat.getLog
+    - Parkour.Basic.Join
+    - Parkour.Basic.Count
+    - Parkour.Sign.Join
+    - Parkour.Sign.Finish
+    - Parkour.Sign.Effects
+    - Parkour.Sign.Stats
+    - Parkour.Sign.Leave
+    - phatloots.loot.normal
+    - phatloots.loot.daily
+    - PlayerPoints.me
+    - PlayerPoints.lead
+    - postalservice.mail.check
+    - postalservice.mail.read
+    - postalservice.mailbox.find
+    - postalservice.mail.send.*
+    - quests.quest
+    - quests.questinfo
+    - quests.quests
+    - quests.list
+    - quests.quit
+    - quests.stats
+    - quests.journal
+    - quicksand.join
+    - quicksand.sign
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.ban.notify
+    - essentials.delhome
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.info
+    - essentials.kick.notify
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen.banreason
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.suicide
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpahere
+    - essentials.warp
+    - essentials.warps.farmville
+    - essentials.warps.main
+    - serversigns.use
+    - serversigns.use.normal
+    - sw.check
+    - stargate.use
+    - stargate.world
+    - stargate.network
+    - stargate.option.hidden
+    - stargate.option.private
+    - stargate.create.personal
+    - stargate.create.network.server
+    - stargate.destroy.personal
+    - stargate.create.gate.nethergate
+    - -stargate.network.hub
+    - -stargate.network.hub1
+    - -stargate.network.hub2
+    - -stargate.network.hub3
+    - -stargate.network.hub4
+    - -stargate.network.hub5
+    - -stargate.network.hub6
+    - -stargate.network.hub7
+    - -stargate.network.hub8
+    - -stargate.network.hub9
+    - taien.th.notify.*
+    - taien.th.claim.*
+    - titleaction.toggle
+    - tntrun.onlysignjoin
+    - vtriggers.use.*
+    - voteroulette.viewstats
+    - voteroulette.top10
+    - voteroulette.claimall
+    - voteroulette.lastvote
+    - voteroulette.viewmilestones
+    - voteroulette.votecommand
+    - zh.use
+    options:
+      default: true
+      rank: '1000'
+  Veteran:
+    permissions:
+    - areashop.buy
+    - areashop.sellown
+    - areashop.resell
+    - areashop.stopresell
+    - areashop.teleport
+    - areashop.teleportsign
+    - areashop.teleportfriend
+    - areashop.teleportfriendsign
+    - areashop.setteleport
+    - areashop.addfriend
+    - areashop.delfriend
+    - areashop.limits.veteran
+    - antixray.bypass
+    - chatformat.veteran
+    - chatreaction.top
+    - -cc.menu.rankup
+    - chestcommands.open.filename.yml
+    - craftconomy.money.log
+    - craftconomy.bank.create
+    - craftconomy.bank.balance
+    - craftconomy.bank.deposit
+    - craftconomy.bank.withdraw
+    - craftconomy.bank.list
+    - craftconomy.bank.perm
+    - craftconomy.currency.info
+    - deathchest.doublechest
+    - deluxejoin.format.veteran
+    - deluxejoin.motd.veteran
+    - deluxetags.tag.veteran
+    - dynmap.marker.sign
+    - dynmap.webregister
+    - dynmap.webchat
+    - featherboard.group.veteran
+    - griefprevention.buysellclaim­blocks
+    - magicspells.learn.*
+    - marry.changesurname
+    - marry.user
+    - marry.chat
+    - marry.chat.color
+    - marry.chat.format
+    - marry.kiss
+    - marry.gift
+    - marry.home
+    - marry.tp
+    - multiverse.world.list
+    - multiverse.access.void
+    - MyPet.custom.skilltree.Combat
+    - MyPet.custom.skilltree.Utility
+    - MyPet.custom.skilltree.PvP
+    - MyPet.custom.skilltree.Ride
+    - MyPet.custom.skilltree.Farm
+    - MyPet.user.extended.Ride
+    - MyPet.user.extended.Control
+    - MyPet.user.extended.Pickup
+    - MyPet.user.extended.Equip
+    - MyPet.user.leash.Cow
+    - MyPet.user.command.name.color
+    - phatloots.loot.veteran
+    - quests.top
+    - quests.party.create
+    - essentials.time
+    - essentials.getpos
+    - essentials.me
+    - essentials.list
+    - essentials.book
+    - essentials.book.title
+    - essentials.balancetop
+    - scratch.buy
+    - serversigns.use.veteran
+    - Signshop.Permit
+    - Signshop.Signs.*
+    - worldborder.list
+    - worldborder.getmsg
+    options:
+      default: false
+      rank: '800'
+    inheritance:
+    - Normal
+  Donator:
+    permissions:
+    - acknowledgerules.skipcooldown
+    - areashop.limits.donator
+    - chairs.sit.health
+    - chatformat.donator
+    - chatreaction.wins.others
+    - deluxejoin.motd.donator
+    - deluxetags.tag.donator
+    - meny.donator
+    - mondochest.limit.donator
+    - editablesign.edit
+    - essentials.hat
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.donator
+    - essentials.signs.create.disposal
+    - essentials.signs.break.disposal
+    - essentials.signs.color
+    - essentials.chat.url
+    - essentials.nick
+    - essentials.warp.list
+    - essentials.workbench
+    options:
+      default: false
+      rank: '700'
+    inheritance:
+    - Veteran
+  Helper:
+    inheritance:
+    - Donator
+    options:
+      default: false
+      rank: '500'
+    permissions:
+    - acknowledgerules.help
+    - acknowledgerules.info
+    - antixray.monitorxrayers
+    - antixray.help
+    - antixray.check.self
+    - chairs.reload
+    - chatformat.helper
+    - deluxejoin.motd.helper
+    - marry.priest
+    - chestcommands.command.help
+    - citizens.npc.list
+    - citizens.help
+    - citizens.npc.help
+    - citizens.trait.help
+    - citizens.script.help
+    - citizens.template.help
+    - citizens.waypoints.help
+    - deluxechat.socialspy
+    - deluxejoin.motd.helper
+    - deluxetags.tag.helper
+    - dsigns.help
+    - essentials.geoip.show
+    - essentials.chat.url
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.socialspy
+    - essentials.chat.spy
+    - essentials.jails
+    - essentials.togglejail
+    - essentials.helpop.receive
+    - feedbackbook.log
+    - griefprevention.ignoreclaims
+    - griefprevention.eavesdropsigns
+    - griefprevention.spam
+    - logblock.lookup
+    - logblock.tp
+    - logblock.me
+    - lwc.shownotices
+    - marry.listenchat
+    - mcbans.ban.temp
+    - mcbans.kick
+    - mcbans.view.bans
+    - mcbans.view.alts
+    - minecrates.help
+    - multiverse.access.*
+    - Parkour.Sign.*
+    - Parkour.Basic.*
+    - Parkour.Bypass
+    - Parkour.Testmode
+    - sw.mod
+    - sv.use
+    - titleaction.plugininfo
+    - titleaction.help
+  Moderator:
+    inheritance:
+    - Medhjälpare
+    options:
+      default: false
+      rank: '400'
+    permissions:
+    - acknowledgerules.admin
+    - actionannouncer.announce
+    - actionannouncer.stop
+    - actionannounce.add
+    - actionannounce.remove
+    - actionannounce.list
+    - achievement.reload
+    - achievement.list
+    - animatedframes.info
+    - antixray.check.others
+    - areashop.*
+    - bookswithoutborders.bypassauthoronlycopy
+    - bookswithoutborders.bypassbookprice
+    - bookswithoutborders.load
+    - bookswithoutborders.save
+    - bookswithoutborders.loadpublic
+    - bookswithoutborders.savepublic
+    - bookswithoutborders.delete
+    - bookswithoutborders.admin
+    - bookswithoutborders.setauthor
+    - bookswithoutborders.settitle
+    - bookswithoutborders.setlore
+    - bookswithoutborders.setbookprice
+    - chatformat.moderator
+    - chatreaction.admin
+    - chestcommands.command.open.others
+    - chestcommands.command.list
+    - chestcommands.sign
+    - chestcommands.command.open.*
+    - ChestShop.mod
+    - citizens.admin
+    - craftconomy.money.give
+    - craftconomy.money.set
+    - craftconomy.money.take
+    - deathchest.*
+    - deluxejoin.motd
+    - deluxejoin.motd.mod
+    - deluxetags.tag.moderator
+    - dynmap.marker.*
+    - dynmap.webregister.other
+    - griefprevention.deleteclaims
+    - griefprevention.lava
+    - logblock.rollback
+    - logblock.spawnTools
+    - logblock.tools.tool
+    - logblock.tools.toolblock
+    - lwc.admin
+    - marry.setpriest
+    - marry.offlinedivorce
+    - mcbans.ban.global
+    - mcbans.kick
+    - mcbans.ban.exempt
+    - mcbans.unban
+    - mondochest.admin.*
+    - MyPet.admin
+    - mythicmobs.admin
+    - postalservice.mod
+    - quests.admin
+    - quests.editor.*
+    - quicksand.setlobby
+    - quicksand.setspawn
+    - quicksand.setend
+    - quicksand.sign
+    - essentials.book.author
+    - essentials.heal
+    - essentials.heal.others
+    - essentials.heal.cooldown.bypass
+    - essentials.kit.*
+    - essentials.more
+    - essentials.skull
+    - essentials.skull.others
+    - essentials.skull.modify
+    - essentials.skull.spawn
+    - essentials.speed
+    - essentials.speed.others
+    - essentials.speed.bypass
+    - essentials.speed.fly
+    - essentials.speed.walk
+    - essentials.time.set
+    - rcmds.accountstatus
+    - rcmds.allowed.item
+    - rcmds.assign
+    - rcmds.attributes
+    - rcmds.deletejail
+    - rcmds.setjail
+    - rcmds.deletewarp
+    - rcmds.setwarp
+    - rcmds.effect
+    - rcmds.enchant.illegal
+    - rcmds.enchant.*
+    - rcmds.enchant
+    - rcmds.enderchest
+    - rcmds.fakeop
+    - rcmds.feed
+    - rcmds.findip
+    - rcmds.fireball
+    - rcmds.firework
+    - rcmds.fixchunk
+    - rcmds.flyspeed
+    - rcmds.force
+    - rcmds.freeze
+    - rcmds.gamemode
+    - rcmds.garbagecollector
+    - rcmds.getid
+    - rcmds.getip
+    - rcmds.give
+    - rcmds.harm
+    - rcmds.head
+    - rcmds.heal
+    - rcmds.helmet
+    - rcmds.kill
+    - rcmds.kit
+    - rcmds.kits
+    - rcmds.modifyinventory
+    - rcmds.nameentity
+    - rcmds.others.*
+    - rcmds.publicassign
+    - rcmds.spawnmob.*
+    - rcmds.speak
+    - deathcompass.admin
+    - deathcompass.reload
+    - scratch.command
+    - scratch.config
+    - stargate.use
+    - stargate.world
+    - stargate.network
+    - stargate.option
+    - stargate.admin
+    - sv.login
+    - sv.logout
+    - titlemanager.command.*
+    - tntrun.*
+    - vanish.op
+    - voteroulette.viewotherstats
+    - voteroulette.lastvoteothers
+    - voteroulette.editstats
+    - voteroulette.forcevote
+    - voteroulette.forceawards
+    - voteroulette.remind
+    - worldedit.*
+    - worldguard.*
+  Administratör:
+    permissions:
+    - animatedframes.create
+    - animatedframes.remove
+    - animatedframes.screen.generate
+    - animatedframes.screen.clear
+    - antixray.set
+    - betonquest.admin
+    - BetterAlias.reload
+    - bookswithoutborders.admin
+    - chatformat.admin
+    - camera-obscura.*
+    - chatreaction.admin
+    - checknamehistory.reload
+    - chestcommands.update
+    - ChestShop.admin
+    - csn.admin
+    - craftconomy.*
+    - deathmessagesprime.reload
+    - deluxejoin.admin
+    - deluxejoin.motd.admin
+    - deluxetags.tag.*
+    - deluxetags.select
+    - deluxetags.list
+    - deluxetags.list.all
+    - deluxetags.list.player
+    - deluxetags.set
+    - deluxetags.clear
+    - deluxetags.create
+    - deluxetags.setdescription
+    - deluxetags.reload
+    - dsigns.reload
+    - dsigns.uploadlog
+    - dsigns.uploadconfig
+    - dsigns.about
+    - dsigns.permissions
+    - dsigns.resetconfig
+    - dsigns.placeholders
+    - dynmap.*
+    - inq.option.get.*
+    - inq.option.set.*
+    - inq.db.option.get.*
+    - inq.db.option.set.*
+    - inq.db.status
+    - inq.stats.flush
+    - inq.stats.option.get.*
+    - inq.stats.option.set.*
+    - inq.stats.status
+    - inq.*
+    - logblock.*
+    - magicspells.teach.*
+    - magicspells.grant.*
+    - magicspells.advanced.*
+    - magicspells.nocooldown
+    - marry.reload
+    - mcbans.admin
+    - mcmmo.all
+    - minecrates.admin
+    - postalservice.*
+    - rcmds.admin
+    - essentials.sleepingignored
+    - essentials.god
+    - essentials.god.others
+    - serversigns.admin
+    - staff.modify
+    - trail.allow
+    - trail.all
+    - trail.blocks
+    - trail.rains
+    - trail.rain.builder
+    - sv.reload
+    - sv.toggleitempickups
+    - sv.others
+    - sv.list
+    - sv.updatecfg
+    - sv.see
+    - titleaction.*
+    - titlemanager.command.reload
+    - taien.th.admin
+    - tryme.*
+    - vault.admin
+    - vault.update
+    - voteroulette.admin
+    - voteroulette.*
+    - worldborder.*
+    - xptc.*
+    options:
+      default: false
+      rank: '100'
+    inheritance:
+    - Moderator
+  Brons:
+    permissions:
+    - chatformat.brons
+    options:
+      default: false
+      rank: '680'
+      prefix: '&f[&6BRONS&f]&r'
+    inheritance:
+    - Donator
+  Silver:
+    permissions:
+    - chatformat.silver
+    - meny.donator.silver
+    options:
+      default: false
+      rank: '650'
+      prefix: '&6[&fS&7I&8L&7V&fE&7R&6]&r'
+    inheritance:
+    - Donator
+  Guld:
+    permissions:
+    - chatformat.guld
+    - editablesign.colorsign
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.nick.color
+    - essentials.nick.format
+    - essentials.signs.color
+    - essentials.signs.format
+    - essentials.signs.create.mail
+    - essentials.signs.break.mail
+    - meny.donator.guld
+    options:
+      default: false
+      rank: '600'
+      prefix: '&f[&6GULD&f]&r'
+    inheritance:
+    - Donator
+  Brakstake:
+    permission:
+    - -modifyworld.*
+    - chatformat.brakstake
+    - lwc.deny
+    option:
+      default: false
+      rank: '5000'
+      prefix: '[Bråkstake]'
+users:
+  4f7ae9c2-0839-4f71-919f-63274d71087e:
+    group:
+    - Administratör
+    options:
+      name: sketaful
+      last-login-time: '1459396229'
+      last-logout-time: '1459396266'
+    permissions:
+    - stargate.network.hub1
+  df7b4c67-6b3b-4043-a7cb-930c95bb99d5:
+    group:
+    - Veteran
+    options:
+      name: Lilltrollet
+      last-login-time: '1459196958'
+      last-logout-time: '1459197933'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  e0b5371c-bee6-465d-bb0c-1bbbae07e619:
+    group: []
+    options:
+      name: rickardzz
+      last-login-time: '1449508881'
+      last-logout-time: '1449508907'
+  f2e66aee-8bb7-4ac8-8de6-acf4ebee1c42:
+    group:
+    - Veteran
+    options:
+      name: voxnar
+      last-login-time: '1459444963'
+      last-logout-time: '1459448436'
+    permissions:
+    - deluxetags.tag.builder
+  03837a65-fad6-4c93-8152-e3c8e04aedc1:
+    group:
+    - Administratör
+    options:
+      name: Kreia79
+      last-login-time: '1459157100'
+      last-logout-time: '1459158738'
+  dbcb6e52-acda-48c5-8d93-f48b3d775433:
+    group: []
+    options:
+      name: Datisen
+      last-login-time: '1448317722'
+      last-logout-time: '1448318293'
+  4412e759-e2d8-41b9-af23-af2575ad3e54:
+    group: []
+    options:
+      name: Viggesoftis
+      last-login-time: '1448295708'
+      last-logout-time: '1448298062'
+  751c6114-5093-4867-80ee-a7358626c18e:
+    group:
+    - Medhjälpare
+    options:
+      name: AnakinS77
+      last-login-time: '1459100193'
+      last-logout-time: '1459106584'
+      group: Medhjälpare
+  80bb2109-ada4-47e8-9cda-ac9a4a5c1a38:
+    group:
+    - Veteran
+    options:
+      name: Dogmaker123
+      last-login-time: '1457537043'
+      last-logout-time: '1457537317'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  61a4e8ae-7107-4341-b8b1-3f316853c6bd:
+    group: []
+    options:
+      name: Leasgubbe
+      last-login-time: '1448295563'
+      last-logout-time: '1448295950'
+  9560acee-03e3-440e-850e-2cc3f01aad4e:
+    group: []
+    options:
+      name: Atlas9145
+      last-login-time: '1459428269'
+      last-logout-time: '1459428536'
+  a2a979fe-0126-4b1c-939d-78bc43fcbf4a:
+    group: []
+  bf1c7a5e-48c2-44e8-8ea3-07700604d6fb:
+    group:
+    - Veteran
+    options:
+      name: ByggareBob9
+      last-login-time: '1457636424'
+      last-logout-time: '1457636478'
+  02f030da-f3dd-4359-ac05-b8364fecc613:
+    group: []
+    options:
+      name: ShaioneCronin
+      last-login-time: '1448354046'
+      last-logout-time: '1448354086'
+  81fe804e-88ed-4b50-ba07-a4886be500d4:
+    group: []
+    options:
+      name: willetoss
+      last-login-time: '1450708124'
+      last-logout-time: '1450708260'
+  5d0aaa32-9679-4789-a2ff-88fc9abe4d6d:
+    group: []
+    options:
+      name: Toproekx
+      last-login-time: '1448893194'
+      last-logout-time: '1448893277'
+  61b5510e-d4f9-48f5-ab74-7099f0a2b31f:
+    group: []
+    options:
+      name: Sigang69
+      last-login-time: '1448390239'
+      last-logout-time: '1448390252'
+  e01a496c-d24a-4d7a-88b5-0b8064720e75:
+    group:
+    - Administratör
+    options:
+      name: Pookl
+      last-login-time: '1459420362'
+      last-logout-time: '1459422470'
+    permissions:
+    - stargate.network.hub1
+  70db936a-1b46-422e-b92b-c0c62d068997:
+    group:
+    - Veteran
+    options:
+      name: ArvidLatt
+      last-login-time: '1452535610'
+      last-logout-time: '1452535642'
+  6275fbcc-9241-415a-8507-dcaa0b6b2435:
+    group: []
+    options:
+      name: lb11001
+      last-login-time: '1458067722'
+      last-logout-time: '1458067794'
+  611eb2b1-2df5-4ff8-8f84-edd5a604ad81:
+    group: []
+    options:
+      name: Alle1357
+      last-login-time: '1448727333'
+      last-logout-time: '1448727541'
+  10bbb533-c2e8-4c47-b0ee-bcaa52cdb724:
+    group: []
+    options:
+      name: sebbez911
+      last-login-time: '1454682949'
+      last-logout-time: '1454683556'
+  289a7eb9-fe19-401e-8238-750a57f90d3d:
+    group: []
+    options:
+      name: Stanchereye625
+      last-login-time: '1448484882'
+      last-logout-time: '1448485191'
+  35fca2f8-ad69-40dc-8caa-b5295fa7908b:
+    group:
+    - Silver
+    - Donator
+    options:
+      name: BigFatCraft
+      last-login-time: '1459443024'
+      last-logout-time: '1459443559'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  3130bafa-53b4-40fa-9469-92f9146941f3:
+    group: []
+    options:
+      name: willixmax
+      last-login-time: '1454331687'
+      last-logout-time: '1454333451'
+  5164aef5-25e0-4ffb-80c8-7981e0b7a369:
+    group: []
+    options:
+      name: Olli_DXD
+      last-login-time: '1456848461'
+      last-logout-time: '1456848693'
+  752588bf-c5f5-4694-9fc1-810bb9e10fb5:
+    group: []
+    options:
+      name: samuelj05
+      last-login-time: '1448550466'
+      last-logout-time: '1448550509'
+  c3f8ba6c-202e-4a8a-952e-6febbd91e544:
+    group: []
+    options:
+      name: Victor0368
+      last-login-time: '1450192131'
+      last-logout-time: '1450192175'
+  291104a0-e1bc-4c30-bd7d-0e2096f59b74:
+    group: []
+    options:
+      name: LeoOsd04
+      last-login-time: '1455979725'
+      last-logout-time: '1455979752'
+  34e66735-523c-48fa-babc-e22d71d36ba7:
+    group: []
+    options:
+      name: Papoj
+      last-login-time: '1448569701'
+      last-logout-time: '1448569843'
+  ca7a11ff-5c1e-40b8-aca9-7c2c8bd0d254:
+    group: []
+    options:
+      name: noahtrike123456
+      last-login-time: '1454941361'
+      last-logout-time: '1454941400'
+  fffb6f2f-1a94-4537-87ff-fce67f4a3f19:
+    group: []
+    options:
+      name: Fullkornslimpan
+      last-login-time: '1448632531'
+      last-logout-time: '1448632771'
+  9a214c40-85c2-476d-a898-a12a857cafda:
+    group: []
+    options:
+      name: Hagge15
+      last-login-time: '1449688849'
+      last-logout-time: '1449689939'
+  e52f6ab7-fb17-47e0-96e0-75a0169ed825:
+    group: []
+    options:
+      name: TheColoredCow
+      last-login-time: '1456159430'
+      last-logout-time: '1456159434'
+  411708cf-d9ae-4c87-812a-1940a4c13250:
+    group: []
+    options:
+      name: klaralg
+      last-login-time: '1448642800'
+      last-logout-time: '1448642823'
+  988464f2-0ae6-4f48-88f7-1cf7ad694ac1:
+    group: []
+    options:
+      name: soffe21
+      last-login-time: '1451073426'
+      last-logout-time: '1451073467'
+  1cd72e39-ee6a-4d9d-b975-6207b9e980e1:
+    group: []
+    options:
+      name: Linush04
+      last-login-time: '1448699057'
+      last-logout-time: '1448699364'
+  38ba7cdf-8d62-464c-9048-88da95edccb2:
+    group: []
+    options:
+      name: __Diggy__
+      last-login-time: '1448699858'
+      last-logout-time: '1448699888'
+  1781efe7-8c7a-4aac-aed8-792a49f14cae:
+    group: []
+    options:
+      name: aeie
+      last-login-time: '1457277220'
+      last-logout-time: '1457277270'
+  bca60bb6-8aa2-45a6-b523-c3704cfff185:
+    group: []
+    options:
+      name: agratour
+      last-login-time: '1448715265'
+      last-logout-time: '1448717954'
+  7fbf7cf1-73da-4d02-a73e-999bec1613a7:
+    group: []
+    options:
+      name: emilbonde1
+      last-login-time: '1448722853'
+      last-logout-time: '1448723950'
+  67d288d7-0548-4672-8751-8555def6ab5e:
+    group: []
+    options:
+      name: Jessicafriman
+      last-login-time: '1459082104'
+      last-logout-time: '1459082722'
+  ca791912-9343-44cb-a4f4-23923c70e1ea:
+    group: []
+    options:
+      name: chokladkung
+      last-login-time: '1448727071'
+      last-logout-time: '1448727154'
+  413a0423-bcd9-42df-bdca-159cf2e7af0c:
+    group: []
+    options:
+      name: Diamantfiskaren
+      last-login-time: '1449989804'
+      last-logout-time: '1449989970'
+  e1fbf258-4a00-4ab8-94cd-4149aeae23b2:
+    group: []
+    options:
+      name: 2014Kitty
+      last-login-time: '1450893918'
+      last-logout-time: '1450893958'
+  142949d3-42ac-4969-afd9-bcbaf4e3ff9d:
+    group: []
+    options:
+      name: jamesboy71
+      last-login-time: '1448742935'
+      last-logout-time: '1448743535'
+  d181a8c4-c793-47b9-a084-12acfeb731b5:
+    group: []
+    options:
+      name: XswePvPX
+      last-login-time: '1448743291'
+      last-logout-time: '1448743605'
+  b1029c70-d7c1-4e31-9c6e-fc1364443f66:
+    group: []
+    options:
+      name: SWORD_girl
+      last-login-time: '1448995675'
+      last-logout-time: '1448996829'
+  fd239dfa-31af-47b8-acc6-583145e8c45a:
+    group: []
+    options:
+      name: Urgluf
+      last-login-time: '1455215966'
+      last-logout-time: '1455216301'
+  731e7ee2-ea09-45b6-855f-7064ceb479a0:
+    group: []
+    options:
+      name: ILOVEblockycakez
+      last-login-time: '1448766419'
+      last-logout-time: '1448766511'
+  6ffd6d24-86dc-4763-aacf-cc6fe13929ab:
+    group: []
+    options:
+      name: ALFRED_MC
+      last-login-time: '1454344763'
+      last-logout-time: '1454344951'
+  96ff2f05-dc5a-43c8-bebf-178ae65453ce:
+    group: []
+    options:
+      name: Wroxy
+      last-login-time: '1448903976'
+      last-logout-time: '1448904540'
+  209eedbe-aa80-49cf-ac71-364a32ab170b:
+    group: []
+    options:
+      name: Night_kitty1
+      last-login-time: '1456254823'
+      last-logout-time: '1456255535'
+  e6b73dac-4618-4d55-98c9-86d3ede1ca11:
+    group: []
+    options:
+      name: NikeX2000
+      last-login-time: '1448956035'
+      last-logout-time: '1448956142'
+  8fc2548a-f033-46e2-8b0d-7028b257894f:
+    group: []
+    options:
+      name: mandel7
+      last-login-time: '1448985396'
+      last-logout-time: '1448985399'
+  8c05f276-e04a-49d3-9455-e643a9abc47f:
+    group: []
+    options:
+      name: isabelle44
+      last-login-time: '1449236276'
+      last-logout-time: '1449236308'
+  7a0f7f70-7c74-4909-bd08-f8f2b28db2da:
+    group: []
+    options:
+      name: linuzzzzz
+      last-login-time: '1449877893'
+      last-logout-time: '1449878035'
+  e3c59b4b-eb7f-4c55-951f-9432f6f2f12e:
+    group: []
+    options:
+      name: king_of_sweden
+      last-login-time: '1449076445'
+      last-logout-time: '1449076587'
+  bc87ed44-733d-422d-8e9b-79c82569b740:
+    group:
+    - Helper
+    options:
+      name: Nexorz
+      last-login-time: '1458997924'
+      last-logout-time: '1459002523'
+  5748d3b1-2405-4027-b0bf-1d6777eaec65:
+    group: []
+    options:
+      name: aikarn98
+      last-login-time: '1449158949'
+      last-logout-time: '1449158970'
+  2b68d2db-26fb-4d51-b014-e2e58a3de88e:
+    group: []
+    options:
+      name: simpe_123
+      last-login-time: '1449916040'
+      last-logout-time: '1449916065'
+  72ea9e09-68b3-4168-a4b0-b71a831a1fab:
+    group: []
+    options:
+      name: def143
+      last-login-time: '1449581947'
+      last-logout-time: '1449583224'
+  8deefb52-cb7b-4135-bf87-6e266134b51e:
+    group: []
+    options:
+      name: fferm
+      last-login-time: '1456759808'
+      last-logout-time: '1456759815'
+  dad57f73-fe84-4e82-b1dc-c11260e31a4c:
+    group: []
+    options:
+      name: ToriSweTor
+      last-login-time: '1449915438'
+      last-logout-time: '1449915579'
+  c73f0f59-2db4-4bb9-b26b-3023e59bcac2:
+    group: []
+    options:
+      name: Mind_Killer
+      last-login-time: '1449302261'
+      last-logout-time: '1449304551'
+  f902d34e-bbed-488a-bdf9-538cb0864c69:
+    group: []
+    options:
+      name: Kungdia
+      last-login-time: '1449303003'
+      last-logout-time: '1449303104'
+  003eea6b-d242-466c-8b4b-f7f63db5f8c2:
+    group: []
+    options:
+      name: TheBestGirlGamer
+      last-login-time: '1449306193'
+      last-logout-time: '1449306577'
+  22653440-b9a3-4400-bff6-aa41b729bf07:
+    group: []
+    options:
+      name: throwfrag
+      last-login-time: '1449316223'
+      last-logout-time: '1449316236'
+  88e28889-c9d1-4d1f-afde-2dee2f64784f:
+    group: []
+    options:
+      name: noa03
+      last-login-time: '1449319593'
+      last-logout-time: '1449320428'
+  5aaaffb8-fb9e-43c4-aae6-9c90d6d4c51c:
+    group: []
+    options:
+      name: Hawaii_Beach
+      last-login-time: '1449325629'
+      last-logout-time: '1449325745'
+  5e14065a-0225-4384-a154-b58e6f0c7fe5:
+    group: []
+    options:
+      name: knolfoding
+      last-login-time: '1457983461'
+      last-logout-time: '1457983637'
+  a15e7387-5639-4913-9b1e-d6b1052cf92b:
+    group: []
+    options:
+      name: En1Xx
+      last-login-time: '1449338264'
+      last-logout-time: '1449338295'
+  71f47662-1d07-43ef-b0da-f399bd8710b6:
+    group: []
+    options:
+      name: Alan_Rust
+      last-login-time: '1452976775'
+      last-logout-time: '1452976785'
+  1a4ac5c6-8ac9-4a66-bfd8-6135753d58b0:
+    group: []
+    options:
+      name: Niona
+      last-login-time: '1458659836'
+      last-logout-time: '1458660346'
+  11e149c5-a6dd-4379-ad58-030651aa6fa4:
+    group: []
+    options:
+      name: Poragonix
+      last-login-time: '1449425550'
+      last-logout-time: '1449425580'
+  3a19e1f6-cdd1-4439-abab-94d605bf9c50:
+    group: []
+    options:
+      name: iCuLoL
+      last-login-time: '1452363488'
+      last-logout-time: '1452364757'
+  97b29a10-df62-433b-b17c-224a7a1edd49:
+    group: []
+    options:
+      name: MillesK
+      last-login-time: '1457278519'
+      last-logout-time: '1457278625'
+  ac430074-41fc-4df4-8821-6ee4442ce45c:
+    group: []
+    options:
+      name: Daylight1989
+      last-login-time: '1449405724'
+      last-logout-time: '1449406415'
+  e5be7b8d-fadb-43f0-b162-42cea21dae49:
+    group: []
+    options:
+      name: xstreezen
+      last-login-time: '1449770525'
+      last-logout-time: '1449770593'
+  a3d40209-1d7e-4e1f-9f68-bb5dcffa2825:
+    group: []
+    options:
+      name: Warradam
+      last-login-time: '1449601226'
+      last-logout-time: '1449601233'
+  d7d2698c-7db0-4bd9-ad4e-59e97ac87a1a:
+    group: []
+    options:
+      name: xV1CT0Rx
+      last-login-time: '1449427963'
+      last-logout-time: '1449428010'
+  539453b3-8f47-41ce-aa56-b134dd040205:
+    group: []
+    options:
+      name: emildaniel9
+      last-login-time: '1449428845'
+      last-logout-time: '1449429426'
+  cd0f8f63-2d33-4c3f-9153-f091e2640f24:
+    group: []
+    options:
+      name: maxisak
+      last-login-time: '1457190797'
+      last-logout-time: '1457190898'
+  1fa55488-d728-425d-adf2-b15442b98b23:
+    group: []
+    options:
+      name: TheFancyOne
+      last-login-time: '1449497055'
+      last-logout-time: '1449497489'
+  67e3c954-800b-426b-b4ad-654a136f5b0f:
+    group: []
+    options:
+      name: xBlueOnex
+      last-login-time: '1449497222'
+      last-logout-time: '1449497486'
+  3aa1cc80-028a-4eb0-b3d3-ea4e7b0289c6:
+    group: []
+    options:
+      name: marran03
+      last-login-time: '1450278706'
+      last-logout-time: '1450279121'
+  19fd5ef5-3782-4e10-94ed-6f4052680a56:
+    group: []
+    options:
+      name: TaidoMaster
+      last-login-time: '1449772256'
+      last-logout-time: '1449772278'
+  19c6f7cb-4747-4007-a60f-10f08ea2dfef:
+    group: []
+    options:
+      name: Dantejonsson
+      last-login-time: '1449515540'
+      last-logout-time: '1449515578'
+  1f90a187-e073-41fa-9c77-5b5c2094d9da:
+    group: []
+    options:
+      name: Imleox3
+      last-login-time: '1449528507'
+      last-logout-time: '1449528568'
+  58ab319a-3081-4de4-970e-c3e78151ec26:
+    group: []
+    options:
+      name: DavHell
+      last-login-time: '1449677603'
+      last-logout-time: '1449677966'
+  29d50e5c-2f53-44f3-8f22-40145f3d3a4c:
+    group: []
+    options:
+      name: Epistemology05
+      last-login-time: '1449593747'
+      last-logout-time: '1449595230'
+  134e856e-a2e5-4f43-bb26-07f554fe1383:
+    group: []
+    options:
+      name: hejhejhejtja
+      last-login-time: '1449596414'
+      last-logout-time: '1449596557'
+  b0cbee58-1e86-490b-8202-a532444f7480:
+    group: []
+    options:
+      name: gronscott
+      last-login-time: '1449666372'
+      last-logout-time: '1449671926'
+  bdc1be38-2af0-4d12-a8de-41152f620561:
+    group: []
+    options:
+      name: Meakatt
+      last-login-time: '1449677471'
+      last-logout-time: '1449677971'
+  fc7bea60-074e-4847-8a75-218b3895eb80:
+    group: []
+    options:
+      name: KraftMartin
+      last-login-time: '1449759209'
+      last-logout-time: '1449759371'
+  0aff7164-62d5-452d-ad28-3878b08fd7b1:
+    group: []
+    options:
+      name: TheoGunnebo
+      last-login-time: '1452277057'
+      last-logout-time: '1452277075'
+  a54add37-334e-4828-99a5-d9613d4b1c13:
+    group: []
+    options:
+      name: attexd9
+      last-login-time: '1449773536'
+      last-logout-time: '1449775599'
+  2bc62af2-6845-4ca9-ad30-203899dda0f0:
+    group: []
+    options:
+      name: GustavR123
+      last-login-time: '1449773571'
+      last-logout-time: '1449775592'
+  c4cd5584-8603-4dba-aaa9-abad6cdb7c10:
+    group: []
+    options:
+      name: MelloPello
+      last-login-time: '1457622822'
+      last-logout-time: '1457623312'
+  7828d69e-e9bc-4d9d-81af-74eb262f1c3e:
+    group: []
+    options:
+      name: capta1nslow_
+      last-login-time: '1459023650'
+      last-logout-time: '1459023737'
+  player:
+    group:
+    - Veteran
+  '%player%':
+    group:
+    - Veteran
+  4f453e27-f717-4eec-a880-057b19564305:
+    group: []
+    options:
+      name: Eskilbus10
+      last-login-time: '1449926663'
+      last-logout-time: '1449926723'
+  cd38e271-36d9-4c00-97c4-ac552869881e:
+    group: []
+    options:
+      name: hundenbiffen
+      last-login-time: '1458673195'
+      last-logout-time: '1458673214'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  38205f68-febd-40a0-af6d-d8f11fa28c70:
+    group: []
+    options:
+      name: Adolf_Hitler_GT
+      last-login-time: '1449945404'
+      last-logout-time: '1449945439'
+  6c3898db-2b25-45ac-ae42-0eabd6143bfa:
+    group: []
+    options:
+      name: YuppyParade
+      last-login-time: '1449947398'
+      last-logout-time: '1449947403'
+  632a1550-9f2d-42f2-9ac6-c64dc6651c4f:
+    group: []
+    options:
+      name: casperclara
+      last-login-time: '1449952301'
+      last-logout-time: '1449952455'
+  f95b1cc3-a846-4d1c-8b1c-230b9980c831:
+    group: []
+    options:
+      name: ArrowLove
+      last-login-time: '1449954339'
+      last-logout-time: '1449954436'
+  479652e2-3bff-456b-852e-377e5cfaa9a6:
+    group: []
+    options:
+      name: GandalfIsBlack
+      last-login-time: '1452898689'
+      last-logout-time: '1452898787'
+  6f418b8a-9a57-4587-9399-89dc8877ab1d:
+    group: []
+    options:
+      name: tuffingen9
+      last-login-time: '1450005718'
+      last-logout-time: '1450005952'
+  2c35df5b-e36d-4771-bb15-db10b5a96430:
+    group: []
+    options:
+      name: xXcrazyPvpx
+      last-login-time: '1450005715'
+      last-logout-time: '1450005956'
+  bd5939f5-0f88-42aa-a54c-2d163ada4ae8:
+    group: []
+    options:
+      name: USA_YO
+      last-login-time: '1453797168'
+      last-logout-time: '1453797453'
+  912e2406-9dcc-47cd-a2c9-0c65bc710cdc:
+    group: []
+    options:
+      name: creepy_crawler76
+      last-login-time: '1450857551'
+      last-logout-time: '1450858147'
+  752a8943-f7ad-460d-9e06-0d77937c7391:
+    group: []
+    options:
+      name: KawaiiHeroGamer
+      last-login-time: '1450029755'
+      last-logout-time: '1450030403'
+  d71fd221-16aa-4a62-ad50-6ca5076c22b9:
+    group: []
+    options:
+      name: ISAC_01
+      last-login-time: '1450102003'
+      last-logout-time: '1450102315'
+  ea02c89d-a37f-4195-9e82-a35932a1680f:
+    group: []
+    options:
+      name: gboy2013
+      last-login-time: '1450377275'
+      last-logout-time: '1450381855'
+  df24bbb6-39bc-4245-b663-b90588f17216:
+    group: []
+    options:
+      name: Kenigeruuu
+      last-login-time: '1450035650'
+      last-logout-time: '1450035680'
+  49dab5e6-ade4-4151-a65f-b940aebbc0d9:
+    group: []
+    options:
+      name: saik2014
+      last-login-time: '1450107402'
+      last-logout-time: '1450107616'
+  60df3b7c-0089-4b82-9228-08b1a08666c8:
+    group: []
+    options:
+      name: RedCritical
+      last-login-time: '1450125835'
+      last-logout-time: '1450126293'
+  e3be92df-08aa-4a2d-a540-0b401668831e:
+    group: []
+    options:
+      name: MrShadowb7
+      last-login-time: '1450190480'
+      last-logout-time: '1450190584'
+  928ace82-f6f4-4b07-b390-9f4ceab678e9:
+    group: []
+    options:
+      name: Oskis2005
+      last-login-time: '1453829192'
+      last-logout-time: '1453829436'
+  3ab8f9bf-58ec-46d9-9bfd-4311603ed068:
+    group: []
+    options:
+      name: PvPeML
+      last-login-time: '1452761189'
+      last-logout-time: '1452761202'
+  75425186-a8af-4c79-b69d-9a8a4521ce44:
+    group: []
+    options:
+      name: JuliaPandis
+      last-login-time: '1450200350'
+      last-logout-time: '1450200355'
+  1958909a-17a3-4ae6-8bc2-4b8646180aa1:
+    group: []
+    options:
+      name: TheSynapse
+      last-login-time: '1450281612'
+      last-logout-time: '1450281741'
+  e9f6df98-82ec-49f2-868a-d893d42bbb81:
+    group: []
+    options:
+      name: Wryzer
+      last-login-time: '1450346646'
+      last-logout-time: '1450346724'
+  46ea9cb7-3d77-4de6-8bd0-0d2b79cf42e9:
+    group: []
+    options:
+      name: rasmario112
+      last-login-time: '1450361346'
+      last-logout-time: '1450361585'
+  2fa822d3-8a47-4b57-adee-a9c562cf9822:
+    group: []
+    options:
+      name: E02melie
+      last-login-time: '1451585255'
+      last-logout-time: '1451585474'
+  6e57bd44-73d1-410d-bb9d-4fceb0135741:
+    group: []
+    options:
+      name: Volvo1009
+      last-login-time: '1457612526'
+      last-logout-time: '1457612641'
+  85bb2830-2be0-4ca3-99e9-4785d38ef2f4:
+    group: []
+    options:
+      name: Master_MF
+      last-login-time: '1450372858'
+      last-logout-time: '1450372907'
+  09902cc9-fd60-4ea5-a1d0-6afdc1d61adb:
+    group: []
+    options:
+      name: Denna11
+      last-login-time: '1450954747'
+      last-logout-time: '1450954878'
+  f46309c6-2ca0-4462-861e-7413eaf4c0a2:
+    group: []
+    options:
+      name: MrPillowManHD
+      last-login-time: '1450379888'
+      last-logout-time: '1450380169'
+  e921d75c-90b2-4a64-b3bd-19cc16a91483:
+    group: []
+    options:
+      name: TaTcSwe
+      last-login-time: '1450388322'
+      last-logout-time: '1450388349'
+  8f070e4c-3e5a-48c4-baa6-175e57590894:
+    group: []
+    options:
+      name: SWEDOGGY
+      last-login-time: '1450632056'
+      last-logout-time: '1450632146'
+  bec48510-ae89-4e31-b7d3-19f5951e990b:
+    group: []
+    options:
+      name: Spanarn
+      last-login-time: '1450441174'
+      last-logout-time: '1450441495'
+  fd91f937-aec4-4628-957f-96323ee6f3f3:
+    group: []
+    options:
+      name: eragon5159
+      last-login-time: '1450488607'
+      last-logout-time: '1450488755'
+  99467105-6bdb-421b-be27-3bbcf59aa9b1:
+    group: []
+    options:
+      name: fridizz3
+      last-login-time: '1450548556'
+      last-logout-time: '1450549162'
+  dce66b47-55df-48f8-bcd6-0bc03554f941:
+    group: []
+    options:
+      name: faaggn
+      last-login-time: '1450553872'
+      last-logout-time: '1450553898'
+  42670208-dc35-4857-a867-641be2ce8c89:
+    group:
+    - Guld
+    - Veteran
+    options:
+      name: Liamjuan
+      last-login-time: '1459427244'
+      last-logout-time: '1459430503'
+    permissions:
+    - deluxetags.tag.guldforlife
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+    - stargate.network.hub1
+  30f05360-cded-4158-b119-b8d65dcdb99b:
+    group: []
+    options:
+      name: Hogennn
+      last-login-time: '1450629552'
+      last-logout-time: '1450629571'
+  6a8baeea-074d-4952-896e-91a8eb1188e6:
+    group: []
+    options:
+      name: ffaabe
+      last-login-time: '1450629914'
+      last-logout-time: '1450629916'
+  3672a77b-f0f7-4569-beb5-60f478840890:
+    group: []
+    options:
+      name: salmig
+      last-login-time: '1450634934'
+      last-logout-time: '1450635202'
+  2d34a2f7-24d2-4d51-84d9-2939720a9476:
+    group: []
+    options:
+      name: YodaErik
+      last-login-time: '1450633776'
+      last-logout-time: '1450634158'
+  ba4cc074-37e4-4a53-b596-41982324870e:
+    group: []
+    options:
+      name: gurras12
+      last-login-time: '1450634971'
+      last-logout-time: '1450635391'
+  3e9f4cef-c7d3-48db-933b-68c38bb552c0:
+    group: []
+    options:
+      name: hamsterxgran
+      last-login-time: '1450632196'
+      last-logout-time: '1450632403'
+  40531855-53eb-4ef6-8c6d-d335e67bfcff:
+    group: []
+    options:
+      name: Dinosarie9
+      last-login-time: '1450645827'
+      last-logout-time: '1450645892'
+  12d5fa6b-efb3-46e3-addd-a395b278651f:
+    group: []
+    options:
+      name: bluklockan
+      last-login-time: '1452192704'
+      last-logout-time: '1452193934'
+  2a74d1dc-3f6f-4439-81fc-78d95b558964:
+    group: []
+    options:
+      name: i_minehead
+      last-login-time: '1457540845'
+      last-logout-time: '1457540845'
+  e8fced14-c34c-4127-9f62-9beaa1f647d0:
+    group: []
+    options:
+      name: Stensson5
+      last-login-time: '1451402955'
+      last-logout-time: '1451402991'
+  5b610109-f639-4e6c-9728-fa281683e332:
+    group: []
+    options:
+      name: 3WPS
+      last-login-time: '1450872201'
+      last-logout-time: '1450872229'
+  1242b381-8002-470b-91ef-3fef91a40bcc:
+    group: []
+    options:
+      name: RasmusL155
+      last-login-time: '1454510573'
+      last-logout-time: '1454510856'
+  763e8f43-b54f-4da3-b757-4590f27dd12b:
+    group: []
+    options:
+      name: Tindra
+      last-login-time: '1450817209'
+      last-logout-time: '1450818551'
+  0629a66b-4ef8-4a7a-9a92-ad7d1aa7e4f3:
+    group:
+    - Veteran
+    options:
+      name: zer0junior
+      last-login-time: '1457873600'
+      last-logout-time: '1457873654'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  2894bf68-3e6b-46e4-930c-3b9be20e1f6f:
+    group:
+    - Veteran
+    options:
+      name: Spindelweb
+      last-login-time: '1455296014'
+      last-logout-time: '1455297125'
+  cec4d4a9-7484-48d3-b23c-f1ad92b1fa1a:
+    group: []
+    options:
+      name: XxDemonInfernoxX
+      last-login-time: '1450873123'
+      last-logout-time: '1450873131'
+  bdc7cab0-da27-4bc8-85e4-74d95a2a7ca9:
+    group: []
+    options:
+      name: aras02
+      last-login-time: '1451752286'
+      last-logout-time: '1451752333'
+  581f000e-2346-4405-a884-52c362cca30e:
+    group: []
+    options:
+      name: kristoffer1hedin
+      last-login-time: '1459023057'
+      last-logout-time: '1459024331'
+  836caa28-e675-4b04-ba10-c702423c5eef:
+    group: []
+    options:
+      name: XmaskanX
+      last-login-time: '1450879525'
+      last-logout-time: '1450879543'
+  ce74c277-b498-4ddc-be3e-9be37d1054a8:
+    group: []
+    options:
+      name: CurseJar
+      last-login-time: '1450887755'
+      last-logout-time: '1450890225'
+  c0be4a30-99af-4ed4-ae8a-970434198633:
+    group: []
+    options:
+      name: FiskarNtheBaws
+      last-login-time: '1451049428'
+      last-logout-time: '1451049478'
+  1371a658-06fc-44c1-871f-ef49f82299e9:
+    group: []
+    options:
+      name: Mojko1999
+      last-login-time: '1451605414'
+      last-logout-time: '1451605503'
+  5a2574d4-f9da-457b-bc8f-211d40ec28a8:
+    group: []
+    options:
+      name: Sodzen
+      last-login-time: '1456850473'
+      last-logout-time: '1456850548'
+  d655d3b4-adcf-4028-9257-f940af0c0735:
+    group: []
+    options:
+      name: fockinghansson
+      last-login-time: '1452977044'
+      last-logout-time: '1452977115'
+  06afda6d-cf19-4208-8739-340913130f88:
+    group: []
+    options:
+      name: XsIrons
+      last-login-time: '1452198955'
+      last-logout-time: '1452199078'
+  1a3ae648-8073-4bf4-bd26-f3ab4343ed7d:
+    group: []
+    options:
+      name: basset04
+      last-login-time: '1451317062'
+      last-logout-time: '1451317301'
+  609c75fe-13fa-41d3-ad95-30ab36b43afa:
+    group: []
+    options:
+      name: moa203
+      last-login-time: '1451421354'
+      last-logout-time: '1451421410'
+  0a388978-60fa-43bf-a8e4-fdee63da5355:
+    group: []
+    options:
+      name: Xx_SP4NKY_xX
+      last-login-time: '1455213293'
+      last-logout-time: '1455213309'
+  394dbac6-0748-48d1-8d25-e23169858eaf:
+    group:
+    - Guld
+    - Veteran
+    options:
+      name: swe_NOOB
+      last-login-time: '1459228402'
+      last-logout-time: '1459233496'
+    permissions:
+    - deluxetags.tag.guldforlife
+  a0cc03a4-9c92-4b88-8896-ac0dbb7e726f:
+    group: []
+    options:
+      name: WarriorAFX
+      last-login-time: '1451386044'
+      last-logout-time: '1451386149'
+  d1d60493-dcd2-4b37-8cc0-e3365069196c:
+    group: []
+    options:
+      name: mechakiller919
+      last-login-time: '1451418186'
+      last-logout-time: '1451418340'
+  a1586a28-9b34-4067-ac9a-1a6be69c778a:
+    group: []
+    options:
+      name: Filip_den_store
+      last-login-time: '1451423363'
+      last-logout-time: '1451423432'
+  8b61c231-d3df-49be-8f26-b6d02d03ec2b:
+    group: []
+    options:
+      name: RoseOfChild
+      last-login-time: '1451836150'
+      last-logout-time: '1451837086'
+  bfe57638-9711-4159-be6e-e198bf2d51aa:
+    group: []
+    options:
+      name: oskvik12
+      last-login-time: '1451753602'
+      last-logout-time: '1451755019'
+  3951bf9b-11fc-40b4-9ea0-9bd1ee454cfc:
+    group: []
+    options:
+      name: zBiBiHD
+      last-login-time: '1451762935'
+      last-logout-time: '1451763213'
+  3995ee08-4764-46a3-9740-65129c8b6a34:
+    group: []
+    options:
+      name: ih52
+      last-login-time: '1451773748'
+      last-logout-time: '1451773856'
+  3d41bcfa-0e87-40a1-adfd-a863db48827f:
+    group: []
+    options:
+      name: elovmeister
+      last-login-time: '1451773816'
+      last-logout-time: '1451773864'
+  8a8c0f62-1b44-4044-ae0d-94fb4a804184:
+    group: []
+    options:
+      name: MrMCK
+      last-login-time: '1451832198'
+      last-logout-time: '1451832364'
+  a83bbe63-402d-4069-b6a5-d6d8ce7cf49b:
+    group: []
+    options:
+      name: xXRosieTXx
+      last-login-time: '1451839788'
+      last-logout-time: '1451840967'
+  c8ae28a2-56d5-41e7-aebf-13f3f3ea4157:
+    group: []
+    options:
+      name: jennistar2000
+      last-login-time: '1451937046'
+      last-logout-time: '1451937913'
+  675dc7c0-aeef-4c45-bdba-563e5f1f047b:
+    group: []
+    options:
+      name: LinnGBG883
+      last-login-time: '1451937316'
+      last-logout-time: '1451937852'
+  4f345cf6-ccdb-4ed9-8d0d-72f8f85290a7:
+    group: []
+    options:
+      name: Starkwhisky
+      last-login-time: '1451842924'
+      last-logout-time: '1451842936'
+  e491a5b4-2b62-4746-850c-699054be1e9a:
+    group: []
+    options:
+      name: SiMMeN_SwE
+      last-login-time: '1451846738'
+      last-logout-time: '1451847109'
+  090b797e-5989-4fc5-8a1f-160015d765af:
+    group: []
+    options:
+      name: knutte006
+      last-login-time: '1452191076'
+      last-logout-time: '1452194040'
+  3de33959-e3fc-43b1-90f1-0efd8ad00ddd:
+    group: []
+  122c8c4a-7185-4dfe-8caa-9226cbfee1e4:
+    group: []
+    options:
+      name: Raiich
+      last-login-time: '1452188266'
+      last-logout-time: '1452188271'
+  80cb6953-aca4-4bdc-a623-d926c11c124f:
+    group: []
+    options:
+      name: Bobben020710
+      last-login-time: '1452187579'
+      last-logout-time: '1452188254'
+  33ae7a93-629c-4acd-8b0c-3896c039ff79:
+    group: []
+    options:
+      name: Svenallan3
+      last-login-time: '1457364249'
+      last-logout-time: '1457364271'
+  a05ae37d-2c3b-4471-b9c5-06efd96dc144:
+    group: []
+    options:
+      name: SvenAllan2
+      last-login-time: '1452019414'
+      last-logout-time: '1452020172'
+  b4164e05-9735-47b1-89ba-1481f24f5c25:
+    group: []
+    options:
+      name: TroxaN932
+      last-login-time: '1452022379'
+      last-logout-time: '1452022402'
+  <player>:
+    group:
+    - Veteran
+    permissions:
+    - stargate.network.hub1
+  c49d5df8-0eac-45b1-bd2b-aee555ff39f9:
+    group: []
+    options:
+      name: MyNameIsPont_
+      last-login-time: '1452033427'
+      last-logout-time: '1452034545'
+  eb896b45-4ccc-49fd-ba85-bc76c7ed4dec:
+    group: []
+    options:
+      name: PikachuTheMaster
+      last-login-time: '1452093334'
+      last-logout-time: '1452093501'
+  92f622a8-aa0d-4c65-ac7a-308a10a6da1d:
+    group: []
+    options:
+      name: marcusgunnarsson
+      last-login-time: '1452097984'
+      last-logout-time: '1452097987'
+  42e9f7af-887e-4b67-a820-4e96e2665f34:
+    group: []
+    options:
+      name: _Krozio_
+      last-login-time: '1452110139'
+      last-logout-time: '1452111296'
+  88376f9e-a0c2-4a84-834d-c7d92505cb16:
+    group: []
+    options:
+      name: swedendanny
+      last-login-time: '1454202808'
+      last-logout-time: '1454204044'
+  b88a3711-3e27-4dc9-b0c4-845025c0199d:
+    group: []
+    options:
+      name: Darknesha
+      last-login-time: '1457378587'
+      last-logout-time: '1457378770'
+  87c8961a-7654-4dd4-b597-1081654add35:
+    group: []
+    options:
+      name: Kapitalist
+      last-login-time: '1452275990'
+      last-logout-time: '1452276093'
+  064cd88e-9868-45ad-84cb-e9eed27fdb83:
+    group: []
+  58e6cb46-04c9-46c0-9364-7130e5ffa375:
+    group: []
+  445ed4fe-d21a-4bc7-b7fc-a7032c765dd2:
+    group: []
+    options:
+      name: setragon
+      last-login-time: '1452342879'
+      last-logout-time: '1452343783'
+  1b11aa01-4334-4360-93ea-9028478dae71:
+    group: []
+    options:
+      name: FilleGamer06
+      last-login-time: '1457366865'
+      last-logout-time: '1457366871'
+  8487a09b-781a-444b-8afc-c8f4742d9731:
+    group: []
+    options:
+      name: _Xorna_
+      last-login-time: '1452353188'
+      last-logout-time: '1452354011'
+  1cdbd678-03cc-4899-af17-2b39e14da3e1:
+    group: []
+    options:
+      name: SelmaPingvin
+      last-login-time: '1452409998'
+      last-logout-time: '1452410006'
+  84967c4c-61db-4436-8d55-cba98ab17664:
+    group: []
+    options:
+      name: leomannen90
+      last-login-time: '1452454544'
+      last-logout-time: '1452454846'
+  f0505a66-8aaa-4926-a428-87ae9c1bf3de:
+    group: []
+    options:
+      name: Ewizzz
+      last-login-time: '1452537491'
+      last-logout-time: '1452539350'
+  0498074f-a327-4cbe-8590-d0ca552dab34:
+    group: []
+    options:
+      name: rambo3399
+      last-login-time: '1452540594'
+      last-logout-time: '1452540619'
+  505b4174-bb80-4100-b1a1-6eefe0a2e752:
+    group: []
+    options:
+      name: BillusDroid
+      last-login-time: '1456155742'
+      last-logout-time: '1456155820'
+  e00b0640-73eb-42d2-804b-2d5a85f29834:
+    group: []
+    options:
+      name: lionhead69
+      last-login-time: '1452621013'
+      last-logout-time: '1452621131'
+  5caca5e9-de0f-4de8-a0a1-1a4e915c0e4d:
+    group: []
+    options:
+      name: TheSpontanoGuy
+      last-login-time: '1455382826'
+      last-logout-time: '1455382974'
+  cadf4170-5cb8-4f72-9448-1cd396daa288:
+    group: []
+    options:
+      name: Snow_Girl03
+      last-login-time: '1452797672'
+      last-logout-time: '1452798118'
+  474de711-700f-4c1c-859c-00b8cec58e53:
+    group:
+    - Veteran
+    options:
+      name: thobias22
+      last-login-time: '1459436028'
+      last-logout-time: '1459442831'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+    - stargate.network.hub1
+  25685303-e895-4d74-aa46-65a3cbfb7573:
+    group: []
+    options:
+      name: 14CrunchCake04
+      last-login-time: '1452782291'
+  779e69e4-ad46-4ccd-96a0-fb2b63524732:
+    group: []
+    options:
+      name: ponmil
+      last-login-time: '1456331423'
+      last-logout-time: '1456331443'
+  b53c538b-1dc1-493f-9e00-1f04e04655f9:
+    group: []
+    options:
+      name: myrback
+      last-login-time: '1452870417'
+      last-logout-time: '1452870446'
+  6edb7e5a-1e2d-4d90-8d94-4b523e2fae6d:
+    group: []
+    options:
+      name: Greenpig112
+      last-login-time: '1457893773'
+      last-logout-time: '1457893856'
+  d3908983-9e54-4ae2-9bbf-be3a7b5ea56d:
+    group: []
+    options:
+      name: OrvasKorvas_02
+      last-login-time: '1452868398'
+      last-logout-time: '1452868637'
+  24d59aae-1b70-4474-aa68-563155e09e49:
+    group: []
+    options:
+      name: Will_Star97
+      last-login-time: '1452875362'
+      last-logout-time: '1452875428'
+  ba909ab3-459c-4079-9d13-ad4f02cdb424:
+    group: []
+    options:
+      name: Fluffybike
+      last-login-time: '1457867533'
+      last-logout-time: '1457867854'
+  2809c6d5-7bcb-4d5d-b5b5-df8958a6c3c7:
+    group: []
+    options:
+      name: ArtyAzulra
+      last-login-time: '1452960402'
+      last-logout-time: '1452960504'
+  d4113439-71bf-4bab-b46a-aa06e74653a1:
+    group: []
+    options:
+      name: oliver0253
+      last-login-time: '1453132424'
+      last-logout-time: '1453132650'
+  1ca24302-0da7-42fe-86c0-d8e660bf0a3d:
+    group: []
+    options:
+      name: dvsq
+      last-login-time: '1452954470'
+      last-logout-time: '1452955022'
+  ec7f4266-6dcb-4717-8d44-0322d45c4eed:
+    group: []
+    options:
+      name: Dragon467
+      last-login-time: '1452971391'
+      last-logout-time: '1452972364'
+  bd0c0a19-b071-4831-b023-79768b3935f8:
+    group: []
+    options:
+      name: YouGotFlashed
+      last-login-time: '1452985121'
+      last-logout-time: '1452985145'
+  000071d6-ca59-4883-a98c-1e3d4444c990:
+    group: []
+    options:
+      name: Belgasi
+      last-login-time: '1456088117'
+      last-logout-time: '1456088436'
+  9f1770c4-e501-49db-96ad-36518c457059:
+    group: []
+    options:
+      name: jaguaren12345678
+      last-login-time: '1455982801'
+      last-logout-time: '1455982803'
+  8e727b84-c583-4f59-9e44-d1889979db3a:
+    group: []
+    options:
+      name: casper1130
+      last-login-time: '1455290895'
+      last-logout-time: '1455291071'
+  bbc0a552-0901-44a6-b7d1-95ae3d3f6164:
+    group: []
+    options:
+      name: TheHappyMan
+      last-login-time: '1453296591'
+      last-logout-time: '1453296634'
+  4e701f29-1392-41e9-9dab-46ec3ad29b3a:
+    group: []
+    options:
+      name: WiredZombieLive
+      last-login-time: '1457008817'
+      last-logout-time: '1457008821'
+  07e2be2c-ecde-475d-931c-e9005de2e084:
+    group: []
+    options:
+      name: superisak34
+      last-login-time: '1453828399'
+      last-logout-time: '1453828468'
+  488f03cb-b770-4fb5-9d77-88d527682015:
+    group: []
+    options:
+      name: Daimystar05
+      last-login-time: '1454414395'
+      last-logout-time: '1454414493'
+  998d5adf-35e7-4792-a33e-a97d2c0a1dc4:
+    group: []
+    options:
+      name: DerpyGasaiPlayz
+      last-login-time: '1455908949'
+      last-logout-time: '1455909016'
+  753c537b-bfbb-4eab-9812-2f712ea6f38a:
+    group: []
+    options:
+      name: DerpyJunior
+      last-login-time: '1453992201'
+      last-logout-time: '1453992235'
+  619fddb1-4664-454b-ab78-d44a6c94cd8e:
+    group: []
+    options:
+      name: Groggo05
+      last-login-time: '1453992216'
+      last-logout-time: '1453992257'
+  f48541e1-2e76-443c-9915-9630087cec17:
+    group: []
+    options:
+      name: Keviip
+      last-login-time: '1454092691'
+      last-logout-time: '1454094894'
+  1cbd5a9e-050d-4770-b24c-97dba2f71423:
+    group: []
+    options:
+      name: SilverTassen
+      last-login-time: '1454101095'
+      last-logout-time: '1454101150'
+  5d8ff829-025b-4b7e-bfd7-fc40ccd2fa0d:
+    group: []
+    options:
+      name: anderas1hedin
+      last-login-time: '1459023083'
+      last-logout-time: '1459023805'
+  48004538-c40f-4d06-b17f-d5d6553c53eb:
+    group: []
+    options:
+      name: 06Vincent
+      last-login-time: '1456764634'
+      last-logout-time: '1456765240'
+  373421a2-1c25-4e93-89f7-460e0e0647f8:
+    group: []
+    options:
+      name: Lord_Spoon
+      last-login-time: '1454257265'
+      last-logout-time: '1454257624'
+  66b2ea4a-889c-4b06-82d3-a672bb1648db:
+    group: []
+    options:
+      name: Nisse33
+      last-login-time: '1454251361'
+      last-logout-time: '1454251637'
+  11cd9103-36d6-4890-acab-62a4c2b5aa3d:
+    group: []
+    options:
+      name: Sir_KingZo
+      last-login-time: '1454257288'
+      last-logout-time: '1454257620'
+  5fc66de5-19db-43b9-9ad5-768981077941:
+    group: []
+    options:
+      name: tompan2552
+      last-login-time: '1454273596'
+      last-logout-time: '1454273668'
+  e4e602ad-a00b-4451-907c-25d49e7003e8:
+    group: []
+    options:
+      name: WillePVP07
+      last-login-time: '1454958552'
+      last-logout-time: '1454958609'
+  dd99c6e9-2d2c-4a23-a4bf-aac8dc45dd17:
+    group: []
+    options:
+      name: Carlsson_85
+      last-login-time: '1454485138'
+      last-logout-time: '1454485297'
+  b5e27900-9edf-4fb6-8012-00c2955ebb52:
+    group: []
+    options:
+      name: Simon3462
+      last-login-time: '1454511036'
+      last-logout-time: '1454511091'
+  111ed2e2-ba04-4411-a4a9-d2fb484b929a:
+    group: []
+    options:
+      name: Xewii07
+      last-login-time: '1454520549'
+      last-logout-time: '1454520571'
+  88c884c6-ac59-4411-9174-fa1e3923b88d:
+    group: []
+    options:
+      name: danras1207
+      last-login-time: '1454522036'
+      last-logout-time: '1454522366'
+  78e55e23-18c9-49dc-a506-15822b1ce3ca:
+    group:
+    - Veteran
+    options:
+      name: Lemedab
+      last-login-time: '1458052880'
+      last-logout-time: '1458052928'
+    permissions:
+    - deluxetags.tag.guldforlife
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  870bc59c-8257-49f3-8efa-1eb4e60556c0:
+    group: []
+    options:
+      name: TNT_Runner
+      last-login-time: '1454599367'
+      last-logout-time: '1454600777'
+  54526584-b1d7-4a1e-b2b3-41dcd324aa09:
+    group: []
+    options:
+      name: Maxalm33
+      last-login-time: '1454703401'
+      last-logout-time: '1454703462'
+  10bb9963-5cd9-4304-bc47-dec24047c9fd:
+    group: []
+    options:
+      name: xswecorex
+      last-login-time: '1454748623'
+      last-logout-time: '1454749180'
+  3a2183cb-3ef7-46c5-a2b3-1704a1a19345:
+    group: []
+    options:
+      name: Emynoz
+      last-login-time: '1454754679'
+      last-logout-time: '1454754865'
+  51a744fe-e229-4949-b3db-08b098d7cc89:
+    group: []
+    options:
+      name: Hojde
+      last-login-time: '1454765346'
+      last-logout-time: '1454765365'
+  b5eb87cf-1191-43d4-adc7-0b949050bfa9:
+    group: []
+    options:
+      name: diraxure
+      last-login-time: '1454772431'
+      last-logout-time: '1454772529'
+  57ee68ff-dff6-4076-bd0d-73196140756f:
+    group: []
+    options:
+      name: MrHellboy1987
+      last-login-time: '1454777877'
+      last-logout-time: '1454778137'
+  90e4ab05-0570-41ba-8330-eb53eee2a045:
+    group: []
+    options:
+      name: amrahil
+      last-login-time: '1456154929'
+      last-logout-time: '1456155127'
+  5d2bc614-5033-4139-be74-f98360b18bc4:
+    group: []
+    options:
+      name: Norkan
+      last-login-time: '1454833912'
+      last-logout-time: '1454834716'
+  51b98137-1ee7-419c-b995-fa47ab6c6433:
+    group: []
+    options:
+      name: adamsjostrom
+      last-login-time: '1454833923'
+      last-logout-time: '1454834716'
+  c693b4ea-d5db-4054-be1a-a0284e6f78e2:
+    group: []
+    options:
+      name: spelole
+      last-login-time: '1454834439'
+      last-logout-time: '1454834446'
+  d76d812c-78b3-4c8e-a7ad-85a75040f588:
+    group: []
+    options:
+      name: jojanb
+      last-login-time: '1454947783'
+      last-logout-time: '1454948099'
+  61582ae2-2fd4-4f24-b087-9a8b7e8419e8:
+    group: []
+    options:
+      name: XLpower
+      last-login-time: '1455031877'
+      last-logout-time: '1455031914'
+  45606a79-8b84-45f0-9229-937fe0b12c2a:
+    group: []
+    options:
+      name: _Mecke1337_
+      last-login-time: '1455118131'
+      last-logout-time: '1455118378'
+  f8c439e6-1692-42a7-bb64-b75ef8b7126d:
+    group: []
+    options:
+      name: X3MECrafterHD
+      last-login-time: '1455295133'
+      last-logout-time: '1455295201'
+  9a1c3856-16bb-28c4-a83e-b182322ed98e:
+    group: []
+  b9afe6df-e301-24fc-b558-e7d721b2a5fa:
+    group: []
+  1e1259d5-8001-4949-a619-08e8f5b35332:
+    group: []
+    options:
+      name: OstCake
+      last-login-time: '1455783452'
+      last-logout-time: '1455783477'
+  d1996018-df4c-4b1e-9e65-3606b94821fa:
+    group: []
+    options:
+      name: vaniljblocket354
+      last-login-time: '1455383452'
+      last-logout-time: '1455383824'
+  e06918ea-d507-4a96-8068-cc82bedef60a:
+    group: []
+    options:
+      name: skertind
+      last-login-time: '1455443813'
+      last-logout-time: '1455443861'
+  ada00781-4018-4291-896b-9e00a453d2b8:
+    group: []
+  ef82a55c-a4cd-4f15-bd45-385f6ec81a37:
+    group: []
+    options:
+      name: ThePenguin04
+      last-login-time: '1455462117'
+      last-logout-time: '1455462134'
+  d4520c45-d6e8-4dd0-a537-32aaccef52ad:
+    group: []
+    options:
+      name: SwEDRAGON92
+      last-login-time: '1455491238'
+      last-logout-time: '1455492225'
+  a280b088-5778-4652-a17d-c97a99a28a76:
+    group: []
+    options:
+      name: DoeJoe8
+      last-login-time: '1455504192'
+      last-logout-time: '1455504229'
+  26ff453e-aee2-4a05-b35f-240b60b5fc03:
+    group: []
+    options:
+      name: FunkyLummoWind
+      last-login-time: '1457455380'
+      last-logout-time: '1457455408'
+  356dc417-f958-404e-bde1-ced0c8f3cd39:
+    group: []
+    options:
+      name: JA0_Kyborgas357
+      last-login-time: '1455704403'
+      last-logout-time: '1455704530'
+  61f46baf-f989-434b-81c2-28f89fe27db3:
+    group: []
+    options:
+      name: hungerspelare
+      last-login-time: '1455729167'
+      last-logout-time: '1455729215'
+  85645856-e0c7-42aa-8298-080e1c00117d:
+    group: []
+    options:
+      name: Lovley20004
+      last-login-time: '1455738123'
+      last-logout-time: '1455738154'
+  c7c6349e-3ade-462c-a914-dd2c050210ce:
+    group: []
+    options:
+      name: DarkHeartBeat
+      last-login-time: '1455801639'
+      last-logout-time: '1455801924'
+  cad2fafe-3281-4e90-9a32-21ee4738cf1d:
+    group: []
+    options:
+      name: Sammy2015
+      last-login-time: '1457099320'
+      last-logout-time: '1457099363'
+  4fbd9fc9-a41e-4710-a9e9-472cb28c38c6:
+    group: []
+    options:
+      name: zamil
+      last-login-time: '1459419850'
+      last-logout-time: '1459420926'
+  676f665d-6c26-4d79-8daf-bd536686272c:
+    group: []
+    options:
+      name: anesoro
+      last-login-time: '1455884924'
+      last-logout-time: '1455884970'
+  c55ff597-9a2c-4aba-bc2e-c3fc7b592dc3:
+    group: []
+    options:
+      name: TopKamex
+      last-login-time: '1455969044'
+      last-logout-time: '1455970766'
+  d1bd7860-7b10-4c1c-8d9e-cc7cae4d7bfb:
+    group: []
+    options:
+      name: liam_dah
+      last-login-time: '1455981379'
+      last-logout-time: '1455981543'
+  93aef22d-d86a-45bf-9ec0-09eedcbf8b56:
+    group: []
+    options:
+      name: svt5
+      last-login-time: '1456037429'
+      last-logout-time: '1456038421'
+  24ac0669-01c6-4528-a3fb-2b00f96923ef:
+    group: []
+    options:
+      name: eleonora246
+      last-login-time: '1459427666'
+      last-logout-time: '1459427721'
+  7ad8d059-1e61-40ae-9f56-f6ba4858400c:
+    group: []
+    options:
+      name: Quinn55275
+      last-login-time: '1456191088'
+      last-logout-time: '1456191111'
+  fc155b63-f4b1-4be4-9e77-f23664b140bc:
+    group: []
+    options:
+      name: Skinkis
+      last-login-time: '1457027599'
+      last-logout-time: '1457027692'
+  f3cefe08-01c5-4798-965a-ac9d2aacc8a5:
+    group: []
+    options:
+      name: jolly98
+      last-login-time: '1456081286'
+      last-logout-time: '1456081904'
+  1bd0cc50-172f-4482-8a61-415ed20900a9:
+    group: []
+    options:
+      name: leohan04
+      last-login-time: '1456086040'
+      last-logout-time: '1456086194'
+  2ceb9e3b-4e90-48c8-9bb2-d40e4a9ab08c:
+    group: []
+    options:
+      name: Figu02
+      last-login-time: '1456155914'
+      last-logout-time: '1456155919'
+  1c25f331-7091-4620-ac31-9d9945a9f226:
+    group: []
+    options:
+      name: superultra4321
+      last-login-time: '1456190351'
+      last-logout-time: '1456190545'
+  3923080f-a574-429a-ba48-b7e72585b6c8:
+    group: []
+    options:
+      name: WilliamJacob28
+      last-login-time: '1456493667'
+      last-logout-time: '1456324890'
+  a8edbfb5-6a6f-4190-a6de-3050f918f494:
+    group: []
+    options:
+      name: Instalok19
+      last-login-time: '1456246923'
+      last-logout-time: '1456247165'
+  39e86f32-54db-422a-8c05-e2a4cde4086a:
+    group: []
+    options:
+      name: Hannas_1
+      last-login-time: '1456771143'
+      last-logout-time: '1456771247'
+  7a319dbd-a874-41e0-8896-96e44f0bd630:
+    group: []
+    options:
+      name: MelleMasterCool
+      last-login-time: '1456300426'
+      last-logout-time: '1456300518'
+  117f94d6-9dc9-4146-ac19-8012c4b334a6:
+    group: []
+    options:
+      name: SirViggo
+      last-login-time: '1458830632'
+      last-logout-time: '1458831035'
+  675a65e1-38f5-43de-8c7b-eac424b694c3:
+    group: []
+    options:
+      name: Dr3kkz
+      last-login-time: '1456394830'
+      last-logout-time: '1456394993'
+  b0562efe-57eb-4012-af88-35a5fc0d54a3:
+    group: []
+    options:
+      name: Shan107
+      last-login-time: '1456405980'
+      last-logout-time: '1456406546'
+  66fcb394-1df7-4827-af9f-447c227de750:
+    group: []
+    options:
+      name: xDiamondPVE
+      last-login-time: '1456417762'
+      last-logout-time: '1456417819'
+  6da15a8c-50f9-473d-8de5-8c6c81a7953c:
+    group: []
+    options:
+      name: alexemilia2
+      last-login-time: '1456421762'
+      last-logout-time: '1456421922'
+  8a07c6cc-fbee-4eec-bac8-84b580050c78:
+    group: []
+    options:
+      name: skylandbash
+      last-login-time: '1456728290'
+      last-logout-time: '1456728366'
+  195d9926-8c3e-4462-8654-6b5a6c40b90b:
+    group: []
+    options:
+      name: Sockerkungen
+      last-login-time: '1456728228'
+      last-logout-time: '1456728320'
+  dee6f6f8-75f8-4f70-af6e-e83a64a8e59e:
+    group: []
+    options:
+      name: DunderHajen
+      last-login-time: '1456848867'
+      last-logout-time: '1456849207'
+  af2166bb-e37e-4157-991f-939a9b174042:
+    group: []
+    options:
+      name: illerally
+      last-login-time: '1459058805'
+      last-logout-time: '1459058846'
+  5c32d6f2-23d1-406a-8fdf-b4b96c5d5bba:
+    group: []
+    options:
+      name: Ville57
+      last-login-time: '1456926602'
+      last-logout-time: '1456926843'
+  59556090-2e0f-4984-9932-bf7e36c19a09:
+    group: []
+    options:
+      name: skallabanan
+      last-login-time: '1456941355'
+      last-logout-time: '1456942298'
+  167d9e3b-c56c-42aa-835d-3cf215ef9fac:
+    group: []
+    options:
+      name: BAIEEER
+      last-login-time: '1456945893'
+      last-logout-time: '1456945908'
+  30d553eb-50db-4784-8ccb-487a4be584f6:
+    group: []
+    options:
+      name: ILoveDirt
+      last-login-time: '1457008312'
+      last-logout-time: '1457008377'
+  3b1f18e8-e2aa-4631-a1e0-334d5c69cc7f:
+    group: []
+    options:
+      name: Oliwerh03
+      last-login-time: '1457019134'
+      last-logout-time: '1457019563'
+  ede5f191-c426-472d-97e9-dc160bbdf6b0:
+    group: []
+    options:
+      name: vinkol_agge
+      last-login-time: '1457018463'
+      last-logout-time: '1457019565'
+  89cece7b-8a72-46a0-9292-913e110b66dc:
+    group: []
+    options:
+      name: Emilu_19
+      last-login-time: '1457018465'
+      last-logout-time: '1457019427'
+  019ea934-79de-4b06-95dc-695ec5a8fb54:
+    group: []
+    options:
+      name: Joakim06
+      last-login-time: '1457359992'
+      last-logout-time: '1457360016'
+  6251db36-39c8-4e63-8b2d-1948bbc01507:
+    group: []
+    options:
+      name: Kingmalterules
+      last-login-time: '1457027563'
+      last-logout-time: '1457027775'
+  7478d65f-4055-4489-b058-3e18613920bb:
+    group: []
+    options:
+      name: mymaniac
+      last-login-time: '1457061160'
+      last-logout-time: '1457061237'
+  fc1812bc-4b7b-4e10-aa25-defcd38e4412:
+    group:
+    - Veteran
+    options:
+      name: duadansenior
+      last-login-time: '1459437058'
+      last-logout-time: '1459449946'
+    permissions:
+    - stargate.network.hub1
+  d2d072c1-dcd8-4861-b5d9-22b23cca5e12:
+    group:
+    - Veteran
+    options:
+      name: DRhulken
+      last-login-time: '1459446974'
+      last-logout-time: '1459449049'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  94619c60-9b0f-4acc-a24a-c0c33b90f085:
+    group: []
+    options:
+      name: Motshie
+      last-login-time: '1458654043'
+      last-logout-time: '1458654067'
+  d899b510-ec40-428d-99a6-1e1ad1d28c16:
+    group: []
+    options:
+      name: BacklinAlfred
+      last-login-time: '1458900139'
+      last-logout-time: '1458900353'
+  1d730364-0713-4ecc-884e-78a8facdc537:
+    group: []
+    options:
+      name: JessicaSteffen
+      last-login-time: '1457111532'
+      last-logout-time: '1457111624'
+  3255040f-70ca-458f-beea-1ca7acc54a29:
+    group: []
+    options:
+      name: ville678
+      last-login-time: '1457107340'
+      last-logout-time: '1457107629'
+  864a0277-f909-45e7-8071-03ca8c0d5398:
+    group: []
+    options:
+      name: MatsFisk
+      last-login-time: '1457135090'
+      last-logout-time: '1457135166'
+  7b8d7011-2f39-4cd3-8d22-f2116fbd2a31:
+    group: []
+    options:
+      name: bengt2002
+      last-login-time: '1459420969'
+      last-logout-time: '1459421016'
+  03ddecfb-4367-429e-84d4-ca35448cab4f:
+    group: []
+    options:
+      name: brickwalker11
+      last-login-time: '1459412227'
+      last-logout-time: '1459420972'
+  0ed8fa6a-c861-45e4-ab15-4c595c45eb87:
+    group: []
+    options:
+      name: Erob
+      last-login-time: '1458226989'
+      last-logout-time: '1458227036'
+  f67bd1cc-7de4-448c-8cbc-15aeed8e4f39:
+    group: []
+    options:
+      name: TeamX1
+      last-login-time: '1458227009'
+      last-logout-time: '1458227043'
+  8963d52d-d7a8-4733-b74c-eae85026c810:
+    group: []
+    options:
+      name: Wilswe
+      last-login-time: '1459267220'
+      last-logout-time: '1459267236'
+  88d0103c-70d0-49f1-bfee-2f5eccc14965:
+    group: []
+    options:
+      name: melker_melker
+      last-login-time: '1457200834'
+      last-logout-time: '1457200945'
+  2861df5b-a2fe-4574-a183-3aa511162561:
+    group: []
+    options:
+      name: WolfLovergaming
+      last-login-time: '1457202464'
+      last-logout-time: '1457202670'
+  5ea7c4ff-5040-47c6-9f25-ae4eee3eb358:
+    group: []
+    options:
+      name: Jansson0318
+      last-login-time: '1457207024'
+      last-logout-time: '1457207164'
+  43829586-88b0-4655-be6c-a321a72c5b0a:
+    group: []
+    options:
+      name: NikkiTimJ
+      last-login-time: '1457248831'
+      last-logout-time: '1457248893'
+  bfee72e2-f1b9-43ca-acca-cdeeb203c095:
+    group: []
+    options:
+      name: Johan_LS
+      last-login-time: '1457425329'
+      last-logout-time: '1457425360'
+  a9b084bd-b816-47e0-8a07-f117d01ae565:
+    group: []
+    options:
+      name: LightingOfStorm
+      last-login-time: '1457318193'
+      last-logout-time: '1457318410'
+  713ed81c-0354-438e-82aa-8a2ac9e21071:
+    group: []
+    options:
+      name: FyreDrop
+      last-login-time: '1457334872'
+      last-logout-time: '1457335033'
+  c19103ed-dc10-46f3-8895-b0ec09548087:
+    group: []
+    options:
+      name: ffiisken
+      last-login-time: '1457354450'
+      last-logout-time: '1457355017'
+  72925481-b6d2-4317-9d1c-8cb032ebd016:
+    group: []
+    options:
+      name: Elias_fox_pro
+      last-login-time: '1457364230'
+      last-logout-time: '1457364438'
+  c52c84ea-97a9-4e2a-bbea-13ec875b45d2:
+    group: []
+    options:
+      name: isak360hl
+      last-login-time: '1457364270'
+      last-logout-time: '1457364272'
+  c6fc8b11-83fc-48b8-b5cf-5c1512141b42:
+    group: []
+    options:
+      name: EmmazingRose
+      last-login-time: '1457397052'
+      last-logout-time: '1457398538'
+  9d544b6e-2465-48bf-9d12-4a715aa688dc:
+    group: []
+    options:
+      name: EmmaPvP_
+      last-login-time: '1458749008'
+      last-logout-time: '1458749124'
+  dbb83996-fa70-426f-940f-846fc7ef6ef7:
+    group: []
+    options:
+      name: ImArtz
+      last-login-time: '1457449226'
+      last-logout-time: '1457449487'
+  f34a8756-ca18-474d-9af9-530294d6bfbd:
+    group: []
+    options:
+      name: LulleGaming02
+      last-login-time: '1457711167'
+      last-logout-time: '1457711173'
+  78c7254a-b6f7-4976-b7dd-d61f42a7fda5:
+    group: []
+    options:
+      name: AliciasColaBurk
+      last-login-time: '1457456074'
+      last-logout-time: '1457456112'
+  1a63dd27-de2c-4064-ab39-befe0da66c2a:
+    group: []
+    options:
+      name: Nicholas_proX
+      last-login-time: '1457466256'
+      last-logout-time: '1457466306'
+  2b205617-17ab-4e10-92bc-99bb3bb27782:
+    group: []
+    options:
+      name: Frog_Book
+      last-login-time: '1457517596'
+      last-logout-time: '1457519055'
+  19ac1223-5a10-48bf-a17b-478a24b41373:
+    group: []
+    options:
+      name: Mr_jamess
+      last-login-time: '1457621858'
+      last-logout-time: '1457623032'
+  2d509a28-31db-41ff-81c4-008b13209e96:
+    group: []
+    options:
+      name: xExstromenSx
+      last-login-time: '1457626663'
+      last-logout-time: '1457626830'
+  26e522e3-abdf-49f4-8027-0c152e7566c8:
+    group: []
+    options:
+      name: Brinkebrank
+      last-login-time: '1458058218'
+      last-logout-time: '1458058245'
+  1ca05196-0b46-4a17-9c20-428634cb9025:
+    group: []
+    options:
+      name: Svartamadam
+      last-login-time: '1457628152'
+      last-logout-time: '1457628448'
+  2e57c9cc-9c08-490a-a1ef-3b16c2f11f49:
+    group:
+    - Veteran
+    options:
+      name: Tuggumit
+      last-login-time: '1459451897'
+      last-logout-time: '1459451525'
+  cake:
+    group: []
+  sw_cake:
+    group: []
+  ac447b0a-5423-4271-96ec-10778b1114bf:
+    group: []
+    options:
+      name: Happysebbe
+      last-login-time: '1457838332'
+      last-logout-time: '1457838448'
+  e7388ed1-3851-4b5b-b8d2-a3b384e9668b:
+    group: []
+    options:
+      name: Vlkt0r
+      last-login-time: '1458890665'
+      last-logout-time: '1458890745'
+  2babcb02-a5ff-4512-ad3b-10bf43a1cd67:
+    group: []
+    options:
+      name: Jenny155
+      last-login-time: '1457860464'
+      last-logout-time: '1457862356'
+  75d9f731-33d5-431c-a42c-05b9b1144d69:
+    group: []
+    options:
+      name: Nidhug122
+      last-login-time: '1457862425'
+      last-logout-time: '1457862459'
+  28d870cc-6c4e-49b8-b8d7-2ec50127a848:
+    group: []
+    options:
+      name: Elsa_Love_00
+      last-login-time: '1458990907'
+      last-logout-time: '1458991069'
+  06c562f3-a30b-4808-b114-bb1dfbbbd1c8:
+    group: []
+    options:
+      name: pckungen04
+      last-login-time: '1457871118'
+      last-logout-time: '1457871212'
+  0324b0b2-2206-419a-a63c-a999b45e8997:
+    group: []
+    options:
+      name: mandolinen23
+      last-login-time: '1457884182'
+      last-logout-time: '1457884680'
+  42fbc84a-bdc3-4e3b-96cf-50cccb51cf0a:
+    group: []
+    options:
+      name: Joeljoelboel
+      last-login-time: '1458767802'
+      last-logout-time: '1458773738'
+  67a2c352-df16-4e9a-99e0-2e0194a7a4ba:
+    group: []
+    options:
+      name: Jonte4000
+      last-login-time: '1458767656'
+      last-logout-time: '1458773812'
+  963f2537-5ec8-4369-aff2-de0b1b8f8291:
+    group: []
+    options:
+      name: MishaTeslenko
+      last-login-time: '1458496623'
+      last-logout-time: '1458496636'
+  help:
+    group: []
+  7bcdb6e3-ced1-4e9b-99a5-5458cfe1b9d8:
+    group: []
+    options:
+      name: smulan_132
+      last-login-time: '1458145772'
+      last-logout-time: '1458146204'
+  9bb7ff26-b3b2-497c-8f42-67b4cf0b19ba:
+    group: []
+    options:
+      name: _n0eeel
+      last-login-time: '1458043774'
+      last-logout-time: '1458043880'
+  6860f377-4376-423f-8337-a9d5eef93da0:
+    group: []
+    options:
+      name: elvismax
+      last-login-time: '1458322484'
+      last-logout-time: '1458322546'
+  83601d55-b00c-48b0-96dd-0a21492a7171:
+    group: []
+    options:
+      name: Leon2014Maxim
+      last-login-time: '1458125479'
+      last-logout-time: '1458126761'
+  e10dee8a-6ce7-42a8-b82f-e1a9cdd1bfec:
+    group:
+    - Donator
+    - Guld
+    - Veteran
+    options:
+      name: Lord_Syntax
+      last-login-time: '1459438264'
+      last-logout-time: '1459440502'
+    permissions:
+    - deluxetags.tag.guldforlife
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+    - deluxetags.tag.diamant
+  cdfd9c0b-f88b-4fb1-98b1-85c47e510613:
+    group:
+    - Veteran
+    options:
+      name: DemonRipper
+      last-login-time: '1458399021'
+      last-logout-time: '1458406698'
+  7bfd4a7f-05f6-4de8-9292-634ba2db7165:
+    group: []
+    options:
+      name: Trahuggaren
+      last-login-time: '1458233464'
+      last-logout-time: '1458233658'
+  dynamitdagge:
+    group: []
+  20315224-b398-49cf-ad93-5879b657bf67:
+    group: []
+    options:
+      name: Viggeman03
+      last-login-time: '1458315807'
+      last-logout-time: '1458316114'
+  6fab89df-3cd7-4564-bb9c-d0b5f3d0ebbf:
+    group: []
+    options:
+      name: Mr_DatorDog
+      last-login-time: '1458415974'
+      last-logout-time: '1458415996'
+  304ff2b3-09e6-4acd-b92a-798eee8345cc:
+    group: []
+    options:
+      name: WLCL0205
+      last-login-time: '1458479759'
+      last-logout-time: '1458480095'
+  ecc9cdc4-8c67-4c34-bc45-e86c41b6c879:
+    group: []
+    options:
+      name: spalbin
+      last-login-time: '1458494620'
+      last-logout-time: '1458495194'
+  b0f14ce9-62d1-41cb-8d06-2c4f526bbae3:
+    group: []
+    options:
+      name: knaraffen
+      last-login-time: '1459226350'
+      last-logout-time: '1459232831'
+  f3342555-a935-47c1-aeb5-b02b4b48dc6f:
+    group: []
+    options:
+      name: UVWXYZ
+      last-login-time: '1458729459'
+      last-logout-time: '1458729607'
+  2259d136-e60a-4271-84a4-841a85f617d5:
+    group: []
+    options:
+      name: ingenting11
+      last-login-time: '1458738704'
+      last-logout-time: '1458738883'
+  5576e037-f728-4fda-a599-526dd97f0250:
+    group: []
+    options:
+      name: Max_xxx
+      last-login-time: '1458756745'
+      last-logout-time: '1458757640'
+  6b832ef1-ada0-4205-92bd-ae4f3a928828:
+    group: []
+    options:
+      name: Lakki
+      last-login-time: '1458829003'
+      last-logout-time: '1458829081'
+  674260e0-b17b-49d1-a61e-7ca4030412f4:
+    group: []
+    options:
+      name: Medivipus
+      last-login-time: '1458921071'
+      last-logout-time: '1458921326'
+  0ab2b9b1-fd73-44c7-9a9f-ce33ee53604b:
+    group: []
+    options:
+      name: zombiegamerffs
+      last-login-time: '1458929162'
+      last-logout-time: '1458989469'
+  609560fa-1f32-4153-9d34-39b53f95d337:
+    group: []
+    options:
+      name: Abbedi
+      last-login-time: '1459240195'
+      last-logout-time: '1459240551'
+  c5ef4f9e-ba04-4304-b169-8712472b160a:
+    group: []
+    options:
+      name: wwwminer
+      last-login-time: '1458888742'
+      last-logout-time: '1458888957'
+  62db88f5-bebf-4947-8ec4-143940f6d313:
+    group: []
+    options:
+      name: PingDingPD
+      last-login-time: '1458890457'
+      last-logout-time: '1458890495'
+  e5331573-bbf0-4c85-9443-30df3d8a73ab:
+    group: []
+    options:
+      name: Hilda_2e
+      last-login-time: '1458906238'
+      last-logout-time: '1458906269'
+  d186fdf2-03ef-4ced-a916-60ec4e9206fb:
+    group: []
+    options:
+      name: Thundergrill
+      last-login-time: '1459362333'
+      last-logout-time: '1459362675'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
+  605e655e-8e5c-4dbf-a126-5fbb8bafb6f0:
+    group: []
+    options:
+      name: Gustavobf4
+      last-login-time: '1458962164'
+      last-logout-time: '1458964666'
+  c07bc845-a56a-420c-9a5b-4eaf0c29f946:
+    group: []
+    options:
+      name: Mr_Green888
+      last-login-time: '1458962198'
+      last-logout-time: '1458964660'
+  6c8ea7e5-ee3b-4265-8b79-99661032a948:
+    group: []
+    options:
+      name: RyttarX
+      last-login-time: '1458973100'
+      last-logout-time: '1458974112'
+  a43957ba-3ab1-4dda-94ea-a939580785ce:
+    group: []
+    options:
+      name: alfredisac
+      last-login-time: '1459446666'
+      last-logout-time: '1459446683'
+  f0d96d41-6b5e-4a34-a36c-a4fcf5cc4106:
+    group: []
+    options:
+      name: alexandeerz
+      last-login-time: '1459232164'
+      last-logout-time: '1459232224'
+  8b1b6f6a-7d1f-4a1b-8fd4-0b1220faac00:
+    group:
+    - deluxetags.tag.diamant
+    - deluxetags.tag.guldforlife
+    - Guld
+    options:
+      name: Nubux
+      last-login-time: '1459266247'
+      last-logout-time: '1459268799'
+    permissions:
+    - deluxetags.tag.guldforlife
+    - deluxetags.tag.guld
+    - deluxetags.tag.diamant
+  912d76be-43a2-4648-9180-656d9d375dcd:
+    group: []
+    options:
+      name: Speedek1337
+      last-login-time: '1458991366'
+      last-logout-time: '1458991431'
+  8aac0bcb-4ab1-4a28-81b5-6ac4adfc7e52:
+    group: []
+    options:
+      name: Sangheilis
+      last-login-time: '1459010403'
+      last-logout-time: '1459014446'
+  bd227669-e508-4c64-857f-a568ff141ca1:
+    group: []
+    options:
+      name: ItzSneakHD
+      last-login-time: '1459000483'
+      last-logout-time: '1459000619'
+  412f7f15-9f56-41ef-a87d-f7580d0ccbf2:
+    group: []
+    options:
+      name: most_chill
+      last-login-time: '1459015318'
+      last-logout-time: '1459015440'
+  20ad85d7-1a5a-4fa0-be39-2ba24f1e2417:
+    group: []
+    options:
+      name: Lillenz
+      last-login-time: '1459239127'
+      last-logout-time: '1459244866'
+  f81dbf0c-1f35-4cdc-abe3-37665404dfde:
+    group: []
+    options:
+      name: Friis01
+      last-login-time: '1459109021'
+      last-logout-time: '1459109057'
+  26099348-93d8-4090-8594-670860cdbe1e:
+    group: []
+    options:
+      name: tannekillen
+      last-login-time: '1459037823'
+      last-logout-time: '1459038769'
+  0e418095-75f1-4f92-a0e7-3d73ab2864b9:
+    group: []
+    options:
+      name: mechph
+      last-login-time: '1459050871'
+      last-logout-time: '1459050911'
+  920a18e6-7e17-425e-a7d0-4dbf5346e361:
+    group: []
+    options:
+      name: Zerrag
+      last-login-time: '1459191569'
+      last-logout-time: '1459191576'
+  d83fd2c2-581e-48da-aa0f-c78cf692b23d:
+    group: []
+    options:
+      name: jacotacco
+      last-login-time: '1459346492'
+      last-logout-time: '1459346601'
+  547d512b-f587-4ea8-8c74-d5412c06bfa6:
+    group: []
+    options:
+      name: Emil_07_
+      last-login-time: '1459258833'
+      last-logout-time: '1459261957'
+  6bd65ebe-3284-4567-a180-ee489c77c309:
+    group: []
+    options:
+      name: Zicknick
+      last-login-time: '1459272968'
+      last-logout-time: '1459273103'
+  c683330a-4094-473e-8ecb-556b8ba6545e:
+    group: []
+    options:
+      name: _pewpic_
+      last-login-time: '1459421244'
+      last-logout-time: '1459423114'
+  0aabd81d-6164-4200-a409-9052385f4d61:
+    group: []
+    options:
+      name: ChalleDelight
+      last-login-time: '1459362194'
+      last-logout-time: '1459362354'
+  addda765-4c6b-241c-85be-41bd34524688:
+    group: []
+  443fcaa5-cf5a-238c-b931-a6e8d1cebf3d:
+    group: []
+  5c728c1d-c3b2-4d7f-8071-59ef48a57a04:
+    group: []
+    options:
+      name: MicMyren
+      last-login-time: '1459436009'
+      last-logout-time: '1459436712'
+  235d8e2e-75fd-4cf6-a111-5805b29b1e98:
+    group: []
+    options:
+      name: mimmi012
+      last-login-time: '1459439680'
+      last-logout-time: '1459440853'
+  b016604b-18e4-4b5a-8a08-2c6df76aec62:
+    group: []
+    options:
+      name: MjauDuuude
+      last-login-time: '1459446698'
+      last-logout-time: '1459448317'
+schema-version: 1

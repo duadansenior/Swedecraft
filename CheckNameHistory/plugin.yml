@@ -1,0 +1,10 @@
+name: CheckNameHistory
+main: com.vk2gpz.checknamehistory.CheckNameHistory
+version: 3.0.0
+author: vk2gpz
+
+commands:
+   checknamehistory:
+      description: A Command to show the history of name hcange
+      usage: /cnh <latestname>
+      aliases: [cnh,nh]

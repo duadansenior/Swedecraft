@@ -1,0 +1,133 @@
+name: AdvancedAchievements
+main: com.hm.achievement.AdvancedAchievements
+version: 2.4.2
+author: DarkPyves
+softdepend: [Vault]
+load: POSTWORLD
+description: Advanced Achievements enables unique and challenging achievements. Try to collect as many as you can, earn rewards, climb the rankings and receive RP books!
+website: https://github.com/PyvesB/AdvancedAchievements
+commands:
+  aach:
+    description: Main Advanced Achievements command, use it to list sub-commands. 
+    aliases: [advancedachievements,aachievements,aa]  
+    usage: /<command>
+permissions:  
+  achievement.book:
+    description: Allows to receive achievements books.
+    default: true
+  achievement.list:
+    description: Allows to display  name of received and missing achievements.
+    default: true
+  achievement.reload:
+    description: Allows to reload the plugin's configuration.
+    default: op
+  achievement.give:
+    description: Allows to give achievements by command.
+    default: op
+  achievement.check:
+    description: Allows to check if achievements were received by players.
+    default: op
+  achievement.delete:
+    description: Allows to delete achievements by command.
+    default: op
+  achievement.update:
+    description: Allows to be notified when a plugin update is available and CheckForUpdate is set to true in config.
+    default: op
+  achievement.*:
+    description: Star notation of permissions, includes all the above ones and disables book and list commands delays.
+    default: op
+    children:
+      achievement.get: true
+      achievement.book: true
+      achievement.list: true
+      achievement.reload: true
+      achievement.give: true
+      achievement.check: true
+      achievement.delete: true
+      achievement.update: true  
+  achievement.count.connections:
+    description: Allows connection statistics in database to increase.
+    default: true
+  achievement.count.arrows:
+    description: Allows arrow statistics in database to increase.
+    default: true
+  achievement.count.beds:
+    description: Allows bed statistics in database to increase.
+    default: true
+  achievement.count.consumedpotions:
+    description: Allows consumed potions statistics in database to increase.
+    default: true 
+  achievement.count.eatenitems:
+    description: Allows eaten item statistics in database to increase.
+    default: true
+  achievement.count.deaths:
+    description: Allows death statistics in database to increase.
+    default: true
+  achievement.count.itemdrops:
+    description: Allows item drop statistics in database to increase.
+    default: true
+  achievement.count.enchantments:
+    description: Allows enchantment statistics in database to increase.
+    default: true
+  achievement.count.fish:
+    description: Allows fish statistics in database to increase.
+    default: true
+  achievement.count.hoeplowings:
+    description: Allows hoe plowing statistics in database to increase.
+    default: true
+  achievement.count.fertilising:
+    description: Allows fertilising statistics in database to increase.
+    default: true
+  achievement.count.fireworks:
+    description: Allows firework statistics in database to increase.
+    default: true
+  achievement.count.itembreaks:
+    description: Allows item breaks statistics in database to increase.
+    default: true
+  achievement.count.milk:
+    description: Allows milk statistics in database to increase.
+    default: true
+  achievement.count.shear:
+    description: Allows shear statistics in database to increase.
+    default: true
+  achievement.count.snowballs:
+    description: Allows snowball statistics in database to increase.
+    default: true
+  achievement.count.eggs:
+    description: Allows egg statistics in database to increase.
+    default: true
+  achievement.count.taming:
+    description: Allows taming statistics in database to increase.
+    default: true
+  achievement.count.trades:
+    description: Allows trade statistics in database to increase.
+    default: true
+  achievement.count.anvilsused:
+    description: Allows anvils used statistics in database to increase.
+    default: true
+  achievement.count.brewing:
+    description: Allows brewing statistics in database to increase.
+    default: true
+  achievement.count.maxlevel:
+    description: Allows max level statistics in database to increase.
+    default: true
+  achievement.count.playedtime:
+    description: Allows played time statistics in database to increase.
+    default: true
+  achievement.count.distancefoot:
+    description: Allows foot distance statistics in database to increase.
+    default: true
+  achievement.count.distanceboat:
+    description: Allows boat distance statistics in database to increase.
+    default: true
+  achievement.count.distanceminecart:
+    description: Allows minecart distance statistics in database to increase.
+    default: true
+  achievement.count.distancehorse:
+    description: Allows horse distance statistics in database to increase.
+    default: true
+  achievement.count.distancepig:
+    description: Allows pig distance statistics in database to increase.
+    default: true
+# Additional permissions are available for the breaks, places, crafts and kills categories.
+# They depend on the sub-categories defined; for instance for stone breaks: achievement.count.breaks.stone

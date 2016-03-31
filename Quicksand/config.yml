@@ -1,0 +1,56 @@
+# 
+# Quicksand Configuration
+defaults:
+  countdown: 10
+  minPlayers: 2
+  floorMaterials:
+  - SAND
+  - GRAVEL
+  - SOUL_SAND
+arenas:
+  arena1:
+    lobby:
+      world: Games
+      x: 37.1879289447582
+      y: 32.0
+      z: 12.757419404768475
+      yaw: 81.15085
+      pitch: 13.049995
+    spawn:
+      world: Games
+      x: 32.079201179278854
+      y: 32.0
+      z: 6.425759474718477
+      yaw: -17.249939
+      pitch: 14.549865
+    minPlayers: 2
+    end:
+      world: Games
+      x: 59.680911538974975
+      y: 4.0
+      z: 18.533159590455412
+      yaw: 90.30065
+      pitch: 25.049973
+  leave: {}
+  arena2:
+    spawn:
+      world: Games
+      x: 42.69793173721728
+      y: 34.0
+      z: 39.48647620957315
+      yaw: 88.80052
+      pitch: 4.19994
+    lobby:
+      world: Games
+      x: 32.781129174098524
+      y: 32.0
+      z: 40.885519071548565
+      yaw: 278.4004
+      pitch: 4.3499365
+    end:
+      world: Games
+      x: 60.92820154101991
+      y: 4.0
+      z: 19.6344982464158
+      yaw: 92.85043
+      pitch: 10.799998

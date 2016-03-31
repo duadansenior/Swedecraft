@@ -1,0 +1,456 @@
+#     ....    .   .   ....
+#    .   .   .. ..   .   .
+#   .   .   . . .   ....
+#  .   .   .   .   .
+# ....    .   .   .      
+# DeathMessagesPrime Configuration File
+
+# Configuration version, do not change this unless you want your config to be reset.
+config-version: 4 
+
+# World groups.
+# If a world is in a group, and a death occurs there, the appropriate death message
+# will be shown in rest of the worlds in that same group too.
+# 
+# If _enabled is false, this feature is disabled. Instead, the death message behavior
+# will be specified with per-world-messages
+world-groups:
+  _enabled: true
+  world:
+    - world
+    - world_nether
+    - world_the_end
+  
+# List worlds, where death messages from PvP are not recorded, here.
+worlds-no-pvp-death-messages:
+# - world2
+
+# List worlds, where death messages from anything else than PvP are not recorded, here.
+worlds-no-natural-death-messages:
+# - world2
+
+# List worlds, where death messages are only shown to the killer and the victim, here.
+worlds-private-pvp-death-messages:
+# - world3
+
+# List worlds, where death messages are only shown to the player that died here.
+worlds-private-natural-death-messages:
+# - world3
+
+# Show debug information upon death, useful for determining plugin conflicts, etc.
+debug: false
+
+# Show death messages in all worlds, if false. Needs to be true in order to world
+# groups to function.
+per-world-messages: true
+
+# Death message compatibility: set the message as normal, until HIGHEST,
+# when it is emptied.
+death-message-compat-mode: false
+
+# Broadcast death message to console.
+# none: Do not print death message in console.
+# normal: Print the DeathMessagesPrime message in console.
+# verbose: Print a verbose message, including coordinates, and other info.
+# Verbose is useful for debugging
+console-death-message: normal
+
+# The priority for the listener. Set to lower value if there are any conflicts with
+# plugins such as CrackShot.
+# In order from higher to lower: HIGHEST, HIGH, NORMAL, LOW, LOWEST, MONITOR
+death-listener-priority: HIGH
+
+# Whether to show the custom weapon death messages (ZombieCustom for example)
+# on all weapons (true), or only on weapons with custom names (false).
+show-custom-death-msg-on-all-weapons: false
+
+# Here are the actual death messages. They are as a list, so you can add as many as
+# you want, and the plugin will support it. Color codes in format &0-&f and &k-&r are
+# supported.
+#
+# %player% represents the player's name.
+# %name% represents the player's display name.
+# %killer% represents the killer player (in PvP reasons), or 
+#          pursuing mob (in DrowningMob etc. reasons) (mob names can be changed in
+#          mob-names section).
+# %killer2% represents the killer player's display name in PvP reasons only.
+# %weapon_name% represents the weapon name.
+# %weapon% represents the weapon name (including the tooltip).
+# %world% represents the world name of the death.
+# %biome% represents the biome, where the death occurred. 
+death-messages: 
+  # Prefix of all death messages
+  prefix: "&a[&eD&a] &c" 
+  # Suffix of all death messages
+  suffix: "" 
+  mob:
+    BlazeMelee:
+      - "%player% dödades av en Blaze"
+    BlazeFireball:
+      - "%player% åt en eldboll för mycket serverad av Blaze"
+    CaveSpider:
+      - "%player% slaktades brutalt av en Grottspindel"
+    Creeper:
+      - "%player% sprängdes av en Creeper"
+    ElderGuardian:
+      - "%player% dödades av en Elder Guardian"
+    EnderDragon:
+      - "%player% dödades av Ender Draken"
+    EnderDragonBreath:
+      - "%player% badade i Ender Drakens magi och dog"
+    Enderman:
+      - "%player% dödades av en Enderman"
+    Endermite:
+      - "%player% blev dödad av en Endermite"
+    Ghast:
+      - "%player% skulle slå tillbaka en Ghasts eldboll med råkade skalla den istället"
+    Giant:
+      - "%player% hamnade under sulan på en Jätte"
+    Guardian:
+      - "%player% dödades av en Guardian"
+    IronGolem:
+      - "%player% fick stryk av en Järn Golem"
+    MagmaCube:
+      - "%player% kom inte överens med en Magma Cube"
+    Rabbit:
+      - "%player% sprang in i en Mördarkanin"
+    Shulker:
+      - "%player% misslyckades med att överleva mötet med en Shulker"
+    Silverfish:
+      - "%player%s möte med en Silverfisk slutade olyckligt"
+    SkeletonArrow:
+      - "%player% nickade en pil som ett Skelett sköt"
+    SkeletonMelee:
+      - "%player% blev upplärd av ett Skelett om hur hårt ett benigt slag verkligen är"
+    SkeletonCustom:
+      - "%player% sprang in i ett Skeletts [%weapon_name%&f]"
+      - "%player%s liv avslutades av ett Skeletts [%weapon_name%&f]"
+    Slime:
+      - "%player% var visst allergisk mot Slime"
+    SnowGolem:
+      - "%player% klarade inte ens av att överleva en Snögubbe"
+    Spider:
+      - "%player%s försök att bota sin Spindelfobi gick inte riktigt som planerat"
+    Witch:
+      - "%player% sprang in i en Häxas magiska attack"
+    Wither:
+      - "%player% dödades av en Wither"
+    WitherSpawnBoom: # Dies from wither spawn explosion
+      - "%player% sprängdes i luften av en Wither"
+    WitherSkeletonMelee:
+      - "%player% slogs ner av ett Wither Skelett"
+    WitherSkeletonCustom:
+      - "%player% dödades av ett Wither Skeletts [%weapon_name%&f]"
+      - "%player% fick sitt liv avslutat av ett Wither Skeletts [%weapon_name%&f]"
+    Wolf:
+      - "%player% dödades av en Varg"
+    ZombieMelee:
+      - "%player% dödades av en Zombie"
+    ZombieCustom:
+      - "%player% dödades av en Zombies [%weapon_name%&f]"
+      - "%player%s liv sprang in i en Zombies [%weapon_name%&f]"
+    ZombiePigManMelee:
+      - "%player% dödades av en Zombie Gris"
+    ZombiePigManCustom:
+      - "%player% dödades av Zombie Gris [%weapon_name%&f]"
+      - "%player% got finished off by Zombie Pigman using [%weapon_name%&f]"
+  namedmob: # For named mobs, use %killer% as mob
+    BlazeMelee:
+      - "%player% dödades av %killer%"
+    BlazeFireball:
+      - "%player% fick en %killer%"
+    CaveSpider:
+      - "%player% dödades av %killer%"
+    Creeper:
+      - "%player% sprängdes av %killer%"
+    ElderGuardian:
+      - "%player% dödades av %killer%"
+    EnderDragon:
+      - "%player% dödades av %killer%"
+    Enderman:
+      - "%player% dödades av %killer%"
+    Endermite:
+      - "%player% dödades av %killer%"
+    Ghast:
+      - "%player% was fireballed by %killer%"
+    Giant:
+      - "%player% dödades av %killer%"
+    Guardian:
+      - "%player% dödades av %killer%"
+    IronGolem:
+      - "%player% dödades av %killer%"
+    MagmaCube:
+      - "%player% dödades av %killer%"
+    Rabbit:
+      - "%player% dödades av %killer%"
+    Shulker:
+      - "%player% dödades av %killer%"
+    Silverfish:
+      - "%player% dödades av %killer%"
+    SkeletonArrow:
+      - "%player% was shot by %killer%"
+    SkeletonMelee:
+      - "%player% dödades av %killer%"
+    SkeletonCustom:
+      - "%player% dödades av %killer% using [%weapon_name%&f]"
+      - "%player% got finished off by %killer% using [%weapon_name%&f]"
+    Slime:
+      - "%player% dödades av %killer%"
+    SnowGolem:
+      - "%player% was pummeled by %killer%"
+    Spider:
+      - "%player% dödades av %killer%"
+    Witch:
+      - "%player% was killed by %killer% using magic"
+    Wither:
+      - "%player% dödades av %killer%"
+    WitherSpawnBoom: # Dies from wither spawn explosion
+      - "%player% was blown up by %killer%"
+    WitherSkeletonMelee:
+      - "%player% dödades av %killer%"
+    WitherSkeletonCustom:
+      - "%player% dödades av %killer% using [%weapon_name%&f]"
+      - "%player% got finished off by %killer% using [%weapon_name%&f]"
+    Wolf:
+      - "%player% dödades av %killer%"
+    ZombieMelee:
+      - "%player% dödades av %killer%"
+    ZombieCustom:
+      - "%player% dödades av %killer% using [%weapon_name%&f]"
+      - "%player% got finished off by %killer% using [%weapon_name%&f]"
+    ZombiePigManMelee:
+      - "%player% dödades av %killer%"
+    ZombiePigManCustom:
+      - "%player% dödades av %killer% using [%weapon_name%&f]"
+      - "%player% got finished off by %killer% using [%weapon_name%&f]"
+  pvp:
+    PlayerMelee:
+      - "%player% dödades av %killer%"
+    PlayerCustom:
+      - "%player% dödades av %killer% som hade [%weapon_name%&f]"
+    PlayerArrow:
+      - "%player% skjöts av %killer%"
+    PlayerFireball: # Just in case
+      - "%player% blev eldbollad av %killer%"
+    PlayerSnowball: # Just in case
+      - "%player% slogs ihjäl av %killer%"
+    PlayerProjectileCustom: # This is in case of plugins like CrackShot
+      - "%player% skjöts av %killer%s [%weapon_name%&f]"
+    PlayerPotion:
+      - "%player% dödades av %killer%s magi"
+  natural:
+    Thorns:
+      - "%player% försökte skada %killer% men dog själv"
+    TNT:
+      - "%player% sprängdes"
+    TNTKill:
+      - "%player% sprängdes av %killer%"
+    EnderCrystal:
+      - "%player% sprängdes"
+    Cactus:
+      - "%player% stacks ihjäl"
+    CactusKill:
+      - "%player% försökte fly från %killer% och sprang rakt in i en kaktus"
+    Anvil:
+      - "%player% fick ett Städ i huvudet och omkom"
+    FallingBlock: # Only when a FallingBlock is modified to cause damage
+      - "%player% krossades av fallande block"
+    DispenserArrow:
+      - "%player% blev träffad av en pil"
+    DispenserFireball:
+      - "%player% brändes ihjäl"
+    DispenserSnowball:
+      - "%player% dog"
+    Drowning:
+      - "%player% drunknade"
+    DrowningKill:
+      - "%player% drunknade under sin flykt från %killer%"
+    PotionPoison: # Normally impossible
+      - "%player% dog"
+    PotionWither:
+      - "%player% withered away"
+    PotionHarming:
+      - "%player% dödades av magi"
+    FireBlock:
+      - "%player% åts upp av lågor"
+    FireBlockKill:
+      - "%player% gick genom eld under fighten med %killer%"
+    FireTick:
+      - "%player% brändes ihjäl"
+    FireTickKill:
+      - "%player% brändes till kolbitar i en fight mot %killer%"
+    Lava:
+      - "%player% försökte lära sig simma...    ...i Lava"
+    LavaKill:
+      - "%player% försökte fly från %killer% genom att simma i Lava"
+    Lightning: # Happens when struck by lightning, normally firetick/fireblock death message
+      - "%player% brann upp"
+    Starvation:
+      - "%player% glömde äta"
+    Suffocation:
+      - "%player% upptäckte att en vägg inte innehöll mycket syre"
+    Void:
+      - "%player% missade marken och föll ut ur hela världen"
+    VoidKill:
+      - "%player% slogs ner i intet av %killer%"
+    FallShort: # Fall distance 5 blocks or less, or ender pearl
+      - "%player% var mjukare än marken"
+    FallLong: # Fall distance over 5 blocks
+      - "%player% föll från en hög plats...  hårt"
+    FallKill:
+      - "%player% puttades ner mot sin död av %killer%"
+    Elytra: 
+      - "%player% experienced kinetic energy"
+    Suicide: # Some plugins may use this one, used in /suicide and /kill for example
+      - "%player% dog"
+    Melting: # Some plugins may use this one, originally for Snowmans + hot biomes
+      - "%player% dog"
+    Custom: # Some plugins may use this one
+      - "%player% dog"
+  unknown: 
+    - "%player% dog"
+mob-names:
+  Blaze: "Blaze"
+  CaveSpider: "Grottspindel"
+  Creeper: "Creeper"
+  ElderGuardian: "Elder Guardian"
+  EnderDragon: "Ender Drake"
+  Enderman: "Enderman"
+  Endermite: "Endermite"
+  Ghast: "Ghast"
+  Giant: "Jätte"
+  Guardian: "Guardian"
+  IronGolem: "Järn Golem"
+  MagmaCube: "Magma Cube"
+  Rabbit: "Mördarkanin"
+  Shulker: "Shulker"
+  Silverfish: "Silverfish"
+  Skeleton: "Skelett"
+  Slime: "Slem"
+  SnowGolem: "Snögubbe"
+  Spider: "Spindel"
+  Witch: "Häxa"
+  Wither: "Wither"
+  WitherSkeleton: "Wither Skelett"
+  Wolf: "Varg"
+  Zombie: "Zombie"
+  ZombiePigMan: "Zombie Gris"
+
+custom-mob-death-messages:
+  # The following attribute takes in regular expressions and checks top-down whether the names of the mobs match them.
+  # If there is no list, as in [], the plugin will look up the message from the normal death messages.
+  # If the list only has an empty message, the death message for that mob will be hidden.
+  # To match color codes, use the § character instead of &. (This file must be encoded in UTF-8)
+  # Examples:
+  #
+  # "_*": # match all mobs
+  #   - "%player% was killed by a mob"
+  #
+  # "^[Ss]_*": # match all mobs beginning with S or s
+  #   - "%player% was killed by a mob"
+  #
+  # "§cMy Custom Boss": [] # display normal messages for mobs being 'My Custom Boss' written in red
+  #
+  # "My Custom Boss": # match all mobs with name being 'My Custom Boss'
+  #   - "%player% was killed by a boss"
+  #   - "%player% was pummeled by a boss"
+  #
+  # "§aMy Custom Boss": # match all mobs with name being 'My Custom Boss' written in light green
+  #   - "%player% was killed by a boss"
+  #   - "%player% was pummeled by a boss"
+  #
+  # "_*My Custom Boss_*": # match all mobs with name containing 'My Custom Boss'
+  #   - "%player% was killed by a boss"
+  #   - "%player% was pummeled by a boss"
+  #
+  # !!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!
+  #  IN REGEXES; ALL DOTS MUST BE REPRESENTED WITH UNDERSCORES
+  # !!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!
+  #
+  Melee:
+    "_*": []
+  Ranged:
+    "_*": []
+  Potion:
+    "_*": []
+  Thorns:
+    "_*": []
+  TNTKill:
+    "_*": []
+  CactusKill:
+    "_*": []
+  DrowningKill:
+    "_*": []
+  FireBlockKill:
+    "_*": []
+  FireTickKill:
+    "_*": []
+  LavaKill:
+    "_*": []
+  VoidKill:
+    "_*": []
+  FallKill:
+    "_*": []
+  Other:
+    "_*": []
+
+custom-user-death-messages:
+  # Same deal here. The plugin checks from the actual user names of players.
+  # custom-user-death-messages is preferred over custom-player-death-messages:
+  # empty list here will pass to custom-player-death-messages before passing through to
+  # normal death messages.
+  Melee:
+    "_*": []
+  Ranged:
+    "_*": []
+  Potion:
+    "_*": []
+  Thorns:
+    "_*": []
+  TNTKill:
+    "_*": []
+  CactusKill:
+    "_*": []
+  DrowningKill:
+    "_*": []
+  FireBlockKill:
+    "_*": []
+  FireTickKill:
+    "_*": []
+  LavaKill:
+    "_*": []
+  VoidKill:
+    "_*": []
+  FallKill:
+    "_*": []
+  Other:
+    "_*": []
+
+custom-player-death-messages:
+  # Same deal here. The plugin checks from the display names of players.
+  Melee:
+    "_*": []
+  Ranged:
+    "_*": []
+  Potion:
+    "_*": []
+  Thorns:
+    "_*": []
+  TNTKill:
+    "_*": []
+  CactusKill:
+    "_*": []
+  DrowningKill:
+    "_*": []
+  FireBlockKill:
+    "_*": []
+  FireTickKill:
+    "_*": []
+  LavaKill:
+    "_*": []
+  VoidKill:
+    "_*": []
+  FallKill:
+    "_*": []
+  Other:
+    "_*": []

@@ -1,0 +1,15 @@
+name: BukkitCompat
+main: com.mcmyadmin.bukkitcompat.BukkitCompat
+version: R22A
+author: PhonicUK
+description: McMyAdmin Compatibility Plugin
+
+commands:
+  tell:
+    description: send a message to a specific person
+  kickreason:
+    description: kick a user with a supplied reason
+  svping:
+    description: check that the server is still responding
+  pushcommand:
+    description: push a console command through to McMyAdmin as the current user

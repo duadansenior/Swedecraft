@@ -1,0 +1,33 @@
+general:
+  check-updates: true
+  language: english
+  language-save: false
+items:
+  use-recipes: true
+  obscura-drop: true
+pictures:
+  reuse-deleted-maps: true
+  minimal-pixel-art-size: 16
+  default-background: default
+  pictures-per-owner: 50
+  burn-pixel-art-wool: true
+  default-skin: default_skin.png
+  skin-url: http://s3.amazonaws.com/MinecraftSkins/
+  personal-folders:
+    enable: false
+    auto-create: false
+  multi-map:
+    max-width: 7
+    max-height: 7
+  muti-map:
+    max-width: 7
+    max-height: 5
+picture-name:
+  show-at-new-pictures: false
+  x: 1
+  y: 122
+  font-name: Serif
+  font-size: 9
+  font-color: '#000000'
+  stroke: true
+  stroke-color: '#FFFFFF'

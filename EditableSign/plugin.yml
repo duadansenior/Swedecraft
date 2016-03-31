@@ -1,0 +1,11 @@
+name: EditableSign
+main: com.vk2gpz.editablesign.EditableSign
+version: 2.1.0
+author: vk2gpz
+softdepend: [NoCheatPlus]
+
+commands:
+   editsign:
+      description: A editable sign related command
+      usage: /editsign <subcommand>
+      aliases: [es]

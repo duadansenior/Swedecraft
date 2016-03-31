@@ -1,0 +1,46 @@
+##
+# PlaceholderHook Plugin
+#
+# @copyright MVdW BasePlugin Framework 2014
+# @author Maxim Van de Wynckel (Maximvdw)
+##
+
+name: PlaceholderHook
+version: 0.3.0
+description: Add placeholders to non-maximvdw plugins
+author: Maximvdw
+website: http://www.mvdw-software.be/
+main: be.maximvdw.placeholderhook.PlaceholderHook
+softdepends: [FeatherBoard,ActionBar,Tab,TitleMotdAdvanced,DynamicSigns,InteractiveChat,AnimatedNames,AnimatedMOTD-Bukkit]
+loadbefore: [FeatherBoard,ActionBar,Tab,TitleMotdAdvanced,DynamicSigns,InteractiveChat,AnimatedNames,AnimatedMOTD-Bukkit]
+## DO NOT EDIT ANYTHING ABOVE THIS LINE
+
+commands:
+  placeholderhook:
+    description: Reload the plugin configuration
+    usage: /<command> (Startup error! PM Maximvdw)
+
+permissions:
+  ## DO NOT EDIT EXISTING PLUGIN NAMES
+  ## THIS WILL BREAK THE PLUGIN
+  placeholderhook.reload:
+    description: Reload the configuration
+    default: op
+  placeholderhook.help:
+    description: Show plugin help
+    default: true
+  placeholderhook.uploadlog:
+    description: Upload log
+    default: op
+  placeholderhook.uploadconfig:
+    description: Upload config
+    default: op
+  placeholderhook.about:
+    description: About the plugin
+    default: true
+  placeholderhook.permissions:
+    description: List all permissions
+    default: true
+  placeholderhook.resetconfig:
+    description: Reset the configuration file
+    default: false

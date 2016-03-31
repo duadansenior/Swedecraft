@@ -1,0 +1,175 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Husdjur'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 2
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'husdjur'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+petinfo:
+  COMMAND: 'petinfo'
+  NAME: '&6Info om ditt djur'
+  LORE:
+    - 'Visar information om ditt husdjur'
+    - 'som hälsa, erfarenhetspoäng, skada,'
+    - 'erfarenhetsträd, nivå etc.'
+  ID: cookie
+  POSITION-X: 1
+  POSITION-Y: 1
+
+petsendaway:
+  COMMAND: 'petsendaway'
+  NAME: '&6Skicka bort ditt djur'
+  LORE:
+    - 'Skickar bort ditt djur så.'
+    - 'Det finns fortfarande kvar och'
+    - 'can ropas tillbaka när du vill.'
+  ID: wool
+  DATA-VALUE: 14
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+petcall:
+  COMMAND: 'petcall'
+  NAME: '&6Ropa tillbaka ditt djur'
+  LORE:
+    - 'Om du har skickat iväg ditt djur'
+    - 'så ropar du tillbaka det.'
+    - 'Gör ingenting om du redan har'
+    - 'djuret hos dig.'
+  ID: wool
+  DATA-VALUE: 5
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+petrespawn:
+  COMMAND: 'petrespawn pay'
+  NAME: '&6Respawna ditt djur'
+  LORE:
+    - 'Om ditt djur dör i strid kan du'
+    - 'få tillbaka det för en liten slant.'
+    - 'Gör ingenting om du redan har'
+    - 'djuret hos dig.'
+  ID: golden_apple
+  POSITION-X: 4
+  POSITION-Y: 1
+ 
+petskill:
+  COMMAND: 'petskill'
+  NAME: '&6Egenskaper'
+  LORE:
+    - 'Visar ditt djurs olika egenskaper.'
+    - 'Måste ha valt ett kunskapsträd att'
+    - 'följa för att ha egenskaper.'
+  ID: book
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+skilltree:
+  COMMAND: 'petchooseskilltree'
+  NAME: '&6Välj kunskapsträd'
+  LORE:
+    - 'Kunskapsträd är den extremt dåliga'
+    - 'översättningen av ordet skilltree.'
+    - 'Du måste välja ett kunskapsträd för'
+    - 'att ditt husdjur ska kunna göra saker.'
+  ID: brewing_stand
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+
+petinv:
+  COMMAND: 'pi'
+  NAME: '&6Inventory'
+  LORE:
+    - 'Öppnar ditt djurs inventory om de har'
+    - 'något. Gör ingenting om ditt djur'
+    - 'saknar ett inventory'
+  ID: chest
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+petbeacon:
+  COMMAND: 'petbeacon'
+  NAME: '&6Fyr (beacon)'
+  LORE:
+    - 'Öppnar ditt djurs fyr om de har'
+    - 'något. Gör ingenting om ditt djur'
+    - 'saknar ett fyr.'
+  ID: beacon
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+
+capturehelper:
+  COMMAND: 'petcapturehelper'
+  NAME: '&6Infångningshjälp'
+  LORE:
+    - 'Växlar hjäpen för att fånga djur på/av.'
+    - 'Visar djurets hälsa i chatten för att'
+    - 'du lättare ska se hur nära du är att'
+    - 'fånga in det.'
+  ID: 420
+  KEEP-OPEN: false
+  POSITION-X: 9
+  POSITION-Y: 1
+
+tillbaka:
+  COMMAND: 'cc open main.yml'
+  NAME: '&4Tillbaka'
+  LORE:
+    - 'Tar dig tillbaka till huvudmenyn'
+  ID: wool
+  DATA-VALUE: 15
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+
+petsinfo:
+  COMMAND: 'cc open pets.yml'
+  NAME: '&4Information om varje djur'
+  LORE:
+    - 'En meny med varje djur som går att få tag'
+    - 'i rättigheterna till att tämja.'
+    - 'OBS! Du måste fått tag i rättigheterna annars'
+    - 'är det ingen idé att försöka tämja dessa!'
+  ID: wool
+  DATA-VALUE: 12
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2

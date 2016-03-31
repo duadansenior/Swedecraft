@@ -1,0 +1,273 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Huvudmeny'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 2
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'admin'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: paper
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+rad1-1:
+  COMMAND: 'redeem'
+  NAME: '&6McMMO'
+  LORE:
+    - '&bVälj själv vad för egenskaper du'
+    - '&bvill lägga poäng på.'
+    - '&d&oKräver att du blivit tilldelad'
+    - '&d&opoäng från Staff eller skatter.'
+  ID: 267
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+rad1-2:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+rad1-3-tags:
+  COMMAND: 'tags'
+  NAME: '&6Taggar'
+  LORE:
+    - 'Alla taggar som du har tillgängliga'
+    - 'kan du välja mellan här'
+  ID: redstone
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+rad1-4-pets:
+  COMMAND: 'cc open mypets.yml'
+  NAME: '&6Husdjur'
+  LORE:
+    - 'Öppnar menyn för husdjur och'
+    - 'allt om dem.'
+  ID: skull
+  DATA-VALUE: 4
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+rad1-5:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+rad1-6:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  AMOUNT: 1
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+rad1-7:
+  COMMAND: 'shop'
+  NAME: '&6Donator Affär'
+  LORE:
+    - '&bStöd servern och köp en rank'
+    - '&bsom Donator. Det finns flera'
+    - '&bolika ranker.'
+  ID: emerald
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  ENCHANTMENT: fortune
+  AMOUNT: 1
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+rad1-8:
+  COMMAND: ''
+  NAME: 'Topplistor'
+  LORE:
+    - 'Kommer snart...'
+    - ''
+  ID: paper
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  ENCHANTMENT: fortune
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+rad1-9:
+  COMMAND: 'cc open warping.yml'
+  NAME: '&6Teleporteringar (warps)'
+  LORE:
+    - 'Här finns alla warpar som kan användas'
+    - 'Bara klicka på en av dem för att resa'
+  ID: 120
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+
+rad2-1:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 1
+  POSITION-Y: 2
+rad2-2:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 2
+  POSITION-Y: 2
+rad2-3:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 3
+  POSITION-Y: 2
+rad2-4:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 4
+  POSITION-Y: 2
+rad2-5:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 5
+  POSITION-Y: 2
+rad2-6:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+    - ''
+  ID: 160
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 6
+  POSITION-Y: 2
+rad2-7:
+  COMMAND: 'infobox'
+  NAME: '&6Öppna/Stäng Nyhetsfönstret'
+  LORE:
+    - 'Växlar fönstret med senaste nytt'
+    - 'i högra delen av skärmen på/av'
+  ID: feather
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 7
+  POSITION-Y: 2
+rad2-8:
+  COMMAND: ''
+  NAME: 'ServerShop'
+  LORE:
+    - 'Kommer...'
+    - ''
+  ID: gold_ingot
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 8
+  POSITION-Y: 2
+rad2-9-books:
+  COMMAND: 'cc open books.yml'
+  NAME: 'Böcker & Guider'
+  LORE:
+    - 'Inte klart än men kommer innehålla'
+    - 'nyttiga böcker som förklarar en del.'
+  ID: book
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 9
+  POSITION-Y: 2

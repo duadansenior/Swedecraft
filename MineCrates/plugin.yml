@@ -1,0 +1,26 @@
+name: MineCrates
+main: me.clip.minecrates.MineCrates
+version: 2.4
+author: extended_clip
+description: Mine for a chance to obtain a reward crate!
+softdepend: [WorldEdit, WorldGuard, PrisonMines, MineResetLite, HolographicDisplays]
+permissions:
+    minecrates.admin:
+        description: Admin management permission for MineCrates
+        default: op
+    minecrates.get:
+        description: ability to break blocks to get crates
+        default: op
+    minecrates.ignore:
+        description: ability to toggle off crate spawning for yourself
+        default: op
+    minecrates.help:
+        description: ability to use /minecrates help
+        default: op
+    minecrates.cooldown.exempt:
+        description: exempt from MineCrates cooldowns
+        default: op
+commands:
+   minecrates:
+     description: Admin command for MineCrates
+     aliases: [mcrates]

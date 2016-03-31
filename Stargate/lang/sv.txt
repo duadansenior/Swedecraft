@@ -1,0 +1,33 @@
+prefix=[Stargate] 
+teleportMsg=teleporterade
+destroyMsg=Portal Förstörd
+invalidMsg=Felaktig Destination
+blockMsg=Destination Blockerad
+destEmpty=Destinationslista Tom
+denyMsg=Tillträde Nekad
+
+ecoDeduct=Drog %cost%
+ecoRefund=Återbetalade %cost%
+ecoObtain=Mottagit %cost% från Portal %portal%
+ecoInFunds=Har inte råd
+
+createMsg=Portal Skapad
+createNetDeny=Du har inte tillgång till det nätverket
+createGateDeny=Du har inte tillgång till den formen på Portaler
+createPersonal=Skapar en Portal på personliga nätverket
+createNameLength=Namnet är för kort eller för långt
+createExists=En portal med det namnet finns redan
+createFull=Det här nätverket är fullt
+createWorldDeny=Du har inte tillträde till den världen
+createConflict=Portalen har en konflikt med en annan portal
+
+signRightClick=Högerklicka för
+signToUse=att använda
+signRandom=Slumpad
+signDisconnected=Frånkopplad
+
+bungeeDisabled=BungeeCord support är avstängd.
+bungeeDeny=You do not have permission to create BungeeCord gates.
+bungeeEmpty=BungeeCord gates require both a destination and network.
+bungeeSign=Teleport to
+

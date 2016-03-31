@@ -1,0 +1,116 @@
+quests:
+  Miner:
+    name: Stone Miner
+    ask-message: <yellow>Could you mine <purple>10<yellow> blocks of <purple>Stone<yellow>, and deliver the <purple>10<yellow> pieces <yellow>of <purple>Cobblestone<yellow> to me?
+    finish-message: <yellow>Well done. Here is your reward.
+    redo-delay: 1800
+    requirements:
+      items:
+      - name-wood_pickaxe:amount-1
+      remove-items:
+      - false
+      fail-requirement-message: <red>You must have a <purple>Wooden Pickaxe<red> first.
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - stone
+          break-block-amounts:
+          - 10
+    rewards:
+      money: 1000
+      quest-points: 1
+  Hunter:
+    name: Mob Hunter
+    ask-message: <yellow>Kill an assortment of Mobs.
+    finish-message: <yellow>Excellent. Here is a <purple>Diamond Sword<yellow>.
+    requirements:
+      quests:
+      - Stone Miner
+      fail-requirement-message: <red>Complete <purple>Stone Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Pig
+          mob-amounts:
+          - 3
+          finish-event: GoodJob
+        '2':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 2
+          finish-event: GoodJob
+        '3':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 1
+    rewards:
+      items:
+      - name-diamond_sword:amount-1
+      exp: 100
+      quest-points: 1
+  CatchFish:
+    name: Catch Fish
+    ask-message: <yellow>Catch some fish!
+    finish-message: <yellow>Excellent. Here is some <green>experience<yellow>.
+    requirements:
+      quests:
+      - Stone Miner
+      fail-requirement-message: <red>Complete <purple>Stone Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          start-event: FishingStart
+          death-event: DeathFail
+          chat-events:
+          - RodEvent
+          chat-event-triggers:
+          - rod
+          fish-to-catch: 5
+    rewards:
+      exp: 250
+  custom1:
+    name: Gammelstadens portal
+    npc-giver-id: 18
+    ask-message: Vill du kunna använda den här portalen för 2000 kr?
+    finish-message: Tack för pengarna. Du kan nu använda den här portalen. :)
+    requirements:
+      money: 2000
+      fail-requirement-message: Kanske bäst du ser till att skaffa mer pengar först?
+    stages:
+      ordered:
+        '1':
+          password-displays:
+          - Säg Abrakadabra!
+          password-phrases:
+          - Abrakadabra!
+    rewards:
+      commands:
+      - pex user <player> add stargate.network.hub1
+  custom2:
+    name: Daglig Romans
+    npc-giver-id: 3
+    redo-delay: 86400
+    ask-message: Skulle du kunna göra mig en snabb tjänst? Bara prata med en underbar person snabbt?
+    finish-message: Om du är här imorgon så kika gärna förbi. Vill nog skicka fler meddelanden till henne. Hihi...
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 5
+          start-message: Tack så jättemycket. Hälsa henne att jag tänker på henne idag med, som varje dag!
+          complete-message: Ah, Ragnar den gamle romantikern. Jag lovar att pratar du med han imorgon kommer han be om samma sak
+        '2':
+          npc-ids-to-talk-to:
+          - 3
+          start-message: Gå tillbaka och säg till han att du pratat med mig så blir han nog glad nog att ge dig något.
+          complete-message: Du pratade med henne? Underbart! Här! Ta en skraplott som tack.
+    rewards:
+      commands:
+      - crate key <player>

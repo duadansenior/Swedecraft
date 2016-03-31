@@ -1,0 +1,78 @@
+name: BooksWithoutBorders
+main: me.AkiraAkiba.bwb.BwB
+version: 1.3.3b
+description: If only customs were this easy...
+author: AkiraAkiba
+softdepend: [Vault]
+website: ????
+dev-url: ????
+commands:
+  BooksWithoutBorders:
+    description: Lists Books Without Borders's commands and uses.
+    aliases: bwb
+permissions:
+  bookswithoutborders.admin:
+    description: Grants all permissions
+    default: op
+    children:
+        bookswithoutborders.use: true
+        bookswithoutborders.unsign: true
+        bookswithoutborders.copy: true
+        bookswithoutborders.loadpublic: true
+        bookswithoutborders.savepublic: true
+        bookswithoutborders.encrypt: true
+        bookswithoutborders.decrypt: true
+        bookswithoutborders.signs: true
+        bookswithoutborders.give: true
+        bookswithoutborders.givepublic: true
+        bookswithoutborders.settitle: true
+        bookswithoutborders.setauthor: true
+        bookswithoutborders.setlore: true
+        bookswithoutborders.bypassauthoronlycopy: true
+        bookswithoutborders.bypassbookprice: true
+        bookswithoutborders.groupencrypt: true
+        bookswithoutborders.setbookprice: true
+  bookswithoutborders.use:
+    description: Allows player to use commands and to save/load/delete in their personal directory
+    children:
+        bookswithoutborders.save: true
+        bookswithoutborders.load: true
+        bookswithoutborders.delete: true
+  bookswithoutborders.save:
+    description: Allows player to save books to their personal directory
+  bookswithoutborders.load:
+    description: Allows player to load books from their personal directory
+  bookswithoutborders.delete:
+    description: Allows player to delete books from their personal directory
+  bookswithoutborders.unsign:
+    description: Allows player to use unsign command
+  bookswithoutborders.copy:
+    description: Allows player to use copy command
+  bookswithoutborders.loadpublic:
+    description: Allows player to load in the public directory
+  bookswithoutborders.savepublic:
+    description: Allows player to save in the public directory
+  bookswithoutborders.encrypt:
+    description: Allows player to encrypt books
+  bookswithoutborders.groupencrypt:
+    description: Allows player to set group based encryption
+  bookswithoutborders.decrypt:
+    description: Allows player to decrypt books
+  bookswithoutborders.signs:
+    description: Allows player to create signs that give/encrypt/decrypt books
+  bookswithoutborders.give:
+    description: Allows player to give another player one of their privately saved books
+  bookswithoutborders.givepublic:
+    description: Allows player to give another player a book from the public directory
+  bookswithoutborders.settitle:
+    description: Allows player to set the title of the currenlty held book
+  bookswithoutborders.setauthor:
+    description: Allows player to set the author of the currently held book
+  bookswithoutborders.setlore:
+    description: Allows player to set the lore of the currently held item
+  bookswithoutborders.bypassauthoronlycopy:
+    description: Allows player to ignore Author_Only_Copy config setting
+  bookswithoutborders.bypassbookprice:
+    description: Allows player to ignore Price_to_create_book config setting
+  bookswithoutborders.setbookprice:
+    description: Allows player to set the cost of creating a book

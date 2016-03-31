@@ -1,0 +1,12 @@
+name: TextReplacer
+description: Replace words with other words!
+version: 1.0
+main: tr.main.Core
+commands:
+  tr:
+    description: TextReplacer commands
+    permission: tr.commands
+permissions:
+  tr.commands:
+    description: Ability to use all commands for the TextReplacer plugin
+    default: op

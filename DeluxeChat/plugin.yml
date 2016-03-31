@@ -1,0 +1,71 @@
+name: DeluxeChat
+main: me.clip.deluxechat.DeluxeChat
+version: 1.9
+author: extended_clip
+description: Deluxe chat formatting system
+softdepend: [AcidIsland, ASkyBlock, Autorank, AutoSell, BanManager, ChatColor, ChatReaction, CheckNameHistory, DeluxeTags, Essentials, EZBlocks, EZPrestige, EZRanksLite, EZRanksPro, Factions, GAListener, GangsPlus, Heroes, IslandWorld, Jobs, KillRewards, killStats, LWC, MarriageMaster, McInfected, McInfected-Ranks, mcMMO, MVdWPlaceholderAPI, Nicky, PlaceholderAPI, PlotMe, PlayerPoints, PlotMe, PlotSquared, PrisonGangs, pvpstats, QuickSell, RoyalCommands, SimpleClans, SimpleCoinsAPI, Simple Suffix, SkyWarsReloaded, SQLPerms, SQLTokens, SurvivalGames, Teams, TokenEnchant, Towny, TownyChat, uSkyBlock, UltimateVotes, Vault, VoteParty, Werewolf, WickedSkyWars]
+permissions:
+    chatformat.default:
+        description: default chat format
+        default: true
+    deluxechat.color:
+        description: ability to use color codes in chat
+        default: op
+    deluxechat.formatting:
+        description: ability to use formatting codes in chat
+        default: op
+    deluxechat.utf:
+        description: ability to use special utf characters in chat
+        default: op
+    deluxechat.admin:
+        description: ability to use dchat commands
+        default: op
+    deluxechat.filter.bypass:
+        description: ability to bypass the chat filter if enabled
+        default: op
+    deluxechat.url:
+        description: ability to send clickable links in chat
+        default: op
+    deluxechat.bungee.chat:
+        description: ability to chat globally if bungee is enabled
+        default: op
+    deluxechat.bungee.toggle:
+        description: ability to chat globally if bungee is enabled
+        default: op
+    deluxechat.bungee.override:
+        description: always send to all players when in global chat even if player is in server only chat
+        default: op
+    deluxechat.pm:
+        description: ability to send private messages with /msg or /reply
+        default: op
+    deluxechat.pm.color:
+        description: ability to use color codes in private messages
+        default: op
+    deluxechat.pm.formatting:
+        description: ability to use formatting codes in private messages
+        default: op
+    deluxechat.pm.url:
+        description: ability to send url links in private message
+        default: op
+    deluxechat.socialspy:
+        description: ability to spy on private messages
+        default: op
+    deluxechat.socialspy.onjoin:
+        description: will toggle socialspy on when the player joins
+        default: op
+commands:
+   dchat:
+     description: Chat utility command
+     aliases: [deluxechat]
+   gtoggle:
+     description: Toggle global/bungeecord chat on/off
+     aliases: [globaltoggle]
+   msg:
+     description: Send a player a private message
+     aliases: [message, pm, tell, whisper, w, t, m]
+   reply:
+     description: reply to a private message
+     aliases: [r]
+   socialspy:
+     description: spy on private messages
+     aliases: [deluxesocialspy]

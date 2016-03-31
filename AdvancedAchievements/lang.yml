@@ -1,0 +1,83 @@
+# 
+# +--------------------------------------------------------+ #
+# |           Advanced Achievements language file          | #
+# +--------------------------------------------------------+ #
+configuration-successfully-reloaded: Konfigurationen laddad.
+configuration-reload-failed: Fel när konfigurationen laddades in. Läs loggfilen för mer info.
+no-permissions: Du saknar rättigheterna för att göra detta.
+top-achievement: 'Spelare med flest Achievements:'
+player-rank: 'Nuvarande rank:'
+number-achievements: 'Achievements mottagna:'
+book-received: Du har tagit emot din bok med dina Achievements!
+book-delay: Du måste vänta TIME sekunder mellan varje bok!
+book-name: Achievements
+player-offline: Spelaren PLAYER är offline!
+achievement-already-received: Spelaren PLAYER har redan fått den här Achievement!
+achievement-not-found: Specifierade achievement hittades inte.
+achievement-given: Achievement utgiven!
+achievement-received: 'PLAYER mottog achievement:'
+achievement-new: 'Ny Achievement:'
+item-reward-received: 'Du fick en pryl som belöning:'
+money-reward-received: 'Du mottog: AMOUNT !'
+command-reward: Belöningskommandot utfört!
+aach-command-book: Du tog emot din Achievement bok.
+aach-command-stats: Antal Achievement du har fått.
+aach-command-list: Visa mottagna och saknade Achievement.
+aach-command-top: Visa personlig och global ranking.
+aach-command-give: Ge achievement ACH till spelare NAME.
+aach-command-reload: Ladda om tilläggets konfiguration.
+aach-command-info: Visa allmän information om tillägget.
+version-command-name: 'Namn:'
+version-command-version: 'Version:'
+version-command-website: 'Websida:'
+version-command-author: 'Författare:'
+version-command-description: 'Beskrivning:'
+version-command-description-details: Avancerade Achievements erbjuder unika och utmanande achievements. Försök samla så många du kan, få belöningar, klättra på rankingen och få RP böcker!
+version-command-vault: 'Vault integrering:'
+version-command-database: 'Database typ:'
+list-reward: 'Belöning:'
+list-reward-money: pengar
+list-reward-item: prylar
+list-reward-command: annat
+list-amount: 'Achievements:'
+list-connections: Connections
+list-places: Block placerade
+list-breaks: Block förstörda
+list-kills: Varelser dödade
+list-crafts: Prylar skapade
+list-deaths: Antal dödsfall
+list-arrows: Pilar skjutna
+list-snowballs: Snöbollar kastade
+list-eggs: Ägg kastade
+list-fish: Fiskar fångade
+list-itembreaks: Prylar förstörda
+list-eatenitems: Saker ätna
+list-shear: Får rakade
+list-milk: Kossor mjölkade
+list-trades: Antal byteshandel
+list-anvils: Städ använda
+list-enchantments: Prylar förtrollade
+list-beds: Sängar använda
+list-maxlevel: Max nivå nådd
+list-potions: Dryker förtärda
+list-distance: Avstånd rest
+list-itemdrops: Saker kastade
+list-hoeplowings: Yta plogad
+list-fertilising: Växter gödda
+list-commands: Andra Achievements
+list-playedtime: Tid spelad
+list-delay: You must wait TIME seconds between each list command!
+list-taming: Animals Tamed
+list-brewing: Potions Brewed
+check-achievement-true: PLAYER has received the achievement ACH!
+check-achievements-false: PLAYER has not received the achievement ACH!
+delete-achievements: The achievement ACH was deleted from PLAYER.
+aach-command-check: Check if player NAME has &7received ACH.
+aach-command-delete: Delete achievement ACH from &7player NAME.
+list-gui-title: '&5§lAchievements List'
+list-distance-foot: Distance Travelled by Foot
+list-distance-pig: Distance Travelled on a Pig
+list-distance-horse: Distance Travelled on a Horse
+list-distance-minecart: Distance Travelled in a Minecart
+list-distance-boat: Distance Travelled in a Boat
+list-fireworks: Fireworks Launched

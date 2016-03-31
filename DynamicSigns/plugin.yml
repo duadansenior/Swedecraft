@@ -1,0 +1,54 @@
+##
+# DynamicSigns Plugin
+#
+# @copyright MVdW BasePlugin Framework 2014-2016
+# @author Maxim Van de Wynckel (Maximvdw)
+##
+
+name: DynamicSigns
+version: 3.20.2
+description: Dynamic signs
+author: Maximvdw
+website: http://www.mvdw-software.com/
+main: be.maximvdw.dsigns.DynamicSigns
+softdepend: [MVdWUpdater,MVdWPlaceholderAPI]
+## DO NOT EDIT ANYTHING ABOVE THIS LINE
+
+commands:
+  dynamicsigns:
+    description: Utilize the plugin
+    aliases: [dsigns]
+
+permissions:
+  ## DO NOT EDIT EXISTING PLUGIN NAMES
+  ## THIS WILL BREAK THE PLUGIN
+  dsigns.reload:
+    description: Reload the configuration
+    default: op
+  dsigns.help:
+    description: Show plugin help
+    default: true
+  dsigns.uploadlog:
+    description: Upload log
+    default: op
+  dsigns.uploadconfig:
+    description: Upload config
+    default: op
+  dsigns.about:
+    description: About the plugin
+    default: true
+  dsigns.permissions:
+    description: List all permissions
+    default: true
+  dsigns.resetconfig:
+    description: Reset the configuration file
+    default: false
+  dsigns.placeholders:
+    description: Available placeholders
+    default: op
+  dsigns.destroy:
+    description: Destroy Dynamic signs
+    default: op
+  dsigns.parse:
+    description: Parse effects or placeholders to chat
+    default: op

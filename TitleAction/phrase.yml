@@ -1,0 +1,28 @@
+# +--------------------------------------+
+#  TitleAction
+#  phrase.yml
+# +--------------------------------------+
+
+No_Permission: '&cYou don''t have permission to do this!'
+Args_Incorrect: '&cArgs value incorrect!'
+Command_Not_Find: '&cCommand not find!'
+Only_Player_Use: '&cThis command only can use by a player'
+Plugin_Reloaded_All: '&aAll config are reloaded!'
+Added_BlockTitle: '&aYou have add a block title! Please set the title on ''''areas/blocks.yml'''''
+Already_Have_This_BlockTitle: '&cAlready have a block title on your location'
+No_This_BlockTitle: '&cCannot find a block title on your location'
+Removed_BlockTitle: '&aRemoved a block title on your location'
+Help:
+  Cmd_PluginInfo: Show the plugin informations
+  Cmd_Help: Show this help
+  Cmd_AddBlockTitle: Add block title on your location
+  Cmd_RemoveBlockTitle: Remove block title on your location
+  Cmd_Reload: Reload the plugin
+UserOption_Title: '&6Title: '
+UserOption_ToggleTitle: '&aYou have toggled title to '
+UserOption_ActionBar: '&6ActionBar: '
+UserOption_ToggleActionBar: '&aYou have toggled action bar to '
+UserOption_Sound: '&6Sound: '
+UserOption_ToggleSound: '&aYou have toggled sound to '
+UserOption_ToggleAll: '&aYou have toggled all title option'
+UserOption_Usage: '&cUsage: title|actionbar|sound|all'

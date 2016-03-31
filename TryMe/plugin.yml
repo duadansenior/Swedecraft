@@ -1,0 +1,99 @@
+name: TryMe
+main: me.Zrips.TryMe.TryMe
+version: 4.6.1
+website: https://www.spigotmc.org/resources/tryme.3330/
+author: Zrips
+softdepend: [Vault, Herochat, mcMMO, FactionChat, MineverseChat]
+description: Powerfull Question/Flash/Decode/Math game plugin
+commands:
+  tryme:
+      description: basic command
+  answer:
+      description: TryMe answer command
+  answ:
+      description: TryMe answer command
+permissions:
+  tryme.*:
+    description: Grants access to all Tryme Commands commands
+    children:
+      tryme.admin: true
+  tryme.admin:
+    description: Grants permissions as an admin
+    default: false
+    children:
+      tryme.command.*: true
+  tryme.command.*:
+    description: Grants player access to all commands
+    default: false
+    children:
+      tryme.command.add: true
+      tryme.command.next: true
+      tryme.command.delete: true
+      tryme.command.stop: true
+      tryme.command.info: true
+      tryme.command.top: true
+      tryme.command.reload: true
+      tryme.command.stats: true
+      tryme.command.stopsc: true
+      tryme.command.startsc: true
+      tryme.command.qmode: true
+      tryme.command.dmode: true
+      tryme.command.fmode: true
+      tryme.command.mmode: true
+      tryme.command.amode: true
+      tryme.command.signupdate: true
+      tryme.command.edit: true
+  tryme.command.add:
+    description: Grants access to the add command
+    default: op
+  tryme.command.next:
+    description: Grants access to the next command
+    default: op
+  tryme.command.delete:
+    description: Grants access to the delete command
+    default: op
+  tryme.command.stop:
+    description: Grants access to the stop command
+    default: op
+  tryme.command.info:
+    description: Grants access to the info command
+    default: true
+  tryme.command.stats:
+    description: Grants access to the stats command
+    default: true
+  tryme.answers:
+    description: Grants access to see answers with info command
+    default: op
+  tryme.command.stopsc:
+    description: Grants access to the stopsc command
+    default: op
+  tryme.command.startsc:
+    description: Grants access to the startsc command
+    default: op
+  tryme.command.qmode:
+    description: Grants access to the qmode command
+    default: op
+  tryme.command.dmode:
+    description: Grants access to the dmode command
+    default: op
+  tryme.command.fmode:
+    description: Grants access to the fmode command
+    default: op
+  tryme.command.mmode:
+    description: Grants access to the mmode command
+    default: op
+  tryme.command.amode:
+    description: Grants access to the amode command
+    default: op
+  tryme.command.signupdate:
+    description: Grants access to the signupdate command
+    default: op
+  tryme.command.edit:
+    description: Grants access to the edit command
+    default: op
+  tryme.signs:
+    description: Grants access to create signs
+    default: op
+  tryme.commandanswer:
+    description: Grants access to answer with commands
+    default: true

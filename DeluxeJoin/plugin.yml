@@ -1,0 +1,26 @@
+name: DeluxeJoin
+main: me.clip.deluxejoin.DeluxeJoin
+version: 2.1
+author: extended_clip
+description: Deluxe actions executed when players join or leave the server!
+softdepend: [PlaceholderAPI]
+permissions:
+    deluxejoin.admin:
+      description: ability to reload the plugin
+      default: op
+    deluxejoin.format.default:
+      description: default join format
+      default: true
+    deluxejoin.motd:
+      description: ability to use /motd
+      default: true
+    deluxejoin.motd.default:
+      description: default motd 
+      default: true
+commands:
+    deluxejoin:
+      description: DeluxeJoin main command
+      aliases: [djoin]
+    motd:
+      description: DeluxeJoin motd command
+      aliases: [dmotd]

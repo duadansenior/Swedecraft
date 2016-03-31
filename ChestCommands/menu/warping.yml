@@ -1,0 +1,96 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Warpmeny'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'teleportering'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+warp1-1:
+  COMMAND: 'warp main'
+  NAME: '&6Till Huvudvärlden'
+  LORE:
+    - 'Samma som /spawn fast fungerar från'
+    - 'alla andra världar med.'
+  ID: 120
+  DATA-VALUE: 0
+  KEEP-OPEN: false
+  AMOUNT: 1
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+warp1-2:
+  COMMAND: 'warp farmville'
+  NAME: '&6Till Farmvärlden'
+  LORE:
+    - 'Tar dig till en värld där du kan'
+    - 'hacka dig runt och samla resurser'
+    - 'utan att bry dig om ifall det blir'
+    - 'fult då världen återställs då o då'
+    - '&cObs! Bygg inget permanent här!'
+  ID: 120
+  DATA-VALUE: 0
+  KEEP-OPEN: false
+  AMOUNT: 1
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+#warp1-3-tags:
+#  COMMAND: 'warp spel'
+#  NAME: '&6Till Spelvärlden'
+#  LORE:
+#    - 'En ofärdig värld som skall fyllas med'
+#    - 'olika spel för en till flera spelare.'
+#    - 'Finns några spel klara, fler kommer...'
+#  ID: 120
+#  DATA-VALUE: 0
+#  KEEP-OPEN: false
+#  AMOUNT: 1
+#  POSITION-X: 3
+#  POSITION-Y: 1
+
+warp1-9:
+  COMMAND: 'cc open main.yml'
+  NAME: '&4Tillbaka'
+  LORE:
+    - 'Tar dig tillbaka till huvudmenyn'
+  ID: wool
+  DATA-VALUE: 15
+  KEEP-OPEN: true
+  AMOUNT: 1
+  POSITION-X: 9
+  POSITION-Y: 1

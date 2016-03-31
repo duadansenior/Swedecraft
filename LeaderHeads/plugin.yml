@@ -1,0 +1,10 @@
+name: LeaderHeads
+author: RobiRami
+version: 10.4
+main: me.robin.leaderheads.LeaderHeads
+softdepend: [SimpleKillTracker,TokenManager,BuycraftX,VillageDefense,MinecraftMarket,EnjinMinecraftPlugin,EpicSkyWars,EggWarsLobby,MobRacers,GangsPlus,OnTime,PlotSquared,TokenEnchant,TNTRun,TurfWars,SuperPaintball,SurvivalGames,Refer,Citizens,HolographicDisplays,VoteRoulette,Buycraft,uSkyBlock,SkyWars,WickedSkyWars,BedwarsRel,SkyWarsReloaded,mcMMO,Vault,pvpstats,PlayerPoints,Towny,Factions,IslandWorld,BattleLevels,UltimateVotes,EZBlocks,ScoreboardStats,Essentials,killStats]
+description: >
+             The ultimate plugin to make leaderboards on your server
+commands:
+   leaderheads:
+     description: LeaderHeads info command

@@ -1,0 +1,34 @@
+name: AntiXRay
+main: me.ryanhamshire.AntiXRay.AntiXRay
+softdepend: [Multiverse-Core, My Worlds, Transporter]
+version: 1.8.5
+author: blablubbabc
+authors: [bigscary, blablubbabc]
+website: dev.bukkit.org/server-mods/anti-x-ray/
+commands:
+    antixray:
+        description: Antixray commands.
+        usage: /<command>
+        aliases: ['xray', 'ax']
+permissions:
+    antixray.bypass:
+        description: Allows a player to mine any block without exception.
+        default: false
+    antixray.reload:
+        description: Allows a player to reload the antixray configuration.
+        default: op
+    antixray.check.others:
+        description: Allows a player to view an other players amount of remaining mining points.
+        default: op
+    antixray.check.self:
+        description: Allows a player to view his amount of remaining mining points.
+        default: op
+    antixray.set:
+        description: Allows the setting of a players stored values, like the amount of remaining mining points.
+        default: op
+    antixray.monitorxrayers:
+        description: If configured, allows a player to receive notifications about players who reach their mining speed limit.
+        default: op
+    antixray.help:
+        description: Allows a player to view the help page which contains information about the commands.
+        default: op

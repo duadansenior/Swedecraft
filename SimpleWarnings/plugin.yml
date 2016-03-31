@@ -1,0 +1,31 @@
+name: SimpleWarnings
+main: me.odium.simplewarnings.SimpleWarnings
+version: 1.0
+commands:
+   warn:
+      description: Issue a warning
+      permission: sw.warn
+      usage: /warn <playername> <warning>
+   warnings:
+      description: Check a users warnings
+      permission: sw.check
+      usage: /warnings <playername>
+   dwarn:
+      aliases: [delwarn]
+      description: Delete a warning
+      permission: sw.delete
+      usage: /dwarn <playername> <warningnumber>
+   cwarns:
+      aliases: [clearwarns]
+      description: Clear all a users warnings
+      permission: sw.delete
+      usage: /cwarns <playername>
+   sw:
+      aliases: [simplewarnings]
+      description: Commands Menu
+      permission:
+      usage: /sw
+   fixwarn:
+      description: fix a warning
+      permission: sw.fixwarn
+      usage: /fixwarn <playername>

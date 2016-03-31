@@ -1,0 +1,442 @@
+# DeluxeChat version 1.9 config file
+# Created by extended:clip
+# list as many format sections you want under formats:
+# each format section requires a default template that should be modified and
+# also requires a unique number for the priority higher number = lower priority
+# ex: guest-100, owner-1
+#   YOU MUST KEEP A default TEMPLATE! It is used when players have no other template assigned!
+#   
+# example format template:
+# formats: 
+#   default:
+#     priority: 2147483647
+#     channel: ''
+#     prefix: '&8[&7Guest&8] '
+#     name_color: '&7'
+#     name: '%player%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player% &bis a Guest'
+#     prefix_tooltip:
+#     - '&7%player% &bis a Guest'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player% 
+#     suffix_click_command: '
+#   Member:
+#     priority: 100
+#     channel: ''
+#     prefix: '&8[&aMember&8] '
+#     name_color: '&7'
+#     name: '%player%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player% &bis a Member'
+#     prefix_tooltip:
+#     - '&7%player% &bis a Member'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player% 
+#     suffix_click_command: '
+check_updates: true
+bungeecord:
+  enabled: false
+  servername: '&8[&cServer&8]'
+  join_global: true
+relation_placeholders_enabled: true
+timestamp_format: MM/dd/yy HH:mm:ss
+boolean:
+  'true': '&atrue'
+  'false': '&cfalse'
+ops_use_group_format: true
+hooks:
+  javascript_placeholders: true
+  minecraft_statistics: true
+  acidisland: false
+  askyblock: false
+  autorank: false
+  autosell: false
+  banmanager: false
+  battlelevels: false
+  chatcolor: false
+  chatreaction: true
+  checknamehistory: true
+  deluxetags: true
+  essentials: true
+  ezblocks: false
+  ezprestige: false
+  ezrankslite: false
+  ezrankspro: false
+  factions_mcore: false
+  factions_uuid: false
+  galistener: false
+  gangsplus: false
+  heroes: false
+  islandworld: false
+  jobs: false
+  killrewards: false
+  killstats: false
+  marriagemaster: true
+  mcinfected: false
+  mcinfected-ranks: false
+  mcmmo: true
+  mvdw_placeholderapi: true
+  nicky: false
+  placeholderapi: true
+  playerpoints: true
+  plotme: false
+  plotsquared: false
+  prisongangs: false
+  pvpstats: false
+  quicksell: false
+  royalcommands: false
+  simpleclans: false
+  simplecoinsapi: false
+  simpleprefix: false
+  simple_suffix: false
+  skywarsreloaded: false
+  sqlperms: false
+  sqltokens: false
+  survivalgames: false
+  teams: false
+  tokenenchant: false
+  towny: false
+  uskyblock: false
+  ultimatevotes: false
+  vanishnopacket: false
+  vault_perms: true
+  vault_eco: true
+  voteparty: false
+  werewolf: false
+  wickedskywars: false
+chat_filter:
+  enabled: false
+  list:
+  - '.; '
+  - fuck;fuck
+private_message:
+  enabled: true
+  bungeecord: false
+private_message_formats:
+  to_sender:
+    format: '&eyou &f➟ &e%recipient_player_name% &7: '
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f&o'
+  to_recipient:
+    format: '&e%player% &f➟ &eyou &7: '
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f&o'
+  social_spy: '&8[&cSmyglyssna&8] &e%player% &f➟ &e%recipient%&7: '
+formats:
+  default:
+    priority: 2000
+    channel: ''
+    prefix: '&7[%vault_groupprefix%&7] '
+    name_color: '&b'
+    name: '%placeholderapi_player_displaynamne%'
+    suffix: '&7> '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '%player%'
+    - '&bRank: %vault_group%'
+    name_tooltip:
+    - 'Namn: %placeholderapi_player_name%'
+    - 'Rank: %placeholderapi_vault_perms_rank%'
+    - 'Spelat sen: %placeholderapi_player_first_join_date%'
+    - 'Erfarenhet: %placeholderapi_mcmmo_level%/%placeholderapi_mcmmo_level_cap%'
+    - 'Ekonomi: %placeholderapi_vault_eco_balance_formated%'
+    - ''
+    - Har röstat på servern %placeholderapi_voteroulette_votes_lifetime% gg, varav %placeholderapi_voteroulette_current_vote_cycle% gg denna månad
+    suffix_tooltip:
+    - ''
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  normal:
+    priority: 1000
+    channel: ''
+    prefix: '&f[&7Normal&f] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &7➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &7Normal'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Den rank alla börjar med på servern. Har en del rättigheter avstängda då'
+    - '&5då spelaren inte kommit så långt i spelandet att vi vet att spelaren går'
+    - '&5att lita på samt kan alla regler och följer dem.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &7Normal'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  veteran:
+    priority: 800
+    channel: ''
+    prefix: '&f[&aVeteran&f] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &a➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &aVeteran'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Har spelat på servern tillräckligt mycket för att samla ihop pengar nog att'
+    - '&5köpa till sig Veteran-ranken. En veteran känner till alla regler på servern
+      och'
+    - '&5har tillgång till lite fler saker då en veteran har spelat ett tag och vet
+      hur'
+    - '&5saker fungerar, kan sköta sig och följa reglerna.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &aVeteran'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  donator:
+    priority: 700
+    channel: ''
+    prefix: '&f[&6Donator&f] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &6➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &6Donator'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Har donerat &a50kr &btill servern denna månad.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &6Donator'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  helper:
+    priority: 500
+    channel: ''
+    prefix: '&f[&cMedhjälpare&f] '
+    name_color: '&a'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &3➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &cMedhjälpare'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&bHjälper spelare som har problem eller frågor. Har rätt att temporärt sparka
+      ut'
+    - '&bspelare från servern om de inte sköter sig och följer reglerna.'
+    - '&bFinns till för att avlasta moderatorernas arbete genom att ta hand om de
+      mindre'
+    - '&bproblem som kan uppstå för spelare på servern.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &cMedhjälpare'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  moderator:
+    priority: 400
+    channel: ''
+    prefix: '&6[&cModerator&6] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &c➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &cModerator'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Hjälper spelare med de problem som kan uppstå när man spelar'
+    - '&5och ser till att regler på servern sköts. Kan varna spelare som'
+    - '&5inte följer reglerna och i värsta fall porta spelaren permanent.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &cModerator'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  admin:
+    priority: 100
+    channel: ''
+    prefix: '&6[&4Admin&6] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &4➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &4Admin'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Att se till att Moderatorer och Medhjälpare sköter sig och att'
+    - '&5servern fungerar som den ska är huvudsyftet för den som är Admin.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &4Admin'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  silver:
+    priority: 650
+    channel: ''
+    prefix: '&f[&7S&fi&7l&fv&7e&fr&f] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &7➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &7S&fi&7l&fv&7e&fr'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Har donerat &a50kr &btill servern denna månad.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &7S&fi&7l&fv&7e&fr'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'
+  guld:
+    priority: 600
+    channel: ''
+    prefix: '&f[&eG&6u&el&6d&f] '
+    name_color: '&b'
+    name: '%placeholderapi_essentials_nickname%'
+    suffix: '&b%placeholderapi_deluxetags_tag% &6➧ '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&6Rank: &eG&6u&el&6d'
+    - '&6Spelläge: &b%player_gamemode%'
+    - ''
+    - '&dInfo:'
+    - '&5Har donerat &a100kr &5eller mer till servern denna månad.'
+    name_tooltip:
+    - '&6Namn: &b%placeholderapi_player_name%'
+    - '&6Rank: &eG&6u&el&6d'
+    - '&6Spelat sen: &b%placeholderapi_player_first_join_date%'
+    - '&6Erfarenhet: &a%placeholderapi_mcmmo_power_level% &bpoäng av &c%placeholderapi_mcmmo_power_level_cap%
+      &bmöjliga'
+    - '&6Ekonomi: &a%placeholderapi_vault_eco_balance_formatted%'
+    - ''
+    - '&5Har röstat på servern &a%placeholderapi_voteroulette_current_vote_cycle%
+      &5gånger denna månad!'
+    suffix_tooltip:
+    - '%deluxetags_description%'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player% '
+    suffix_click_command: '[EXECUTE]/tags'

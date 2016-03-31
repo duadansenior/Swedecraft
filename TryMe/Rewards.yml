@@ -1,0 +1,133 @@
+# Reward file
+Example:
+  # Reward category name
+  Simplerewards:
+  # This is example, real rewards below
+    RewardName:
+      Chance: 20
+      # Chance to pick this question in percentage
+      Money: 20
+      # How much money to give player for correct answer
+      Items:
+      # Gives item by its id, metadata and quantity, you can give separate enchantments, lore or name (optional). All color codes are supported. 
+      # You can give more items just by adding next number
+        '1':
+          Id: 276
+          Meta: 0
+          Qty: 1
+          Name: '&2Stensvärd'
+          Lore: 
+          - '&bBelönad till [player]'
+          - '&bför rätt svar i frågetävlingen'
+          Enchants:
+          - DAMAGE_ALL=1
+          - FIRE_ASPECT=1      
+        '2':
+          Id: 35
+          Meta: 15
+          Qty: 2
+      Commands:
+      # Executes command of your choice, while you can use variable [player] to get the winning players name
+      - 'give [player] apple 1'
+      PrivateMessages:
+      # Message will be shown ONLY to the winner. Full color code support. Multiple lines support
+      - '&cTyvärr, du vann inget denna gången'
+      Broadcasts:
+      # Message to all server, if not defined, will broadcast default message. Full color code support Multiple lines support
+      - '&3[player] &aFick ett smaskigt äpple!'
+   
+Rewards:
+  SimpleRewards:
+    First:
+      Chance: 10
+      Money: 5
+      Items:
+        '1':
+          Id: 272
+          Meta: 0
+          Qty: 1
+          Name: '&2Stensvärd'
+    Second:
+      Chance: 20
+      Money: 5
+      Items:
+        '1':
+          Id: 276
+          Meta: 0
+          Qty: 1
+          Lore: 
+          - '&bBelönad till [player]'
+          - '&bför rätt svar i frågetävlingen'
+    Third:
+      Chance: 30
+      Money: 5
+      Items:
+        '1':
+          Id: 283
+          Meta: 0
+          Qty: 1
+          Name: '&2Stensvärd'
+          Lore: 
+          - '&bBelönad till [player]'
+          - '&bför rätt svar i frågetävlingen'
+          Enchants:
+          - DAMAGE_ALL=1
+          - FIRE_ASPECT=1
+  BetterRewards:
+    Fourth:
+      Chance: 10
+      Money: 10
+      Commands:
+      - 'give [player] coal 1'
+      PrivateMessages:
+      - '&aYou just got some coal'
+      Broadcasts:
+      - '&3[player] &ajust got some coal!'
+    Fifth:
+      Chance: 10
+      Commands:
+      - 'give [player] apple 1'
+      PrivateMessages:
+      - '&aYou got a tasty apple'
+    Sixth:
+      Chance: 2
+      PrivateMessages:
+      - '&cSorry, you didn''t win anything this time'
+      
+# This section is for scheduled rewards
+# Made separetly just to avoid mixing with regualr ones
+# Works in same way as regualr rewards, just one difference that there is no Chance variable
+DailyRewards:
+  Daily:
+    First:
+      Money: 50
+      PrivateMessages:
+      - '&3[player] &2You have are best quiz game player from last 24 hours!'
+      - '&3[player] &2For this you have got 1000 money!'
+    Second:
+      Money: 30
+      PrivateMessages:
+      - '&3[player] &2You have are second best quiz game player from last 24 hours!'
+      - '&3[player] &2For this you have got 800 money!'
+    Third:
+      Money: 10
+      PrivateMessages:
+      - '&3[player] &2You have are third best quiz game player from last 24 hours!'
+      - '&3[player] &2For this you have got 600 money!'
+  Weekly:
+    First:
+      Money: 50
+      PrivateMessages:
+      - '&3[player] &2You are one of best quiz game players from last 7 days!'
+      - '&3[player] &2For this you have got 600 money!'
+    Second:
+      Money: 25
+      PrivateMessages:
+      - '&3[player] &2You are one of best quiz game players from last 7 days!'
+      - '&3[player] &2For this you have got 800 money!'
+  Monthly:
+    Second:
+      Money: 150
+      PrivateMessages:
+      - '&3[player] &2You are one of best quiz game players from last month!'
+      - '&3[player] &2For this you have got 800 money!'

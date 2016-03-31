@@ -1,0 +1,78 @@
+# Config file for all Basic functions
+
+# Shows if there is available new version on login with tryme.versioncheck permission node
+ShowNewVersion: true
+# Do you want Quiz to start with server
+EnableOnStartup: false
+# Defines what command will be performed when server/plugin starts
+# This works only when EnableOnStartup is enabled
+CommandToPerform: tryme qmode
+# Players needed to start scheduled quiz game
+MinPlayersToRun: 4
+# Interval betwen questions in seconds
+Interval: 600
+# Time limit for answer
+TimeForAnswer: 300
+# Broadcasts answer after answer time ends
+ShowAnswer: true
+# Do you want to use sheduler for your server
+UseScheduler: false
+# How often to check for schedule in seconds. Keep it at 60 sec if you dont care about seconds :)
+SchedulerInterval: 12
+# You need to enable this one to use so caled Daily rewards for best quiz game players
+DailyScheduler: false
+# Do you want to use option to answer just by typing into chat
+UseChatAnswer: true
+# Do you want to use commands to answer into questions (no spam into chat)
+UseCommandAnswer: false
+# Do you want to use random fireworks after correct answer
+UseFireworks: true
+DataBase:
+  # Do you want to use Mysql database system or SQLite
+  # Use: mysql or sqlite
+  DataBaseType: sqlite
+  # Not usable if sqlite file system chosen
+  # Usually localhost or 127.0.0.1
+  mysqlHost: localhost
+  # Default port is 3306
+  mysqlPort: 3306
+  # Database table name
+  mysqlDatabase: tryme
+  # Database username, usually its root
+  mysqlUsername: root
+  # Your mysql database password, keep it as strong as posible
+  mysqlPassword: realystrongone
+Chat:
+  # Do you want to show players original message into chat
+  ShowChatAnswer: true
+  # Do you want o to broadcast custom message with correct answer
+  BroadcastCorrectAnswer: false
+  # If you have issue when creating questions it to be shown in chat, change this and try again
+  UseLowPriority: true
+Titles:
+  # Do you want to show Title
+  ShowTitle: true
+  # Do you want to Show SubTitle
+  ShowSubtitle: true
+  # Do you want to Show ActionBar
+  ShowActionBar: false
+  # How fast you want for text to apear in ticks (do not applay for action bars)
+  FadeInTicks: 20
+  # How long you want to keep title visible in ticks (do not applay for action bars)
+  StayInTicks: 100
+  # How fast text shold disapear in ticks (do not applay for action bars)
+  FadeOutInTicks: 20
+Compatibility:
+  # Do you want to ignore answers from McMMO party and admin chat
+  mcMMO: true
+  # Do you want to ignore answers from faction chat except public chat
+  Faction: true
+  HeroChat:
+    # Do you want to enable support for HeroChat chanels
+    Use: false
+    # Chanel name to use for broadcasting messages and get answers
+    ChanelName: Global
+#  
+#  
+# DONT CHANGE THIS
+FilesVersion: 2

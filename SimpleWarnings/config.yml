@@ -1,0 +1,52 @@
+# OnWarn:
+#  Broadcast - Broadcast when a warning is issued
+#  KickOnWarning - Kick a user when a warning is issued
+#  CustomCommandOnWarning - Execute a custom command everytime a warning is issued.
+#  CustomCommandOnEachWarning - Execute a different command for each warning.
+#  Penalties:
+#    Warning1: <custom command> _ <second custom command>
+#    Warning2: <custom command>
+# OnJoin:
+#  BroadcastWarningTotal - Broadcast how many warnings a user has upon joining
+#  NotifyUserOfWarningTotal - Notify a user of how many warnings they have upon joining
+#  NotifyAdminOfUserWarningTotal - Notify an admin of how many warnings a user has upon joining
+#  NotifyAdminOfWarningExpire - Notify admin if a users warnings have expired upon joining
+# MaxWarnings:
+#  WarningLimit - Specify a users maximum allowed warnings
+#  AutoBan - Ban user upon exceeding the warning limit
+#  DefineFinalBanMsg - Define the players ban message (This will be displayed when a banned user tries to rejoin, if NOT set their last warning is shown instead)
+#  CustomCommandOnMaxWarning - Execute custom command on final warning 
+# WarningExpiration - Define total number of DAYS before a newly set warning expires, if set to '0' warnings will not expire
+# USE_MYSQL - Whether to use MySQL instead of SQLite
+OnWarn:
+  Broadcast: true
+  KickOnWarning: false
+  CustomCommandOnWarning: false
+  CustomCommand: jail %player% gammelstaden 5m
+  CustomCommandOnEachWarning: true
+  Penalties:
+    Warning1: none
+    Warning2: jail %player% gammelstaden 15s
+    Warning3: jail %player% gammelstaden 5m
+    Warning4: jail %player% gammelstaden 1w
+    Warning5: jail %player% gammelstaden 1y
+OnJoin:
+  BroadcastWarningTotal: true
+  NotifyUserOfWarningTotal: false
+  NotifyAdminOfUserWarningTotal: false
+  NotifyAdminOfWarningExpire: true
+MaxWarnings:
+  WarningLimit: 6
+  AutoBan: true
+  DefineFinalBanMsg: false
+  BanMsg: Du har max antal varningar och portats. Tycker du det är fel kan du överklaga på http://Forum.swedecraft.com
+  CustomCommandOnMaxWarning: false
+  CustomCommand: broadcast Hejdå %player%
+WarningExpiration: 0
+MySQL:
+  USE_MYSQL: false
+  hostname: localhost
+  hostport: 3306
+  database: warnings
+  user: MYSQLUSER
+  password: MYSQLPASS

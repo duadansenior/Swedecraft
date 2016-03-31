@@ -1,0 +1,348 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Information om alla husdjur'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'djurinfo'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+
+pig:
+  COMMAND: 'pettype pig'
+  NAME: '&4Gris'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Morötter'
+    - '&e&oKan utsmyckas med sadel'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+sheep:
+  COMMAND: 'pettype sheep'
+  NAME: '&4Får'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Vete'
+    - '&e&oKan färgas & rakas precis som vanligt får'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+cow:
+  COMMAND: 'pettype cow'
+  NAME: '&4Gris'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Vete'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+chicken:
+  COMMAND: 'pettype chicken'
+  NAME: '&4Höna'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Frön'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+mooshroom:
+  COMMAND: 'pettype mooshroom'
+  NAME: '&4Svamp Ko'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Vete'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+villager:
+  COMMAND: 'pettype villager'
+  NAME: '&4Bybo'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Äpple'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+Ocelot:
+  COMMAND: 'pettype ocelot'
+  NAME: '&4Katt'
+  LORE:
+    - '&bKrav: &2Måste vara tam'
+    - '&bMatas med: &2Rå fisk'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+bat:
+  COMMAND: 'pettype bat'
+  NAME: '&4Fladdermus'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Spindelögon'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+squid:
+  COMMAND: 'pettype squid'
+  NAME: '&4Bläckfisk'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Rå fisk'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+horse:
+  COMMAND: 'pettype horse'
+  NAME: '&4Häst'
+  LORE:
+    - '&bKrav: &2Måste vara tam'
+    - '&bMatas med: &2Socker, Vete och äpple'
+    - '&e&oKan utsmyckas med sadel, kista & rustning'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+wolf:
+  COMMAND: 'pettype wolf'
+  NAME: '&4Varg'
+  LORE:
+    - '&bKrav: &2Måste vara tam'
+    - '&bMatas med: &2Rå stek eller rå kyckling'
+    - '&e&oKan färga halsbandet'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+enderman:
+  COMMAND: 'pettype enderman'
+  NAME: '&4Enderman'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Själasand (soulsand)'
+    - '&e&oKan fås att hålla ett block'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+irongolem:
+  COMMAND: 'pettype irongolem'
+  NAME: '&4Järngolum'
+  LORE:
+    - '&bKrav: &2Måste vara skapad av spelaren'
+    - '&bMatas med: &2Järntackor'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+snowgolem:
+  COMMAND: 'pettype snowgolem'
+  NAME: '&4Snögubbe'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Morötter eller snöbollar'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+zombiepig:
+  COMMAND: 'pettype pigzombie'
+  NAME: '&4Zombie Gris'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+    - '&e&oKan utsmyckas vapen och rustning'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+giant:
+  COMMAND: 'pettype giant'
+  NAME: '&4Jätte (kräver fusk ;P)'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+zombie:
+  COMMAND: 'pettype zombie'
+  NAME: '&4Zombie'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+    - '&e&oKan utsmyckas vapen och rustning'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+skeleton:
+  COMMAND: 'pettype skeleton'
+  NAME: '&4Skelett'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ben'
+    - '&e&oKan utsmyckas vapen och rustning'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+spider:
+  COMMAND: 'pettype spider'
+  NAME: '&4Spindel'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+slime:
+  COMMAND: 'pettype slime'
+  NAME: '&4Slime'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Socker'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+cavespider:
+  COMMAND: 'pettype cavespider'
+  NAME: '&4Grottspindel'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+silverfish:
+  COMMAND: 'pettype silverfish'
+  NAME: '&4Silverfisk'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Ruttet kött'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+creeper:
+  COMMAND: 'pettype creeper'
+  NAME: '&4Creeper'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Krut'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+magma:
+  COMMAND: 'pettype magmacube'
+  NAME: '&4Magmakub'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Rödsten'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+blaze:
+  COMMAND: 'pettype blaze'
+  NAME: '&4Blaze'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Krut'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+witch:
+  COMMAND: 'pettype witch'
+  NAME: '&4Häxa'
+  LORE:
+    - '&bKrav: &2Hälsa på 2 eller mindre'
+    - '&bMatas med: &2Äpple'
+  ID: 421
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+petsback:
+  COMMAND: 'cc open mypets.yml'
+  NAME: '&4Tillbaka'
+  LORE:
+    - 'Hoppar tillbaka till menyn för'
+    - 'husdjurs olika val'
+  ID: wool
+  DATA-VALUE: 15
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3

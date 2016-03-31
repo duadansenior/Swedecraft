@@ -1,0 +1,80 @@
+name: MCMMOXPBar
+version: 2.0.0
+author: Mysteryem
+main: uk.co.mysterymayhem.MCMMOXPBar.MCMMOXPBar
+website: http://www.gamingmasters.org
+description: A plugin that allows users to use the boss hp bar as an mcmmo xp bar
+depend: [mcMMO]
+permissions:
+  xpbar.admin:
+    description: Gives access to all xpbar commands
+    default: op
+    children:
+      xpbar.user: true
+      xpbar.timeout: true
+      xpbar.save: true
+      xpbar.load: true
+      xpbar.worlds: true
+  xpbar.user:
+    description: Gives access to all xpbar user commands
+    children:
+      xpbar.toggle: true
+      xpbar.use: true
+      xpbar.count: true
+      xpbar.timeout: true
+  xpbar.toggle:
+    description: Gives access to toggling your own xp bar
+    children:
+      xpbar.enable: true
+      xpbar.disable: true
+  xpbar.enable:
+    description: Gives access to enabling your own xp bar
+  xpbar.disable:
+    description: Gives access to disabling your own xp bar
+  xpbar.timeout:
+    description: Gives access to setting your own xp bar timeout
+  xpbar.save:
+    description: Gives access to saving the current xp bar user settings to file
+  xpbar.load:
+    description: Gives access to reloading all config from file
+  xpbar.worlds:
+    decription: Gives access to listing the currently enabled worlds
+  xpbar.use:
+    description: Required for you to use an xp bar
+  xpbar.count:
+    description: Gives access to setting the maximum number of xp bars to be displayed at once
+commands:
+  xpbaron:
+    description: Turn on your xp bar
+    permission: xpbar.enable
+    permission-message: You do not have permission to perform this command.
+  xpbaroff:
+    description: Turn off your xp bar
+    permission: xpbar.disable
+    permission-message: You do not have permission to perform this command.
+  xpbartoggle:
+    description: Toggle your xp bar on and off
+    permission: xpbar.toggle
+    permission-message: You do not have permission to perform this command.
+  xpbartimeout: 
+    description: Modify how many seconds until your xp bar automatically disappears. Set 0 to disable.
+    permission: xpbar.timeout
+    permission-message: You do not have permission to perform this command.
+    usage: "Usage: /xpbartimeout <seconds>"
+  xpbarsave:
+    description: Save the current xp bar user settings to file
+    permission: xpbar.save
+    permission-message: You do not have permission to perform this command.
+  xpbarload:
+    description: Reload the plugin and user config from file
+    permission: xpbar.load
+    permission-message: You do not have permission to perform this command.
+  xpbarworlds:
+    description: Debug command, list the currently enabled worlds
+    permission: xpbar.worlds
+    permission-message: You do not have permission to perform this command.
+  xpbarcount:
+    description: Set the maximum number of xp bars to display at once.
+    permission: xpbar.count
+    permission-message: You do not have permission to perform this command.
+  
