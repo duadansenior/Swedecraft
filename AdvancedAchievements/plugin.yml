@@ -4,37 +4,37 @@ version: 2.4.2
 author: DarkPyves
 softdepend: [Vault]
 load: POSTWORLD
-description: Advanced Achievements enables unique and challenging achievements. Try to collect as many as you can, earn rewards, climb the rankings and receive RP books!
+description: Advanced Achievements erbjuder unika och utmanande Achievements. Försök samla så många du kan, intjäna belöningar, klättra på rankingen och mottag en RP bok!
 website: https://github.com/PyvesB/AdvancedAchievements
 commands:
   aach:
-    description: Main Advanced Achievements command, use it to list sub-commands. 
+    description: Huvudkommandot för Advanced Achievements, använd för att se underkommandon. 
     aliases: [advancedachievements,aachievements,aa]  
     usage: /<command>
 permissions:  
   achievement.book:
-    description: Allows to receive achievements books.
+    description: Möjliggör mottagande av Achievements boken.
     default: true
   achievement.list:
-    description: Allows to display  name of received and missing achievements.
+    description: Möjliggör att se namnen på avklarade och saknade Achievements.
     default: true
   achievement.reload:
-    description: Allows to reload the plugin's configuration.
+    description: Möjliggör att ladda om konfigurationen.
     default: op
   achievement.give:
-    description: Allows to give achievements by command.
+    description: Möjliggör tilldelning av Achievements med kommando.
     default: op
   achievement.check:
-    description: Allows to check if achievements were received by players.
+    description: Möjliggör att se om Achievements mottagits av andra spelare.
     default: op
   achievement.delete:
-    description: Allows to delete achievements by command.
+    description: Möjliggör radering av Achievements med kommando.
     default: op
   achievement.update:
-    description: Allows to be notified when a plugin update is available and CheckForUpdate is set to true in config.
+    description: Möjliggör underrättelse om uppdateringar till Advanced Achievements om CheckForUpdate är satt till true i konfig.
     default: op
   achievement.*:
-    description: Star notation of permissions, includes all the above ones and disables book and list commands delays.
+    description: Rättigheten avslutad med stjärna inkluderar alla rättigheter nämnda ovan och inaktiverar fördröjning på bok och listnings kommando.
     default: op
     children:
       achievement.get: true
@@ -46,88 +46,88 @@ permissions:
       achievement.delete: true
       achievement.update: true  
   achievement.count.connections:
-    description: Allows connection statistics in database to increase.
+    description: Möjliggör statistik i databasen över inloggningar att öka.
     default: true
   achievement.count.arrows:
-    description: Allows arrow statistics in database to increase.
+    description: Möjliggör statistik i databasen över pilar avfyrade att öka.
     default: true
   achievement.count.beds:
-    description: Allows bed statistics in database to increase.
+    description: Möjliggör statistik i databasen över sängar använda att öka.
     default: true
   achievement.count.consumedpotions:
-    description: Allows consumed potions statistics in database to increase.
+    description: Möjliggör statistik i databasen över förtärda bryggder att öka.
     default: true 
   achievement.count.eatenitems:
-    description: Allows eaten item statistics in database to increase.
+    description: Möjliggör statistik i databasen över saker ätna att öka.
     default: true
   achievement.count.deaths:
-    description: Allows death statistics in database to increase.
+    description: Möjliggör statistik i databasen över dödsfall att öka.
     default: true
   achievement.count.itemdrops:
-    description: Allows item drop statistics in database to increase.
+    description: Möjliggör statistik i databasen över saker slängda att öka.
     default: true
   achievement.count.enchantments:
-    description: Allows enchantment statistics in database to increase.
+    description: Möjliggör statistik i databasen över förtrollningar att öka.
     default: true
   achievement.count.fish:
-    description: Allows fish statistics in database to increase.
+    description: Möjliggör statistik i databasen över fiske att öka.
     default: true
   achievement.count.hoeplowings:
-    description: Allows hoe plowing statistics in database to increase.
+    description: Möjliggör statistik i databasen över lie att öka.
     default: true
   achievement.count.fertilising:
-    description: Allows fertilising statistics in database to increase.
+    description: Möjliggör statistik i databasen över gödsling att öka.
     default: true
   achievement.count.fireworks:
-    description: Allows firework statistics in database to increase.
+    description: Möjliggör statistik i databasen över fyverkerier att öka.
     default: true
   achievement.count.itembreaks:
-    description: Allows item breaks statistics in database to increase.
+    description: Möjliggör statistik i databasen över förstörda objekt att öka.
     default: true
   achievement.count.milk:
-    description: Allows milk statistics in database to increase.
+    description: Möjliggör statistik i databasen över mjölkning att öka.
     default: true
   achievement.count.shear:
-    description: Allows shear statistics in database to increase.
+    description: Möjliggör statistik i databasen över klippning att öka.
     default: true
   achievement.count.snowballs:
-    description: Allows snowball statistics in database to increase.
+    description: Möjliggör statistik i databasen över snöbollar att öka.
     default: true
   achievement.count.eggs:
-    description: Allows egg statistics in database to increase.
+    description: Möjliggör statistik i databasen över ägg att öka.
     default: true
   achievement.count.taming:
-    description: Allows taming statistics in database to increase.
+    description: Möjliggör statistik i databasen över tämjning att öka.
     default: true
   achievement.count.trades:
-    description: Allows trade statistics in database to increase.
+    description: Möjliggör statistik i databasen över handel att öka.
     default: true
   achievement.count.anvilsused:
-    description: Allows anvils used statistics in database to increase.
+    description: Möjliggör statistik i databasen över användning av städ att öka.
     default: true
   achievement.count.brewing:
-    description: Allows brewing statistics in database to increase.
+    description: Möjliggör statistik i databasen över bryggning att öka.
     default: true
   achievement.count.maxlevel:
-    description: Allows max level statistics in database to increase.
+    description: Möjliggör statistik i databasen över maxnivå att öka.
     default: true
   achievement.count.playedtime:
-    description: Allows played time statistics in database to increase.
+    description: Möjliggör statistik i databasen över speltid att öka.
     default: true
   achievement.count.distancefoot:
-    description: Allows foot distance statistics in database to increase.
+    description: Möjliggör statistik i databasen över avstånd till fots att öka.
     default: true
   achievement.count.distanceboat:
-    description: Allows boat distance statistics in database to increase.
+    description: Möjliggör statistik i databasen över avstånd med båt att öka.
     default: true
   achievement.count.distanceminecart:
-    description: Allows minecart distance statistics in database to increase.
+    description: Möjliggör statistik i databasen över avstånd med vagn att öka.
     default: true
   achievement.count.distancehorse:
-    description: Allows horse distance statistics in database to increase.
+    description: Möjliggör statistik i databasen över avstånd på hästrygg att öka.
     default: true
   achievement.count.distancepig:
-    description: Allows pig distance statistics in database to increase.
+    description: Möjliggör statistik i databasen över avstånd med gris att öka.
     default: true
 # Additional permissions are available for the breaks, places, crafts and kills categories.
 # They depend on the sub-categories defined; for instance for stone breaks: achievement.count.breaks.stone
