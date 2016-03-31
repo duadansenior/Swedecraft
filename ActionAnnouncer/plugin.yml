@@ -3,36 +3,36 @@ main: me.clip.actionannouncer.ActionAnnouncer
 version: 1.9
 author: extended_clip
 softdepend: [PlaceholderAPI]
-description: Announce messages through the ActionBar!
+description: Skickar meddelanden på actionraden!
 permissions:
     actionannouncer.reload:
-        description: reload plugin configuration
+        description: laddar om tilläggets config
         default: op
     actionannouncer.send:
-        description: send an announcement to a player
+        description: skickar meddelande till en spelare
         default: op
     actionannouncer.announce:
-        description: send an announcement to all players
+        description: skickar meddelande till alla spelare
         default: op
     actionannouncer.list:
-        description: list active announcements
+        description: visar lista med aktiva meddelanden
         default: op
     actionannouncer.add:
-        description: add an announcement
+        description: lägger till ett meddelande
         default: op
     actionannouncer.remove:
-        description: remove an announcement
+        description: tar bort ett meddelande
         default: op
     actionannouncer.start:
-        description: start auto announcements
+        description: startar automatiska meddelanden
         default: op
     actionannouncer.stop:
-        description: stop auto announcements
+        description: stoppar automatiska meddelanden
         default: op
     actionannouncer.help:
-        description: use aa help command
+        description: använd aa help kommandot
         default: op
 commands:
    actionannouncer:
-     description: ActionAnnouncer command
+     description: ActionAnnouncer kommando
      aliases: [aa]
