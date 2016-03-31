@@ -1,18 +1,18 @@
 Messages:
   CantBreakYet:
-    Text: '&eWow, you''re good at mining!  You have to wait about {0} minutes to break
-      this block.  Consider taking a break from mining to do something else, like
-      building or exploring.  This mining speed limit keeps our ores safe from cheaters.  :)\n&eClick
-      here for a brief explanation:\n&e http://bit.ly/1yG91ge'
-    Notes: '0: minutes until the block can be broken  1: how often the player has
-      already reached his limit (unused by default)'
+    Text: '&eWow! Du är grym på att hacka mineraler. Du måste vänta {0} minuter innan du
+      får hacka det här blocket.  Överväg att ta en paus från hackandet och gör något annat som
+      bygga eller utforska.  Den här begränsningen håller spelet fritt från fuskare.  :)\n&Klicka
+      här för en kort förklaring:\n&e http://bit.ly/1yG91ge'
+    Notes: '0: minuter tills blocket kan hackas  1: hur ofta spelaren nått
+      den här gränsen (avstängt från start)'
   AdminNotification:
-    Text: '&e{0} reached the mining speed limit. He already reached it about {1} times.'
+    Text: '&e{0} nådde sin gräns för mineraler. Han har redan nåt det {1} gånger.'
     Notes: '0: player name  1: how often the player has already reached his limit'
   NoPermission:
-    Text: '&cYou have no permission for that.'
+    Text: '&cDu har inte rättigheterna för det.'
   OnlyAsPlayer:
-    Text: '&cThis command can only be executed as a player.'
+    Text: '&cDet här kommandot kan enbart utföras av en spelare.'
   CommandHelpHeader:
     Text: '&2--- &4AntiXRay &2---'
   CommandReloadCmd:
