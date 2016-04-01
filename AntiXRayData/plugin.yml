@@ -15,7 +15,7 @@ permissions:
         description: Tillåter att spelaren hackar vilket block som helst utan begränsning.
         default: false
     antixray.reload:
-        description: Låter spelaren ladda om konfigurationen.
+        description: Låter spelaren ladda om konfigureringen.
         default: op
     antixray.check.others:
         description: Låter spelaren se en annan spelares återstående poäng innan gränsen är nådd.
