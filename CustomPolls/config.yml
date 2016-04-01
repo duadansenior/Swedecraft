@@ -1,0 +1,31 @@
+MySQL:
+  Enabled: false
+  URI: mysql://host/database
+  Username: username
+  Password: password
+  SyncDelay: 15minutes
+Vote:
+  Messages:
+    Format:
+    - ''
+    - '&3&l» &f&l%QUESTION%'
+    - ''
+    - '&2- &a&l%CHOICES%'
+    - ''
+  Hover:
+    Format:
+    - '&c&oÄr du säker?'
+    - ''
+    - '&c&lOBS! &7Den här undersökningen'
+    - '&7låter dig inte byta val av röst!'
+  Voted:
+    Format:
+    - '&3&l» &f&lTack!'
+    - ''
+    - '&2- &7Du röstade på &a%CHOICE%'
+    - '&2- &7Du fick &een skraplott &7för att du röstade!'
+    Reward:
+      Enabled: true
+      Commands:
+      - /scratch %player% poll
+  RemindDelay: 5minutes

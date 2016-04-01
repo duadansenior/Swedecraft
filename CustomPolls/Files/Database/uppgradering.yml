@@ -1,0 +1,18 @@
+Poll: Uppgradering
+Question: Flyter servern bättre nu?
+Open: true
+OnJoin: true
+Remind: true
+Choice:
+  '1':
+    votes: 3
+    text: Ja, den flyter mycket bättre!
+  '2':
+    votes: 1
+    text: Ja, jag märker en liten skillnad.
+  '3':
+    votes: 0
+    text: Näe, märker ingen skillnad alls.
+  '4':
+    votes: 0
+    text: Skojar du? Den laggar mycket mer nu!

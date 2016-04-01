@@ -1,0 +1,180 @@
+Panel:
+  BackButton:
+    type: 262
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&7&lFöregående sida'
+    lore:
+    - ''
+    - '&7Återgå till förra panelen.'
+Edit:
+  Home:
+    Title: '&8Redigerar Omröstning: &b%POLL%'
+    Component:
+      Choices:
+        type: 340
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lVal'
+        lore:
+        - ''
+        - '&7Klicka för att se / redigera val.'
+      Open:
+        Enabled:
+          type: 351
+          amount: 1
+          durability: 10
+          meta: true
+          name: '&a&lÖppen'
+          lore:
+          - '&7Öppen: &aJa'
+          - ''
+          - '&7Bestämmer om omröstningen'
+          - '&7är igång så spelare kan rösta.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+        Disabled:
+          type: 351
+          amount: 1
+          durability: 8
+          meta: true
+          name: '&a&lÖppen'
+          lore:
+          - '&7Öppen: &cNej'
+          - ''
+          - '&7Bestämmer om omröstningen'
+          - '&7är igång så spelare kan rösta.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+        Loading:
+          type: 351
+          amount: 1
+          durability: 8
+          meta: true
+          name: '&a&lÖppen'
+          lore:
+          - '&7Öppen: &6LADDAR'
+          - ''
+          - '&7Bestämmer om omröstningen'
+          - '&7är igång så spelare kan rösta.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+      OnJoin:
+        Enabled:
+          type: 351
+          amount: 1
+          durability: 10
+          meta: true
+          name: '&a&lVisa vid inloggning'
+          lore:
+          - '&7Visa vid inloggning: &aJa'
+          - ''
+          - '&7När en spelare loggar in och inte'
+          - '&7har lagt en röst på omröstningen så'
+          - '&7visas den för spelaren.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+        Disabled:
+          type: 351
+          amount: 1
+          durability: 8
+          meta: true
+          name: '&a&lVisa vid inloggning'
+          lore:
+          - '&7Visa vid inloggning: &cJa'
+          - ''
+          - '&7När en spelare loggar in och inte'
+          - '&7har lagt en röst på omröstningen så'
+          - '&7visas den för spelaren.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+      Remind:
+        Enabled:
+          type: 351
+          amount: 1
+          durability: 10
+          meta: true
+          name: '&a&lPåminn om röstning'
+          lore:
+          - '&7Påminn om röstning: &aJa'
+          - ''
+          - '&7Om spelare ska bli påminda om'
+          - '&7att rösta tills de gjort det.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+        Disabled:
+          type: 351
+          amount: 1
+          durability: 8
+          meta: true
+          name: '&a&lPåminn om röstning'
+          lore:
+          - '&7Påminn om röstning: &cNej'
+          - ''
+          - '&7Om spelare ska bli påminda om'
+          - '&7att rösta tills de gjort det.'
+          - ''
+          - '&7&o(Klicka för att växla)'
+      PollInformation:
+        type: 399
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lOmröstning Information'
+        lore:
+        - '&7Vid Inloggning: %ONJOIN%'
+        - '&7Påminnelse: %REMIND%'
+        - '&7Röster: &a%VOTES%'
+        BoolColor:
+          'True': '&a'
+          'False': '&c'
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+  Choices:
+    Title: '&8Redigera Omröstning: &b%POLL%'
+    Component:
+      Option:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a%TEXT%'
+        lore:
+        - ''
+        - '&7&o(Högerklick: radera)'
+        Removed: '&7Valet ''&a%CHOICE%&7'' raderades.'
+      Add:
+        type: 388
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lSkapa ett val'
+        Max: '&cDu har nåt maximal antal val för den här omröstningen.'
+        Informer: '&7Skriv texten för valet i omröstningen i chatten, eller om du
+          vill avbryta, skriv ''&c%CANCEL%&7''.'
+        Cancelled: '&cTillval avbrutet.'
+        Success: '&7Valet ''&a%CHOICE%&7'' har lagts till.'
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+Results:
+  Title: '&8Resultatet av &b%POLL%'
+  Component:
+    Choice:
+      type: 339
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&3&l» &f&l%CHOICE%'
+      lore:
+      - '&3-&7 Röster:&a %VOTES%'
+      ChangeAmount: true

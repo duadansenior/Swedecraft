@@ -1,0 +1,38 @@
+Command:
+  Poll:
+    AlreadyExists: '&cDen omröstningen finns redan!'
+    DoesntExist: '&cDen omröstningen finns inte!'
+    Create:
+      Success: '&7Omröstningen &a%POLL%&7 skapades med frågan &e%QUESTION%'
+    Delete:
+      Success: '&7Omröstningen &a%POLL%&7 raderades.'
+    Vote:
+      NoPolls: '&cDet finns inga omröstningar att visa.'
+      Prefix: '&7Omröstning (&b%AMOUNT%&7): '
+      PrimaryColor: '&7'
+      SecondaryColor: '&a'
+      Tooltip:
+        HeaderText: '&f&l%QUESTION%'
+        ChoiceText: '&3» &f%CHOICE%'
+      ChoiceNotFound: '&cDet valet hittades inte.'
+      AlreadyVoted: '&cDu har redan röstat på den här omröstningen.'
+    Results:
+      NoChoices: '&Det finns inga val att visa som någon kan rösta på.'
+    View:
+      Success:
+      - '&3&l» &Enligt DB, &a%PLAYER% &7har röstat för:'
+      - '&2- &b%CHOICE%'
+    Broadcast:
+      Success:
+        Singular: '&a%POLL%&7 visades för &b%AMOUNT%&7 player.'
+        Plural: '&a%POLL%&7 visades för &b%AMOUNT%&7 players.'
+    Show:
+      Success: '&a%POLL%&7 visades för &b%PLAYER%&7.'
+  Help:
+    Format: '&a%EXAMPLE% &8- &7%DESCRIPTION%'
+    Header: '&7&m---------------------&r &eSida &8(&a%PAGE%&8/&a%PAGES%&8) &7&m---------------------'
+Error:
+  NoPermission: '&c&lHey! &7Du har inte rättigheterna för detta!'
+  MustBeInGame: '&cDu måste vara ingame för att göra det!'
+  NoLongerExists: '&cDen omröstningen existerar inte längre.'
+  PlayerNotFound: '&cDen spelaren kunde inte hittas.'
