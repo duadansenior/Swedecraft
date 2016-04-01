@@ -115,10 +115,9 @@ groups:
     - phatloots.loot.daily
     - PlayerPoints.me
     - PlayerPoints.lead
-    - postalservice.mail.check
-    - postalservice.mail.read
-    - postalservice.mailbox.find
-    - postalservice.mail.send.*
+    - poll.command.vote
+    - poll.command.view
+    - poll.command.show
     - quests.quest
     - quests.questinfo
     - quests.quests
@@ -255,6 +254,7 @@ groups:
     - MyPet.user.leash.Cow
     - MyPet.user.command.name.color
     - phatloots.loot.veteran
+    - poll.command.results
     - quests.top
     - quests.party.create
     - essentials.time
@@ -658,9 +658,10 @@ users:
     - Administratör
     options:
       name: sketaful
-      last-login-time: '1459396229'
-      last-logout-time: '1459396266'
+      last-login-time: '1459471626'
+      last-logout-time: '1459466208'
     permissions:
+    - deluxetags.tag.ruin1
     - stargate.network.hub1
   df7b4c67-6b3b-4043-a7cb-930c95bb99d5:
     group:
@@ -815,8 +816,8 @@ users:
     - Donator
     options:
       name: BigFatCraft
-      last-login-time: '1459443024'
-      last-logout-time: '1459443559'
+      last-login-time: '1459453870'
+      last-logout-time: '1459454390'
     permissions:
     - -cc.menu.tag-cute
     - deluxetags.tag.cute
@@ -1688,8 +1689,8 @@ users:
     - Veteran
     options:
       name: swe_NOOB
-      last-login-time: '1459228402'
-      last-logout-time: '1459233496'
+      last-login-time: '1459466527'
+      last-logout-time: '1459469687'
     permissions:
     - deluxetags.tag.guldforlife
   a0cc03a4-9c92-4b88-8896-ac0dbb7e726f:
@@ -2232,8 +2233,8 @@ users:
     group: []
     options:
       name: jojanb
-      last-login-time: '1454947783'
-      last-logout-time: '1454948099'
+      last-login-time: '1459454115'
+      last-logout-time: '1459454161'
   61582ae2-2fd4-4f24-b087-9a8b7e8419e8:
     group: []
     options:
@@ -2750,8 +2751,11 @@ users:
     - Veteran
     options:
       name: Tuggumit
-      last-login-time: '1459451897'
-      last-logout-time: '1459451525'
+      last-login-time: '1459456196'
+      last-logout-time: '1459461139'
+    permissions:
+    - -cc.menu.tag-cute
+    - deluxetags.tag.cute
   cake:
     group: []
   sw_cake:
@@ -2849,8 +2853,8 @@ users:
     - Veteran
     options:
       name: Lord_Syntax
-      last-login-time: '1459438264'
-      last-logout-time: '1459440502'
+      last-login-time: '1459471615'
+      last-logout-time: '1459471759'
     permissions:
     - deluxetags.tag.guldforlife
     - -cc.menu.tag-cute
@@ -2899,8 +2903,8 @@ users:
     group: []
     options:
       name: knaraffen
-      last-login-time: '1459226350'
-      last-logout-time: '1459232831'
+      last-login-time: '1459458233'
+      last-logout-time: '1459460804'
   f3342555-a935-47c1-aeb5-b02b4b48dc6f:
     group: []
     options:
